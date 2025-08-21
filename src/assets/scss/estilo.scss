@@ -1,0 +1,24 @@
+//-----------------------------GENERAL-----------------------//
+@import "./_01-General/App";
+
+@import "./_03-Componentes/Footer";
+
+@import "./_03-Componentes/Header";
+
+//---------------HOME/MAIN-------------------//
+
+@import "./_03-Componentes/HomePublicidadSlider";
+
+
+
+//-----------------CONTACTO Y REDES-----------------//
+@import "./_03-Componentes/Contacto";
+
+//------------------MÚSICA-----------------//
+@import "./_03-Componentes/Musica";
+
+
+@import "./_03-Componentes/MusicaCancionesLista";
+@import "./_03-Componentes/MusicaFiltros";
+@import "./_03-Componentes/MusicaReproductor";
+@import "./_03-Componentes/MusicaCancionItem";

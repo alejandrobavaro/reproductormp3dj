@@ -1,0 +1,194 @@
+/* █████████████████████████████████████████████████
+   ███ ESTILOS BASE - REPRODUCTOR (MOBILE FIRST) ███
+   █████████████████████████████████████████████████ */
+
+   .player-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+  
+  /* SECCIÓN DE INFORMACIÓN DE LA CANCIÓN */
+  .now-playing {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    
+    .now-playing-cover {
+      width: 40px;
+      height: 40px;
+      border-radius: 3px;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+    
+    .now-playing-info {
+      flex: 1;
+      min-width: 0;
+      
+      .now-playing-name {
+        color: white;
+        font-size: 13px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      
+      .now-playing-artist,
+      .now-playing-block {
+        color: #aaa;
+        font-size: 11px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      
+      .now-playing-duration {
+        color: #ff9800;
+        font-size: 10px;
+        margin-top: 2px;
+      }
+    }
+    
+    .no-song {
+      color: #aaa;
+      font-style: italic;
+    }
+  }
+  
+  /* BARRA DE PROGRESO */
+  .progress-container {
+    width: 100%;
+    
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      cursor: pointer;
+      background: linear-gradient(
+        to right, 
+        #ff9800 0%, 
+        #ff9800 calc(var(--progress, 0) * 100%), 
+        #444 calc(var(--progress, 0) * 100%), 
+        #444 100%
+      );
+      
+      &::-webkit-slider-thumb {
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #ff9800;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  /* CONTROLES DE REPRODUCCIÓN */
+  .player-controls {
+    display: flex;
+    gap: 8px;
+    
+    .control-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 4px 8px;
+      transition: transform 0.2s;
+      
+      &:hover {
+        transform: scale(1.1);
+      }
+      
+      &.play-btn {
+        font-size: 16px;
+        background: #ff9800;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  
+  /* CONTROL DE VOLUMEN */
+  .volume-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    
+    .volume-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+      padding: 0;
+    }
+    
+    .volume-slider {
+      width: 70px;
+      
+      &::-webkit-slider-thumb {
+        appearance: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #ff9800;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  /* █████████████████████████████████████████████████
+     ███ BREAKPOINT TABLET (768px) ███
+     █████████████████████████████████████████████████ */
+  @media (min-width: 768px) {
+    .player-container {
+      flex-wrap: nowrap;
+      gap: 15px;
+      
+      .progress-container {
+        flex: 2;
+        min-width: 200px;
+      }
+      
+      .player-controls {
+        order: -1;
+        margin-right: 10px;
+      }
+    }
+  }
+  
+  /* █████████████████████████████████████████████████
+     ███ BREAKPOINT ESCRITORIO (1024px) ███
+     █████████████████████████████████████████████████ */
+  @media (min-width: 1024px) {
+    .player-container {
+      .now-playing {
+        flex: 2;
+        
+        .now-playing-cover {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      
+      .progress-container {
+        flex: 3;
+      }
+      
+      .volume-slider {
+        width: 90px;
+      }
+    }
+  }

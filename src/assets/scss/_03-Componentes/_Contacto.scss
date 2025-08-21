@@ -1,0 +1,217 @@
+/* -------------------------------------------- */
+/* VARIABLES DE ESTILO SPOTIFY */
+/* -------------------------------------------- */
+$spotify-black: #121212;
+$spotify-dark: #181818;
+$spotify-light: #282828;
+$spotify-green: #1DB954;
+$spotify-white: #FFFFFF;
+$spotify-gray: #B3B3B3;
+$spotify-dark-gray: #535353;
+
+/* -------------------------------------------- */
+/* SECCIÓN DE CONTACTO */
+/* -------------------------------------------- */
+.spotify-contact-section {
+  background-color: $spotify-black;
+  padding: 40px 20px;
+  color: $spotify-white;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: $spotify-dark;
+  border-radius: 8px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $spotify-white;
+  letter-spacing: 1px;
+}
+
+.contact-divider {
+  height: 1px;
+  background-color: $spotify-dark-gray;
+  margin: 0 auto 30px;
+  width: 80%;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+/* -------------------------------------------- */
+/* LOGO */
+/* -------------------------------------------- */
+.logo-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  // filter: brightness(0) invert(1);
+  opacity: 0.9;
+}
+
+/* -------------------------------------------- */
+/* INFORMACIÓN DE CONTACTO */
+/* -------------------------------------------- */
+.contact-info {
+  width: 100%;
+  max-width: 600px;
+}
+
+.contact-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+  color: $spotify-gray;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  background-color: $spotify-light;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  
+  &:hover {
+    background-color: $spotify-dark-gray;
+    transform: translateY(-2px);
+    
+    .item-icon {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.item-icon {
+  font-size: 20px;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+.item-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: $spotify-white;
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT TABLET - 768px */
+/* -------------------------------------------- */
+@media (min-width: 768px) {
+  .spotify-contact-section {
+    padding: 60px 30px;
+  }
+  
+  .contact-container {
+    padding: 40px 30px;
+  }
+  
+  .contact-title {
+    font-size: 32px;
+  }
+  
+  .contact-content {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .logo-container {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .contact-subtitle {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .contact-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .contact-item {
+    padding: 15px 20px;
+  }
+  
+  .item-icon {
+    font-size: 22px;
+  }
+  
+  .item-text {
+    font-size: 15px;
+  }
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT ESCRITORIO - 1024px */
+/* -------------------------------------------- */
+@media (min-width: 1024px) {
+  .spotify-contact-section {
+    padding: 80px 40px;
+  }
+  
+  .contact-container {
+    padding: 50px 40px;
+  }
+  
+  .contact-title {
+    font-size: 36px;
+  }
+  
+  .contact-content {
+    gap: 70px;
+  }
+  
+  .logo-container {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .contact-subtitle {
+    font-size: 22px;
+  }
+  
+  .contact-item {
+    padding: 18px 25px;
+  }
+  
+  .item-icon {
+    font-size: 24px;
+  }
+  
+  .item-text {
+    font-size: 16px;
+  }
+}

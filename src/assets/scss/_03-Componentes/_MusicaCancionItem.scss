@@ -1,0 +1,113 @@
+/* █████████████████████████████████████████████████
+   ███ ESTILOS BASE - ITEM CANCIÓN (MOBILE FIRST) ███
+   █████████████████████████████████████████████████ */
+
+   .song-item {
+    /* Layout principal */
+    display: grid;
+    grid-template-columns: 25px 1fr 50px;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    
+    /* Efecto hover */
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    /* Estilo cuando es la canción actual */
+    &.current {
+      background-color: rgba(255, 152, 0, 0.1);
+      
+      .song-index, 
+      .song-name, 
+      .song-duration {
+        color: #ff9800;
+      }
+    }
+  }
+  
+  /* Número de pista */
+  .song-index {
+    color: #777;
+    font-size: 12px;
+  }
+  
+  /* Contenedor información */
+  .song-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+  }
+  
+  /* Portada del álbum */
+  .song-cover {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    object-fit: cover;
+  }
+  
+  /* Detalles de la canción */
+  .song-details {
+    overflow: hidden;
+    
+    .song-name {
+      display: block;
+      color: #fff;
+      font-size: 13px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .song-artist {
+      display: block;
+      color: #777;
+      font-size: 11px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  
+  /* Duración */
+  .song-duration {
+    color: #777;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+  }
+  
+  /* █████████████████████████████████████████████████
+     ███ BREAKPOINT TABLET (768px) ███
+     █████████████████████████████████████████████████ */
+  @media (min-width: 768px) {
+    .song-item {
+      grid-template-columns: 30px 1fr 60px;
+      padding: 10px 15px;
+    }
+    
+    .song-cover {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
+  /* █████████████████████████████████████████████████
+     ███ BREAKPOINT ESCRITORIO (1024px) ███
+     █████████████████████████████████████████████████ */
+  @media (min-width: 1024px) {
+    .song-item {
+      grid-template-columns: 35px 1fr 70px;
+      padding: 12px 18px;
+    }
+    
+    .song-cover {
+      width: 40px;
+      height: 40px;
+    }
+  }

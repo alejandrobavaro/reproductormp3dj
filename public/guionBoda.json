@@ -1,0 +1,211 @@
+{
+  "evento": "Guion Boda de Alejandro & Fabiola",
+  "fecha": "23 de noviembre",
+  "horario": "19:00 a 04:00",
+  "bloques": [
+    {
+      "id": "bloque-1-recepcioninvitados",
+      "nombre": "Recepción Invitados",
+      "horaInicio": "19:00",
+      "horaFin": "19:30",
+      "actividades": [
+        "Llegada de invitados.",
+        "Recepción con comida + bebidas en el parque."
+      ],
+      "detalles": "Música relajada. Código QR visible en entrada. Ver Qr Social."
+    },
+    {
+      "id": "bloque-2-ceremoniaboda",
+      "nombre": "Ceremonia Boda Civil",
+      "horaInicio": "19:30",
+      "horaFin": "20:30",
+      "actividades": [
+        "Entrada Novios y casamiento.",
+        "Boda Civil con 4 testigos + firma de acta.",
+        "Cierre con lluvia de arroz/pétalos."
+      ],
+      "detalles": "Pausar comida. Espacio decorado para ceremonia. Fotógrafo captura momentos clave."
+    },
+    {
+      "id": "bloque-3-saludoinvitados",
+      "nombre": "Saludos con Invitados",
+      "horaInicio": "20:30",
+      "horaFin": "20:45",
+      "actividades": [
+        "Saludos con invitados post Boda.",
+        "Se invita a invitados entrar al salón."
+      ],
+      "detalles": "Animador invita a pasar al salón. Continua servicio comida recepción y tragos."
+    },
+    {
+      "id": "bloque-4-fotosnovioscongrupos",
+      "nombre": "Fotos Grupales",
+      "horaInicio": "20:45",
+      "horaFin": "21:15",
+      "actividades": [
+        "Novios se ubican en el sector de su mesa principal.",
+        "Fotógrafos coordinan fotos con invitados alrededor de la mesa principal."
+      ],
+      "detalles": "Continua servicio comida recepción y tragos. Se llama mesa por mesa para fotos con novios (grupos en mesa principal con invitados detrás). Luego invitados van a sus mesas."
+    },
+    {
+      "id": "bloque-5-showdemozos",
+      "nombre": "Show de Mozos llegada Plato Principal",
+      "horaInicio": "21:15",
+      "horaFin": "21:30",
+      "actividades": [
+        "Mozos entran con plato principal",
+        "Invitación a disfrutar el pernil."
+      ],
+      "detalles": "Show entrada comida."
+    },
+    {
+      "id": "bloque-6-cenapernil",
+      "nombre": "Cena – Pernil",
+      "horaInicio": "21:30",
+      "horaFin": "22:15",
+      "actividades": [
+        "Menú: Pernil con salsas"
+      ],
+      "detalles": "Servicio coordinado por catering x mesas. Opción de servirlo en mesas o ir a buscarlo fresco."
+    },
+    {
+      "id": "bloque-7-brindis1",
+      "nombre": "Brindis",
+      "horaInicio": "22:15",
+      "horaFin": "22:45",
+      "actividades": [
+        "Brindis formal."
+      ],
+      "detalles": "Copas preparadas."
+    },
+    {
+      "id": "bloque-8-coreonoviosbloquebaile1",
+      "nombre": "Coreo Novios + Vals + 1er Bloque Baile",
+      "horaInicio": "22:45",
+      "horaFin": "23:15",
+      "actividades": [
+        "Coreo Novios: 'Colgado en tus manos'",
+        "Vals familiar",
+        "1er bloque baile"
+      ],
+      "detalles": "Anunciar baile novios + Vals + 1er Bloque de Baile"
+    },
+    {
+      "id": "bBloque-9-postre",
+      "nombre": "Postre",
+      "horaInicio": "23:15",
+      "horaFin": "23:30",
+      "actividades": [
+        "Helado."
+      ],
+      "detalles": "Postre."
+    },
+    {
+      "id": "bloque-10-videopareja",
+      "nombre": "Video Pareja",
+      "horaInicio": "23:30",
+      "horaFin": "00:00",
+      "actividades": [
+        "Proyección video de la pareja.",
+        "La pareja ve el video completo."
+      ],
+      "detalles": "Termina el video y la banda empieza a tocar intro. Alejandro se acerca para tocar con la banda."
+    },
+    {
+      "id": "bloque-11-showbandaenvivo",
+      "nombre": "Banda en Vivo – 'Almango Covers'",
+      "horaInicio": "00:00",
+      "horaFin": "00:30",
+      "actividades": [
+        "Alejandro y la banda tocan 30 min."
+      ],
+      "detalles": "Como cierre: Ale invita a Fabiola a subir a cantar 'Vuela Vuela'."
+    },
+    {
+      "id": "bloque-12-baile2",
+      "nombre": "2do Bloque de Baile",
+      "horaInicio": "00:30",
+      "horaFin": "01:00",
+      "actividades": [
+        "2do Bloque de Baile"
+      ],
+      "detalles": "2do Bloque de Baile"
+    },
+    {
+      "id": "bloque-13-juegoramowisky",
+      "nombre": "Juego del Ramo y Whisky",
+      "horaInicio": "01:00",
+      "horaFin": "01:20",
+      "actividades": [
+        "Ramo lo hace Alejandro",
+        "Whisky lo hace Fabiola (solteros y no solteros)."
+      ],
+      "detalles": "Anunciar el juego. Premios para ganadores. Ale hace de las mujeres y Fabi de los hombres."
+    },
+    {
+      "id": "bloque-14-tortaymesadulce",
+      "nombre": "Torta + Mesa Dulce + Foto General",
+      "horaInicio": "01:20",
+      "horaFin": "01:45",
+      "actividades": [
+        "Corte de la Torta + Mesa Dulce",
+        "Foto Grupal"
+      ],
+      "detalles": "Anunciar Foto Grupal. Lo planifican Fotógrafos."
+    },
+    {
+      "id": "bloque-15-barralibre",
+      "nombre": "Barra Libre",
+      "horaInicio": "01:45",
+      "horaFin": "02:00",
+      "actividades": [
+        "Anunciar Barra libre habilitada."
+      ],
+      "detalles": "Barra Libre Abierta"
+    },
+    {
+      "id": "bloque-16-baile3-horaloca",
+      "nombre": "3er Bloque Baile + Hora Loca",
+      "horaInicio": "02:00",
+      "horaFin": "03:00",
+      "actividades": [
+        "Anunciar Cotillón en mesas.",
+        "Sigue la Mesa Dulce en la mesa."
+      ],
+      "detalles": "Cotillón (luces, confetti, leds). Bolsas de cotillón en las mesas."
+    },
+    {
+      "id": "bloque-17-baile4",
+      "nombre": "4to Bloque Baile",
+      "horaInicio": "03:00",
+      "horaFin": "03:15",
+      "actividades": [
+        "Sigue la Barra abierta. Baile + Cabina Fotográfica."
+      ],
+      "detalles": "Sigue el Baile"
+    },
+    {
+      "id": "bloque-18-desayuno",
+      "nombre": "Desayuno + Fotos Grupales",
+      "horaInicio": "03:15",
+      "horaFin": "04:00",
+      "actividades": [
+        "Café, medialunas, snacks.",
+        "Fotos Grupales Finales."
+      ],
+      "detalles": "Sigue el Baile. Espacio desayuno."
+    },
+    {
+      "id": "bloque-19-despedidasouvenirs",
+      "nombre": "Despedida + Souvenirs",
+      "horaInicio": "04:00",
+      "horaFin": "04:15",
+      "actividades": [
+        "Entrega de souvenirs: velitas personalizadas.",
+        "Agradecimientos."
+      ],
+      "detalles": "Mesa de souvenirs cerca de salida."
+    }
+  ]
+}

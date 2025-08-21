@@ -1,0 +1,50 @@
+/* █████████████████████████████████████████████████
+   ███ ESTILOS BASE - APP (MOBILE FIRST) ███
+   █████████████████████████████████████████████████ */
+
+   .spotify-app {
+    // ESTRUCTURA PRINCIPAL
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgba(25, 20, 20, 0.9);
+    color: white;
+  }
+  
+  .spotify-content {
+    // CONTENEDOR PRINCIPAL
+    flex: 1;
+    padding-top: 60px; // Espacio para header
+    padding-bottom: 50px; // Espacio para footer
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+    // CONTENIDOS HIJOS
+    > div {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  }
+  
+  /* █████████████████████████████████████████████████
+     ███ BREAKPOINT TABLET (768px) ███
+     █████████████████████████████████████████████████ */
+  @media (min-width: 768px) {
+    .spotify-content {
+      padding: 1rem;
+      max-width: 90%;
+    }
+  }
+  
+  /* █████████████████████████████████████████████████
+     ███ BREAKPOINT ESCRITORIO (1024px) ███
+     █████████████████████████████████████████████████ */
+  @media (min-width: 1024px) {
+    .spotify-content {
+      padding-top: 70px;
+      padding-bottom: 60px;
+      max-width: 1200px;
+    }
+  }

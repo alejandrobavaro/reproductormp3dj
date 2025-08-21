@@ -1,0 +1,192 @@
+/* Estilos para el slider de música */
+.publicidad-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.publicidad-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  
+  .section-title {
+    color: #00f0ff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .slider-indicator {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+  }
+}
+
+.main-slider-container {
+  margin-bottom: 2rem;
+  
+  .music-slide {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+  
+  .slide-image-container {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1/1;
+    
+    .music-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  .music-info {
+    flex: 1;
+    text-align: center;
+    
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+    
+    .music-name {
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .music-artist {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .music-meta {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      
+      @media (min-width: 768px) {
+        justify-content: flex-start;
+      }
+      
+      .music-id {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+.thumbnails-container {
+  margin-top: 2rem;
+  
+  .thumbnails-title {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .thumbnails-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+    @media (min-width: 480px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(7, 1fr);
+    }
+  }
+  
+  .thumbnail-item {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+    
+    &.active {
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: #00f0ff;
+      }
+    }
+  }
+  
+  .thumbnail-image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .thumbnail-label {
+    display: block;
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* Estados de carga y error */
+.publicidad-loading,
+.publicidad-error,
+.publicidad-empty {
+  padding: 2rem;
+  text-align: center;
+  
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(0, 240, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #00f0ff;
+    margin: 0 auto 1rem;
+    animation: spin 1s linear infinite;
+  }
+}
+
+.publicidad-error {
+  color: #ff0066;
+}
+
+.publicidad-empty {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

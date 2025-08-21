@@ -1,0 +1,277 @@
+/* -------------------------------------------- */
+/* ESTILOS BASE - MOBILE FIRST */
+/* -------------------------------------------- */
+
+/* Contenedor principal del footer */
+.app-footer {
+  background-color: #121212;
+  color: #FFFFFF;
+  padding: 30px 15px 15px;
+  border-top: 1px solid #333333;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Layout de 3 columnas (logo | redes | logo) */
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Estilos para las columnas de logos */
+.footer-logo-side {
+  flex: 1;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+/* Estilos para la sección central de redes */
+.footer-center {
+  flex: 2;
+  min-width: 100%;
+  order: -1; /* Mueve arriba en móvil */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.socials-title {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Contenedor de íconos sociales (incluye el nuevo de contacto) */
+.socials-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  
+  /* Estilos compartidos para links e íconos */
+  a, .social-link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    
+    &:hover {
+      background-color: #1DB954;
+      transform: scale(1.1);
+    }
+  }
+}
+
+.social-icon {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+/* Tooltip de etiquetas para íconos */
+.social-label {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #181818;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 8px;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #181818;
+  }
+}
+
+/* Muestra tooltip al hover */
+.social-link:hover .social-label {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Sección inferior de copyright */
+.footer-bottom {
+  max-width: 1400px;
+  margin: 25px auto 0;
+  padding-top: 15px;
+  border-top: 1px solid #333333;
+}
+
+.copyright-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.dev-link {
+  color: #1DB954;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+}
+
+.copyright-text {
+  color: #B3B3B3;
+  font-size: 11px;
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT TABLET - 768px */
+/* -------------------------------------------- */
+@media (min-width: 768px) {
+  .app-footer {
+    padding: 40px 25px 20px;
+  }
+  
+  .footer-container {
+    gap: 30px;
+  }
+  
+  .footer-center {
+    min-width: auto;
+    order: 0; /* Orden normal en tablet/desktop */
+    margin-bottom: 0;
+  }
+  
+  .logo-wrapper {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .socials-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .socials-container {
+    gap: 20px;
+  }
+  
+  .socials-container a, 
+  .socials-container .social-link {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  
+  .copyright-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .dev-link, .copyright-text {
+    font-size: 12px;
+  }
+}
+
+/* -------------------------------------------- */
+/* BREAKPOINT DESKTOP - 1024px */
+/* -------------------------------------------- */
+@media (min-width: 1024px) {
+  .app-footer {
+    padding: 50px 30px 30px;
+  }
+  
+  .footer-container {
+    gap: 40px;
+  }
+  
+  .logo-wrapper {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .socials-title {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .socials-container {
+    gap: 25px;
+  }
+  
+  .socials-container a, 
+  .socials-container .social-link {
+    width: 55px;
+    height: 55px;
+  }
+  
+  .social-icon {
+    font-size: 22px;
+  }
+  
+  .footer-bottom {
+    margin-top: 35px;
+    padding-top: 25px;
+  }
+  
+  .dev-link, .copyright-text {
+    font-size: 13px;
+  }
+}
