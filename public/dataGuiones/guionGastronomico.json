@@ -1,0 +1,140 @@
+{
+  "evento": "Guión Gastronómico - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "19:00 a 04:00",
+  "rol": "Servicio Gastronómico",
+  "responsable": "Coordinador de catering y mozos - Casa del Mar",
+  "bloques": [
+    {
+      "id": "bloque-1-recepcion",
+      "nombre": "Recepción - Welcome Drink y Picadas",
+      "horaInicio": "19:00",
+      "horaFin": "19:30",
+      "servicio": "Bocadillos fríos + bebidas en parque",
+      "menu": [
+        "Tagliatelle de calabacín de pollo al verdeo",
+        "Pizzetas de muzzarella y napolitana",
+        "Mini brochette de pollo y brochette caprese",
+        "Mini burgers y sandwich de miga blanco",
+        "Tarta de atún y verdura, tarta de jamón y queso",
+        "Canapé de queso y fruta de estación",
+        "Chiffon de albóndigas a la pomarola",
+        "Panchos"
+      ],
+      "bebidas": [
+        "Agua sin gas",
+        "Gaseosas línea Coca",
+        "Trada Faro Premium",
+        "Cerveza lager limitada",
+        "Chandonnay"
+      ],
+      "personal_requerido": "4 mozos + 2 bartenders",
+      "notas": "Stock continuo - reponer cada 15 min. Servicio en bandejas circulantes."
+    },
+    {
+      "id": "bloque-2-ceremonia",
+      "nombre": "Ceremonia - Pausa Servicio",
+      "horaInicio": "19:30",
+      "horaFin": "20:15",
+      "servicio": "PAUSA COMPLETA de servicio comida/bebidas",
+      "acciones": "Retirar discretamente platos/vasos usados, preparar transición",
+      "personal_requerido": "Mozos en standby para apoyo logístico",
+      "notas": "Reasignar personal para ayudar en coordinación ceremonia si es necesario"
+    },
+    {
+      "id": "bloque-5-showmozos",
+      "nombre": "Show de Mozos - Entrada Plato Principal",
+      "horaInicio": "21:15",
+      "horaFin": "21:25",
+      "servicio": "Entrada espectacular con pernil",
+      "menuPrincipal": "Pernil de ternera y cerdo con panes y mix de ensaladas",
+      "personal_requerido": "6 mozos sincronizados + 2 apoyo cocina",
+      "preparacion": "Platos calientes listos 5 min antes, coreografía practicada",
+      "coordinacion": "CON DJ - música dramática, CON ANIMADOR - anuncio show"
+    },
+    {
+      "id": "bloque-6-cena",
+      "nombre": "Cena - Pernil con Salsas",
+      "horaInicio": "21:25",
+      "horaFin": "22:15",
+      "servicio": "Servicio coordinado por mesas + estación buffet fresca",
+      "opciones_servicio": [
+        "Servicio tradicional en mesas",
+        "Estación self-service para pernil fresco"
+      ],
+      "personal_requerido": "1 mozo cada 2 mesas + 2 en estación buffet",
+      "bebidas_disponibles": [
+        "Agua sin gas",
+        "Gaseosas línea Coca",
+        "Trada Faro Premium",
+        "Cerveza lager limitada",
+        "Chandonnay"
+      ],
+      "notas": "Mantener estación buffet abastecida continuamente. Opción para todos los invitados."
+    },
+    {
+      "id": "bloque-7B-brindischampagne",
+      "nombre": "Brindis con Champagne",
+      "horaInicio": "22:30",
+      "horaFin": "22:45",
+      "servicio": "Distribución copas champagne Chandonnay",
+      "personal_requerido": "4 mozos para distribución rápida",
+      "preparacion": "Copas preparadas durante brindis familiar (22:15-22:30)",
+      "coordinacion": "CON ANIMADOR - timing para brindis grupal"
+    },
+    {
+      "id": "bloque-9-postre",
+      "nombre": "Servicio de Postres",
+      "horaInicio": "23:25",
+      "horaFin": "23:40",
+      "servicio": "Copa helada + mesa dulce Petit Fours + coffee station",
+      "postre_incluido": "Copa helada con dos bocados de helado a elección",
+      "personal_requerido": "3 mozos para servicio rápido + 1 barista coffee station",
+      "notas": "Servir durante baile sin interrumpir flujo festivo. Coffee station disponible hasta final."
+    },
+    {
+      "id": "bloque-14-torta",
+      "nombre": "Corte de Torta + Mesa Dulce",
+      "horaInicio": "01:25",
+      "horaFin": "01:50",
+      "servicio": "Ceremonia corte torta + servicio mesa dulce continuo",
+      "personal_requerido": "2 mozos servicio + 1 apoyo para foto grupal",
+      "equipamiento": "Cuchillos especiales torta, platos postre, servilletas",
+      "coordinacion": "CON FOTÓGRAFOS - momento corte, CON ANIMADOR - foto grupal"
+    },
+    {
+      "id": "bloque-15-barralibre",
+      "nombre": "Inauguración Barra Libre",
+      "horaInicio": "01:50",
+      "horaFin": "04:00",
+      "servicio": "Servicio libre completo de barra",
+      "bebidas": [
+        "Tragos estándar y especiales",
+        "Cerveza lager limitada",
+        "Vino Trada Faro Premium",
+        "Chandonnay",
+        "Gaseosas línea Coca",
+        "Agua sin gas",
+        "Jugos y bebidas sin alcohol"
+      ],
+      "personal_requerido": "3 bartenders + 2 apoyo",
+      "notas": "Stock reforzado para consumo elevado. Control reposición continua."
+    },
+    {
+      "id": "bloque-18-desayuno",
+      "nombre": "Desayuno de Despedida",
+      "horaInicio": "03:15",
+      "horaFin": "04:00",
+      "servicio": "Servicio desayuno completo",
+      "menu_desayuno": [
+        "Café",
+        "Té variedades",
+        "Jugos de naranja",
+        "Medialunas dulces y saladas",
+        "Snacks salados"
+      ],
+      "personal_requerido": "2 mozos servicio continuo",
+      "notas": "Servicio relajado durante conversaciones de despedida. Coffee station integrada."
+    }
+  ]
+}

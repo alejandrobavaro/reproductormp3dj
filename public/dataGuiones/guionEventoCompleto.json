@@ -1,0 +1,453 @@
+{
+  "evento": "Guion Boda de Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "19:00 a 03:00 (contrato salón) | 14:00 a 04:15 (actividades completas)",
+  "lugar": "Casa del Mar - Salón Búho",
+  "direccion": "Scaglia 5400",
+  "contacto": "2235208386 / 2234545451",
+  "contrato": {
+    "fechaContrato": "05/04/2025",
+    "cantidadPersonas": "80 aprox (definir 72hs antes)",
+    "seña": "64 tarjetas con 10% descuento por pago en efectivo",
+    "valorTarjeta": "$50.900",
+    "menores11": "½ tarjeta",
+    "incluyeSadic": false,
+    "horarioContrato": "19:00 a 03:00"
+  },
+  "serviciosIncluidos": [
+    "Generador en caso de corte de luz",
+    "Servicio de ambulancia (Vittal)",
+    "Seguridad",
+    "Personal de servicio completo",
+    "Cubiertos y 1 copa por persona",
+    "Elementos de higiene en baños",
+    "Servilletas y manteles",
+    "Sillas de antes",
+    "DJ + Sonido e iluminación",
+    "Parking y valijero"
+  ],
+  "bloques": [
+    {
+      "id": "bloque-0A-fabimaquilladora",
+      "nombre": "Fabi - Preparación",
+      "horaInicio": "14:00",
+      "horaFin": "17:00",
+      "actividades": [
+        "Maquillaje y peinado de Fabi",
+        "Vestido de novia"
+      ],
+      "detalles": "Ubicación: Salón de belleza. Luego traslado al salón.",
+      "responsable": "Maquilladora, Miguel (transporte)",
+      "notasContrato": "Previo a horario de salón"
+    },
+    {
+      "id": "bloque-0B-decoracionauto",
+      "nombre": "Preparación Auto Novios",
+      "horaInicio": "14:30",
+      "horaFin": "15:30",
+      "actividades": [
+        "Decoración auto novios",
+        "Verificación rutas y tiempos"
+      ],
+      "detalles": "Auto listo para 17:00. Incluir elementos decorativos y combustible.",
+      "responsable": "Miguel, familia",
+      "notasContrato": "Previo a horario de salón"
+    },
+    {
+      "id": "bloque-0C-transporte1",
+      "nombre": "Transporte - Recogida Padre Fabi",
+      "horaInicio": "17:00",
+      "horaFin": "17:30",
+      "actividades": [
+        "Miguel recoge a Mario (papá de Fabi)"
+      ],
+      "detalles": "Punto de encuentro: Casa de Mario. Llegada a salón 17:30.",
+      "responsable": "Miguel",
+      "notasContrato": "Previo a horario de salón"
+    },
+    {
+      "id": "bloque-0D-transporte2",
+      "nombre": "Transporte - Novia y Tía Ana",
+      "horaInicio": "17:30",
+      "horaFin": "18:00",
+      "actividades": [
+        "Recoger a Fabi y Tía Ana",
+        "Traslado al salón"
+      ],
+      "detalles": "Fabi ya vestida. Entrada discreta por acceso principal.",
+      "responsable": "Miguel",
+      "notasContrato": "Previo a horario de salón"
+    },
+    {
+      "id": "bloque-0E-transporte3",
+      "nombre": "Llegada Novios al Salón",
+      "horaInicio": "18:00",
+      "horaFin": "18:30",
+      "actividades": [
+        "Ale y Elina llegan al salón",
+        "Fabi llega al salón",
+        "Encuentro privado novios"
+      ],
+      "detalles": "Coordinar entradas separadas. Momento privado para fotos pre-ceremonia.",
+      "responsable": "Miguel, Fotógrafo",
+      "notasContrato": "Previo a horario de salón - Coordinar con recepción Casa del Mar"
+    },
+    {
+      "id": "bloque-0F-verificacionfinal",
+      "nombre": "Verificación Final Pre-Ceremonia",
+      "horaInicio": "18:30",
+      "horaFin": "19:00",
+      "actividades": [
+        "Checklist completo: decoración, sonido, catering",
+        "Briefing equipo de trabajo",
+        "Aviso a novios cuando todo esté listo"
+      ],
+      "detalles": "Confirmar con: DJ, Fotógrafo, Catering, Animador, Banda. Verificar generador y servicios incluidos.",
+      "responsable": "Coordinador de evento",
+      "notasContrato": "Últimos 30min antes de horario oficial"
+    },
+    {
+      "id": "bloque-1-recepcion",
+      "nombre": "Recepción de Invitados - WELCOME",
+      "horaInicio": "19:00",
+      "horaFin": "19:30",
+      "actividades": [
+        "Llegada de invitados",
+        "Welcome drink y picadas",
+        "Música ambiental relajada",
+        "QR para redes sociales"
+      ],
+      "detalles": "Ubicación: Parque del salón. Personal Casa del Mar recibe invitados. Servicio de: Tagliatelle de calabacín, Pizzetas, Mini brochettes, Canapés, etc.",
+      "responsable": "Personal Casa del Mar, Fotógrafo, Mozos",
+      "menu": [
+        "Tagliatelle de calabacín de pollo al verdeo",
+        "Pizzetas de muzzarella y napolitana",
+        "Mini brochette de pollo",
+        "Brochette caprese",
+        "Mini burgers",
+        "Sandwich de miga blanco",
+        "Tarta de atún y verdura",
+        "Tarta de jamón y queso",
+        "Canapé de queso y fruta de estación",
+        "Chiffon de albóndigas a la pomarola",
+        "Panchos"
+      ],
+      "bebidas": [
+        "Agua sin gas",
+        "Gaseosas línea Coca",
+        "Trada Faro Premium",
+        "Cerveza lager limitada",
+        "Chandonnay"
+      ]
+    },
+    {
+      "id": "bloque-2-ceremonia",
+      "nombre": "Ceremonia Civil",
+      "horaInicio": "19:30",
+      "horaFin": "20:15",
+      "actividades": [
+        "Entrada de novios",
+        "Ceremonia civil oficial",
+        "Firma de acta con testigos",
+        "Lluvia de arroz/pétalos"
+      ],
+      "detalles": "Pausar servicio de comida durante ceremonia. Música de entrada especial. Espacio decorado específicamente.",
+      "responsable": "Juez de paz, Testigos, DJ Casa del Mar",
+      "notasContrato": "Usar sonido incluido del salón"
+    },
+    {
+      "id": "bloque-3-felicitaciones",
+      "nombre": "Felicitaciones y Fotos",
+      "horaInicio": "20:15",
+      "horaFin": "20:45",
+      "actividades": [
+        "Saludos y felicitaciones a novios",
+        "Fotos espontáneas con invitados",
+        "Transición al salón principal"
+      ],
+      "detalles": "Personal Casa del Mar guía a invitados al salón. Reanudar servicio de comida y bebidas.",
+      "responsable": "Personal Casa del Mar, Fotógrafo"
+    },
+    {
+      "id": "bloque-4-fotosgrupales",
+      "nombre": "Sesión de Fotos Grupales",
+      "horaInicio": "20:45",
+      "horaFin": "21:15",
+      "actividades": [
+        "Fotos por mesas con novios",
+        "Fotos familiares extendidas",
+        "Fotos grupo amigos"
+      ],
+      "detalles": "Sistema eficiente: llamar por mesas. Novios en mesa principal. Música continua con DJ incluido.",
+      "responsable": "Fotógrafo, Personal Casa del Mar"
+    },
+    {
+      "id": "bloque-5-showmozos",
+      "nombre": "Show de Mozos - Entrada Principal",
+      "horaInicio": "21:15",
+      "horaFin": "21:25",
+      "actividades": [
+        "Entrada espectacular de mozos",
+        "Presentación del plato principal: PERNIL",
+        "Invitación a disfrutar"
+      ],
+      "detalles": "Coreografía mozos con iluminación especial incluida. Música dramática con DJ del salón.",
+      "responsable": "Personal Casa del Mar, DJ",
+      "menuPrincipal": "Pernil de ternera y cerdo con panes y mix de ensaladas"
+    },
+    {
+      "id": "bloque-6-cena",
+      "nombre": "Cena - Pernil con Salsas",
+      "horaInicio": "21:25",
+      "horaFin": "22:15",
+      "actividades": [
+        "Servicio de pernil",
+        "Opción mesa o buffet fresco",
+        "Acompañamientos y salsas"
+      ],
+      "detalles": "Servicio coordinado por mesas por personal Casa del Mar. Estaciones frescas disponibles. Música suave de fondo con sistema incluido.",
+      "responsable": "Personal Casa del Mar",
+      "bebidasDisponibles": [
+        "Agua sin gas",
+        "Gaseosas línea Coca", 
+        "Trada Faro Premium",
+        "Cerveza lager limitada",
+        "Chandonnay"
+      ]
+    },
+    {
+      "id": "bloque-7A-brindisfamiliar",
+      "nombre": "Brindis Familiar y Emocional",
+      "horaInicio": "22:15",
+      "horaFin": "22:30",
+      "actividades": [
+        "Palabras de padres del novio",
+        "Palabras de tía de la novia",
+        "Brindis informal con tragos de mesa"
+      ],
+      "detalles": "Máximo 3-4 intervenciones breves (2-3 min c/u). Usar equipo de sonido incluido. Música de fondo suave.",
+      "responsable": "Animador, DJ Casa del Mar"
+    },
+    {
+      "id": "bloque-7B-brindischampagne",
+      "nombre": "Brindis General con Champagne",
+      "horaInicio": "22:30",
+      "horaFin": "22:45",
+      "actividades": [
+        "Servicio de champagne Chandonnay",
+        "Brindis grupal dirigido por animador",
+        "Foto grupal con copas alzadas"
+      ],
+      "detalles": "Copas servidas por personal Casa del Mar durante bloque anterior. Flash mob fotográfico coordinado.",
+      "responsable": "Personal Casa del Mar, Animador, Fotógrafo"
+    },
+    {
+      "id": "bloque-8A-coreografia",
+      "nombre": "Coreografía de Novios",
+      "horaInicio": "22:45",
+      "horaFin": "22:55",
+      "actividades": [
+        "Baile sorpresa de novios",
+        "Canción: 'Colgado en tus manos'",
+        "Aplausos y celebración"
+      ],
+      "detalles": "Iluminación especial incluida. Pista despejada. Audio perfecto con equipo del salón. Transición suave a vals.",
+      "responsable": "DJ Casa del Mar, Iluminación incluida"
+    },
+    {
+      "id": "bloque-8B-vals",
+      "nombre": "Vals Familiar",
+      "horaInicio": "22:55",
+      "horaFin": "23:10",
+      "actividades": [
+        "Vals con padres",
+        "Inclusión de familiares cercanos",
+        "Extensión a padrinos y abuelos"
+      ],
+      "detalles": "Animador invita a familiares. Música de vals tradicional con DJ incluido. Duración extendida para inclusión.",
+      "responsable": "Animador, DJ Casa del Mar"
+    },
+    {
+      "id": "bloque-8C-aperturabaile",
+      "nombre": "Apertura de Pista de Baile",
+      "horaInicio": "23:10",
+      "horaFin": "23:25",
+      "actividades": [
+        "Invitación general a bailar",
+        "Primeras canciones energéticas",
+        "Animación de pista"
+      ],
+      "detalles": "Transición progresiva de vals a baile. Música ascendente en energía con DJ y sonido incluidos.",
+      "responsable": "DJ Casa del Mar, Animador"
+    },
+    {
+      "id": "bloque-9-postre",
+      "nombre": "Servicio de Postres",
+      "horaInicio": "23:25",
+      "horaFin": "23:40",
+      "actividades": [
+        "Servicio de copa helada (2 bocados)",
+        "Mesa dulce con Petit Fours",
+        "Coffee station"
+      ],
+      "detalles": "Servicio durante baile por personal Casa del Mar. Estaciones accesibles. No interrumpir flujo de fiesta.",
+      "responsable": "Personal Casa del Mar",
+      "postreIncluido": "Copa helada con dos bocados de helado a elección"
+    },
+    {
+      "id": "bloque-10-video",
+      "nombre": "Proyección Video de Pareja",
+      "horaInicio": "23:40",
+      "horaFin": "00:00",
+      "actividades": [
+        "Proyección video emocional",
+        "Momento íntimo para novios",
+        "Transición a show en vivo"
+      ],
+      "detalles": "Pantallas principales y secundarias. Audio optimizado con equipo incluido. Alejandro se prepara con banda.",
+      "responsable": "DJ Casa del Mar, Técnico audio/video",
+      "notasContrato": "Equipo adicional para banda no incluido"
+    },
+    {
+      "id": "bloque-11-banda",
+      "nombre": "Show en Vivo - Almango Covers",
+      "horaInicio": "00:00",
+      "horaFin": "00:35",
+      "actividades": [
+        "Alejandro toca con banda",
+        "Setlist de 30-35 minutos",
+        "Sorpresa: Fabi canta 'Vuela Vuela'"
+      ],
+      "detalles": "Equipo de sonido profesional adicional necesario. Iluminación de show con sistema incluido. Cierre emotivo con participación de Fabi.",
+      "responsable": "Banda, Técnico sonido externo",
+      "notasContrato": "EQUIPO ADICIONAL REQUERIDO - No incluido en contrato"
+    },
+    {
+      "id": "bloque-12-baile2",
+      "nombre": "Segundo Bloque de Baile",
+      "horaInicio": "00:35",
+      "horaFin": "01:05",
+      "actividades": [
+        "Música luego del show en vivo",
+        "Energía alta y festiva",
+        "Interacción animador-invitados"
+      ],
+      "detalles": "Aprovechar momentum del show. Música conectada con estilo de banda usando DJ incluido.",
+      "responsable": "DJ Casa del Mar, Animador"
+    },
+    {
+      "id": "bloque-13-juegos",
+      "nombre": "Juegos Tradicionales",
+      "horaInicio": "01:05",
+      "horaFin": "01:25",
+      "actividades": [
+        "Lanzamiento de ramo (Alejandro)",
+        "Lanzamiento de liga (Fabiola)",
+        "Premios para ganadores"
+      ],
+      "detalles": "Animación divertida. Incluir solteros y solteras. Premios creativos. Respetar normativa de menores con alcohol.",
+      "responsable": "Animador",
+      "notasContrato": "Verificar edad participantes para consumo alcohol"
+    },
+    {
+      "id": "bloque-14-torta",
+      "nombre": "Corte de Torta y Foto General",
+      "horaInicio": "01:25",
+      "horaFin": "01:50",
+      "actividades": [
+        "Ceremonia de corte de torta",
+        "Brindis opcional con champagne",
+        "Foto grupal general",
+        "Mesa dulce con Petit Fours disponible"
+      ],
+      "detalles": "Coordinación fotógrafos para foto general. Servicio de torta durante baile por personal Casa del Mar.",
+      "responsable": "Fotógrafo, Animador, Personal Casa del Mar"
+    },
+    {
+      "id": "bloque-15-barralibre",
+      "nombre": "Inauguración Barra Libre",
+      "horaInicio": "01:50",
+      "horaFin": "02:05",
+      "actividades": [
+        "Anuncio oficial barra libre",
+        "Shot de bienvenida grupal",
+        "Inicio de hora loca"
+      ],
+      "detalles": "Momento festivo máximo. Coordinar con hora loca. Personal Casa del Mar gestiona barra.",
+      "responsable": "Animador, Personal Casa del Mar"
+    },
+    {
+      "id": "bloque-16-horaloca",
+      "nombre": "Hora Loca y Cotillón",
+      "horaInicio": "02:05",
+      "horaFin": "02:50",
+      "actividades": [
+        "Distribución de cotillón",
+        "Música temática hora loca",
+        "Juegos con luces y confetti",
+        "Coreografías grupales"
+      ],
+      "detalles": "Bolsas de cotillón en mesas. Efectos especiales de luces con sistema incluido. Música interactiva con DJ.",
+      "responsable": "Animador, DJ Casa del Mar, Iluminación"
+    },
+    {
+      "id": "bloque-17-bailefinal",
+      "nombre": "Baile Final y Despedida Musical",
+      "horaInicio": "02:50",
+      "horaFin": "03:00",
+      "actividades": [
+        "Últimas canciones de baile",
+        "Momento emotivo musical",
+        "Preparación despedida"
+      ],
+      "detalles": "Selección musical emotiva y energética con DJ incluido. Transición suave a desayuno.",
+      "responsable": "DJ Casa del Mar",
+      "notasContrato": "HORA LÍMITE CONTRATO: 03:00"
+    },
+    {
+      "id": "bloque-18-desayuno",
+      "nombre": "Desayuno de Despedida",
+      "horaInicio": "03:00",
+      "horaFin": "03:45",
+      "actividades": [
+        "Servicio de café y medialunas dulces/saladas",
+        "Jugos y té",
+        "Fotos relajadas finales",
+        "Conversaciones de despedida"
+      ],
+      "detalles": "Ambiente relajado. Música suave de fondo. Personal Casa del Mar sirve desayuno incluido.",
+      "responsable": "Personal Casa del Mar",
+      "menuDesayuno": [
+        "Medialunas dulces y saladas",
+        "Café",
+        "Té", 
+        "Jugos"
+      ],
+      "notasContrato": "EXTENSIÓN HORARIA - Coordinar con salón"
+    },
+    {
+      "id": "bloque-19-despedida",
+      "nombre": "Despedida y Souvenirs",
+      "horaInicio": "03:45",
+      "horaFin": "04:15",
+      "actividades": [
+        "Entrega de souvenirs (velas personalizadas)",
+        "Agradecimientos finales novios",
+        "Despedida personalizada"
+      ],
+      "detalles": "Mesa de souvenirs en salida. Momento emotivo de cierre. Coordinar transporte restante.",
+      "responsable": "Novios, Animador",
+      "notasContrato": "FUERA DE HORARIO CONTRATO - Actividad de cortesía"
+    }
+  ],
+  "notasImportantes": [
+    "Casa del Mar no se responsabiliza por accidentes ni faltantes",
+    "Adultos responsables de niños que acompañan",
+    "Derecho de admisión y permanencia por parte del salón",
+    "No consumo de alcohol para menores de 18 años",
+    "AADI CAPIF y SADAIC NO incluidos en contrato",
+    "Generador disponible en caso de corte de luz",
+    "Servicio de ambulancia Vittal incluido",
+    "Seguridad y personal completo incluido"
+  ]
+}

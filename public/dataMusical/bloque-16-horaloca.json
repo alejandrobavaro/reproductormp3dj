@@ -1,0 +1,595 @@
+{
+    "bloque-16-horaloca": {
+      "bloque_musical": "Hora Loca (¡Pachanga Total!)",
+      "total_canciones": 70,
+      "existen": 37,
+      "faltan": 33,
+      "canciones": [
+        {
+          "id": "b16-01",
+          "nombre": "Intervención Animador - Hora Loca",
+          "artista": "Animador",
+          "url": "/audio/bloque-16-horaloca/Voz Animador Hora Loca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-02",
+          "nombre": "Carnaval Carioca (Batucada)",
+          "artista": "Batería de Samba",
+          "url": "/audio/bloque-16-horaloca/Carnaval Carioca Batucada.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-03",
+          "nombre": "La Vida es un Carnaval (Remix)",
+          "artista": "Celia Cruz",
+          "url": "/audio/bloque-16-horaloca/Celia Cruz - Carnaval Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-04",
+          "nombre": "Mambo No. 5 (Versión Extendida)",
+          "artista": "Lou Bega",
+          "url": "/audio/bloque-16-horaloca/Lou Bega - Mambo No 5 Extended.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-05",
+          "nombre": "Macarena (Bayside Boys Remix)",
+          "artista": "Los Del Río",
+          "url": "/audio/bloque-16-horaloca/Macarena Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-06",
+          "nombre": "Danza Kuduro (Versión Hora Loca)",
+          "artista": "Don Omar ft. Lucenzo",
+          "url": "/audio/bloque-16-horaloca/Danza Kuduro Hora Loca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-07",
+          "nombre": "Gasolina (Remix)",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-16-horaloca/Gasolina Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-08",
+          "nombre": "Waka Waka (This Time for Africa)",
+          "artista": "Shakira",
+          "url": "/audio/bloque-16-horaloca/Shakira - Waka Waka.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-09",
+          "nombre": "Vivir Mi Vida (Salsa Remix)",
+          "artista": "Marc Anthony",
+          "url": "/audio/bloque-16-horaloca/Marc Anthony - Vivir Mi Vida Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-10",
+          "nombre": "Bailando (Versión Extendida)",
+          "artista": "Enrique Iglesias",
+          "url": "/audio/bloque-16-horaloca/Bailando Extended.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-11",
+          "nombre": "La Gozadera (Remix)",
+          "artista": "Gente de Zona ft. Marc Anthony",
+          "url": "/audio/bloque-16-horaloca/La Gozadera Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-12",
+          "nombre": "La Bomba",
+          "artista": "King Africa",
+          "url": "/audio/bloque-16-horaloca/King Africa - La Bomba.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-13",
+          "nombre": "El Tiburón",
+          "artista": "Proyecto Uno",
+          "url": "/audio/bloque-16-horaloca/Proyecto Uno - El Tiburon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-14",
+          "nombre": "La Colegiala",
+          "artista": "Rodrigo",
+          "url": "/audio/bloque-16-horaloca/Rodrigo - La Colegiala.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-15",
+          "nombre": "El Baile del Perrito",
+          "artista": "Los Chicos",
+          "url": "/audio/bloque-16-horaloca/Los Chicos - Baile del Perrito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-16",
+          "nombre": "Aserejé (The Ketchup Song)",
+          "artista": "Las Ketchup",
+          "url": "/audio/bloque-16-horaloca/Las Ketchup - Asereje.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-17",
+          "nombre": "Palito de Carnaval",
+          "artista": "Palito Ortega",
+          "url": "/audio/bloque-16-horaloca/Palito Ortega - Palito de Carnaval.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-18",
+          "nombre": "El Bombón Asesino",
+          "artista": "Los Palmeras",
+          "url": "/audio/bloque-16-horaloca/Los Palmeras - Bombon Asesino.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-19",
+          "nombre": "Samba de Janeiro",
+          "artista": "Bellini",
+          "url": "/audio/bloque-16-horaloca/Bellini - Samba de Janeiro.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-20",
+          "nombre": "El Carnaval de la Vida",
+          "artista": "Los Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/LAD - Carnaval de la Vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-21",
+          "nombre": "La Morena",
+          "artista": "Oro Solido",
+          "url": "/audio/bloque-16-horaloca/Oro Solido - La Morena.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-22",
+          "nombre": "El Baile del Mono",
+          "artista": "Los Villacorta",
+          "url": "/audio/bloque-16-horaloca/Los Villacorta - Baile del Mono.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-23",
+          "nombre": "Carnaval, Carnaval",
+          "artista": "Celso Piña",
+          "url": "/audio/bloque-16-horaloca/Celso Piña - Carnaval Carnaval.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-24",
+          "nombre": "La Vaca Lechera (Remix)",
+          "artista": "Tradicional",
+          "url": "/audio/bloque-16-horaloca/La Vaca Lechera Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-25",
+          "nombre": "El Baile del Beeper",
+          "artista": "Oro Solido",
+          "url": "/audio/bloque-16-horaloca/Oro Solido - Baile del Beeper.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b16-26",
+          "nombre": "Dancing Queen",
+          "artista": "ABBA",
+          "url": "/audio/bloque-16-horaloca/ABBA - Dancing Queen.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-27",
+          "nombre": "Mamma Mia",
+          "artista": "ABBA",
+          "url": "/audio/bloque-16-horaloca/ABBA - Mamma Mia.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-28",
+          "nombre": "Movidito movidito",
+          "artista": "Alcides",
+          "url": "/audio/bloque-16-horaloca/Alcides - Movidito movidito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-29",
+          "nombre": "Violeta",
+          "artista": "Alcides",
+          "url": "/audio/bloque-16-horaloca/Alcides - Violeta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-30",
+          "nombre": "Mira Hacia Tu Alrededor",
+          "artista": "Alejandro Lerner & Leon Gieco",
+          "url": "/audio/bloque-16-horaloca/Alejandro Lerner & Leon Gieco - Mira Hacia Tu Alrededor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-31",
+          "nombre": "Te Lo Agradezco Pero No",
+          "artista": "Alejandro Sanz",
+          "url": "/audio/bloque-16-horaloca/Alejandro Sanz - Te Lo Agradezco Pero No (with Shakira).MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-32",
+          "nombre": "Shimauta",
+          "artista": "Alfredo Casero",
+          "url": "/audio/bloque-16-horaloca/Alfredo Casero - Shimauta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-33",
+          "nombre": "When I Need You",
+          "artista": "Alpha Blondie",
+          "url": "/audio/bloque-16-horaloca/Alpha Blondie - When i need you (Reggae).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-34",
+          "nombre": "El Polvito del Amor",
+          "artista": "Amar Azul",
+          "url": "/audio/bloque-16-horaloca/Amar Azul - El polvito del amor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-35",
+          "nombre": "Yo Me Enamore",
+          "artista": "Amar Azul",
+          "url": "/audio/bloque-16-horaloca/Amar Azul - yo me enamore.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-36",
+          "nombre": "Yo Tomo Licor",
+          "artista": "Amar Azul",
+          "url": "/audio/bloque-16-horaloca/Amar Azul - Yo Tomo Licor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-37",
+          "nombre": "Y Si Te Vas",
+          "artista": "Americo y la Nueva Alegría",
+          "url": "/audio/bloque-16-horaloca/Americo y la Nueva alegria - Y si te vas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-38",
+          "nombre": "Bonita",
+          "artista": "Andres Cabas",
+          "url": "/audio/bloque-16-horaloca/Andres Cabas - Bonita.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-39",
+          "nombre": "Brindo Por Las Mujeres",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Brindo por las mujeres.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-40",
+          "nombre": "Cinco Minutos Más",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Cinco Minutos Mas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-41",
+          "nombre": "La Milonga del Marinero y el Capitán",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - La milonga del marinero y el capitan.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-42",
+          "nombre": "Las Tres Marías",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Las Tres Marias.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-43",
+          "nombre": "Mil Horas",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Mil Horas (Abuelos de la Nada).MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-44",
+          "nombre": "Para No Olvidar",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Para no olvidar.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-45",
+          "nombre": "Sin Documentos",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Sin documentos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-46",
+          "nombre": "Tuyo Siempre",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro - Tuyo siempre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-47",
+          "nombre": "La Parte de Adelante",
+          "artista": "Andres Calamaro & Fabulosos Cadillacs",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro & Fabulosos Cadillacs - La parte de adelante.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-48",
+          "nombre": "Vasos Vacíos",
+          "artista": "Andres Calamaro & Fabulosos Cadillacs",
+          "url": "/audio/bloque-16-horaloca/Andres Calamaro & Fabulosos Cadillacs - Vasos vacios.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-49",
+          "nombre": "Suzzanna",
+          "artista": "Art Company",
+          "url": "/audio/bloque-16-horaloca/Art Company - Suzzanna.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-50",
+          "nombre": "Se Que Vos Me Amas",
+          "artista": "Ataque 77 & Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Ataque 77 - Autenticos Decadentes - Se que vos me amas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-51",
+          "nombre": "Ay Sigueme Mi Dulce Amor",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Autenticos Decadentes - Ay sigueme mi dulce amor.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-52",
+          "nombre": "Besandote",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Besandote.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-53",
+          "nombre": "Como Me Voy a Olvidar",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Como me voy a olvidar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-54",
+          "nombre": "Corazón",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Corazón.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-55",
+          "nombre": "Diosa",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Autenticos Decadentes - Diosa.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-56",
+          "nombre": "El Dinero No Es Todo",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - El dinero no es todo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-57",
+          "nombre": "El Gran Señor",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - El Gran Señor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-58",
+          "nombre": "El Murguero",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Autenticos Decadentes - El Murguero.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-59",
+          "nombre": "La Guitarra",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - La guitarra.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-60",
+          "nombre": "La Marca de la Gorra",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Autenticos Decadentes - La marca de la gorra.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-61",
+          "nombre": "Loco Tu Forma de Ser",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Loco tu forma de ser.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-62",
+          "nombre": "Los Piratas",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Los Piratas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-63",
+          "nombre": "Luna Radiante",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Autenticos Decadentes - Luna Radiante.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-64",
+          "nombre": "Pendeviejo",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Pendeviejo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-65",
+          "nombre": "Siga el Baile",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Siga el baile.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-66",
+          "nombre": "Veni Raquel",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Veni Raquel.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-67",
+          "nombre": "Viviré Por Siempre",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-16-horaloca/Auténticos Decadentes - Viviré por siempre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-68",
+          "nombre": "La Danza del Vientre",
+          "artista": "Axe Bahia",
+          "url": "/audio/bloque-16-horaloca/Axe Bahia - La danza del vientre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-69",
+          "nombre": "Manteca",
+          "artista": "Axe Bahia",
+          "url": "/audio/bloque-16-horaloca/Axe Bahia - Manteca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b16-70",
+          "nombre": "Mueve las Pompas",
+          "artista": "Axe Bahia",
+          "url": "/audio/bloque-16-horaloca/Axe Bahia - Mueve las pompas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

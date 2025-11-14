@@ -1,0 +1,876 @@
+{
+    "bloque-6-cena": {
+      "bloque_musical": "Cena – Pernil",
+      "total_canciones": 108,
+      "existen": 108,
+      "faltan": 0,
+      "canciones": [
+        {
+          "id": "b6-01",
+          "nombre": "Intervención Animador - Entrada Pernil",
+          "artista": "Voz Animador",
+          "url": "/audio/bloque-6-cena/Voz Animador.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-02",
+          "nombre": "I'm Not In Love",
+          "artista": "10cc",
+          "url": "/audio/bloque-6-cena/10cc - I'm Not In Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-03",
+          "nombre": "Take On Me",
+          "artista": "A-ha",
+          "url": "/audio/bloque-6-cena/A-ha - Take On Me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-04",
+          "nombre": "All That She Wants",
+          "artista": "Ace of Base",
+          "url": "/audio/bloque-6-cena/Ace of Base - All That She Wants.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-05",
+          "nombre": "Californication",
+          "artista": "Acoustic Heroes",
+          "url": "/audio/bloque-6-cena/Acoustic Heroes - Californication.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-06",
+          "nombre": "Rolling In The Deep",
+          "artista": "Adele",
+          "url": "/audio/bloque-6-cena/Adele  - Rolling In The Deep.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b6-07",
+          "nombre": "Jaded",
+          "artista": "Aerosmith",
+          "url": "/audio/bloque-6-cena/Aerosmith - Jaded.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-08",
+          "nombre": "Eye In The Sky",
+          "artista": "Alan Parsons Project",
+          "url": "/audio/bloque-6-cena/Alan Parsons Project - Eye In The Sky.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-09",
+          "nombre": "Ironic",
+          "artista": "Alanis Morissette",
+          "url": "/audio/bloque-6-cena/Alanis Morisette - Ironic - Mtv Unplugged.Mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-10",
+          "nombre": "Hand In My Pocket",
+          "artista": "Alanis Morissette",
+          "url": "/audio/bloque-6-cena/Alanis Morissette - Hand In My Pocket.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-11",
+          "nombre": "Big in Japan",
+          "artista": "Alphaville",
+          "url": "/audio/bloque-6-cena/Alphaville - Big in Japan.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-12",
+          "nombre": "Back To Black",
+          "artista": "Amy Winehouse",
+          "url": "/audio/bloque-6-cena/Amy Winehouse - Back To Black.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-13",
+          "nombre": "A Certain Romance",
+          "artista": "Arctic Monkeys",
+          "url": "/audio/bloque-6-cena/Arctic Monkeys - A Certain Romance.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-14",
+          "nombre": "Focus",
+          "artista": "Ariana Grande",
+          "url": "/audio/bloque-6-cena/Ariana Grande - Focus (Lyrics).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-15",
+          "nombre": "Complicated",
+          "artista": "Avril Lavigne",
+          "url": "/audio/bloque-6-cena/Avril Lavigne - Complicated.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-16",
+          "nombre": "Flash And The Pan",
+          "artista": "Ayla",
+          "url": "/audio/bloque-6-cena/Ayla - Flash And The Pan - Alan Pavón.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-17",
+          "nombre": "Love Shack",
+          "artista": "B 52's",
+          "url": "/audio/bloque-6-cena/B 52's - Love Shack.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-18",
+          "nombre": "Everybody (Backstreet's Back)",
+          "artista": "Backstreet Boys",
+          "url": "/audio/bloque-6-cena/Backstreet Boys - Everybody (Backstreet's Back).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-19",
+          "nombre": "Come Together",
+          "artista": "Beatles",
+          "url": "/audio/bloque-6-cena/Beatles - Come together.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-20",
+          "nombre": "Heart of Glass",
+          "artista": "Blondie",
+          "url": "/audio/bloque-6-cena/Blondie - Heart of Glass.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-21",
+          "nombre": "Knockin' on Heaven's Door",
+          "artista": "Bob Dylan",
+          "url": "/audio/bloque-6-cena/Bob Dylan - Knockin' on Heaven's Door.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-22",
+          "nombre": "Always",
+          "artista": "Bon Jovi",
+          "url": "/audio/bloque-6-cena/Bon Jovi - Always - Dino Fonseca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-23",
+          "nombre": "Baby One More Time",
+          "artista": "Britney Spears",
+          "url": "/audio/bloque-6-cena/Britney Spears - Baby one more time.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-24",
+          "nombre": "Born In The USA",
+          "artista": "Bruce Springsteen",
+          "url": "/audio/bloque-6-cena/Bruce Springsteen - Born In The USA.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-25",
+          "nombre": "A Little Love",
+          "artista": "Bryan Adams",
+          "url": "/audio/bloque-6-cena/Bryan Adams - A Little Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-26",
+          "nombre": "I'm Ready",
+          "artista": "Bryan Adams",
+          "url": "/audio/bloque-6-cena/Bryan Adams - I'm Ready.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-27",
+          "nombre": "Run To You",
+          "artista": "Bryan Adams",
+          "url": "/audio/bloque-6-cena/Bryan Adams - Run To You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-28",
+          "nombre": "Summer Of '69",
+          "artista": "Bryan Adams",
+          "url": "/audio/bloque-6-cena/Bryan Adams - Summer Of 69.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-29",
+          "nombre": "The Best of Me",
+          "artista": "Bryan Adams",
+          "url": "/audio/bloque-6-cena/Bryan Adams - The Best of me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-30",
+          "nombre": "I Will Survive",
+          "artista": "Cake",
+          "url": "/audio/bloque-6-cena/Cake - I will survive.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-31",
+          "nombre": "Lovefool",
+          "artista": "Cardigans",
+          "url": "/audio/bloque-6-cena/Cardigans - Lovefool.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-32",
+          "nombre": "Fuck You",
+          "artista": "Cee Lo Green",
+          "url": "/audio/bloque-6-cena/Cee Lo Green - Fuck You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-33",
+          "nombre": "Wicked Game",
+          "artista": "Chris Isaak",
+          "url": "/audio/bloque-6-cena/Chris Isaak - Wicked Game.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-34",
+          "nombre": "Tubthumping",
+          "artista": "Chumbawamba",
+          "url": "/audio/bloque-6-cena/Chumbawamba - Tubthumping .mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-35",
+          "nombre": "Adventure Of A Lifetime",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-6-cena/Coldplay - Adventure Of A Lifetime.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-36",
+          "nombre": "Fix You",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-6-cena/Coldplay - Fix you.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-37",
+          "nombre": "Viva La Vida",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-6-cena/Coldplay - Viva La Vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-38",
+          "nombre": "Gansta's Paradise",
+          "artista": "Coolio",
+          "url": "/audio/bloque-6-cena/Coolio - gansta's paradise.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-39",
+          "nombre": "Accidentally in Love",
+          "artista": "Counting Crows",
+          "url": "/audio/bloque-6-cena/Counting Crows - Accidentally in Love .mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-40",
+          "nombre": "Have You Ever Seen The Rain",
+          "artista": "Credence",
+          "url": "/audio/bloque-6-cena/Credence - Have You Ever Seen The Rain.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-41",
+          "nombre": "Aint No Other Man",
+          "artista": "Cristina Aguilera",
+          "url": "/audio/bloque-6-cena/Cristina Aguilera - Aint No Other Man.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-42",
+          "nombre": "Karma Chameleon",
+          "artista": "Culture Club",
+          "url": "/audio/bloque-6-cena/Culture Club - Karma Chameleon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-43",
+          "nombre": "Get Lucky",
+          "artista": "Daft Punk",
+          "url": "/audio/bloque-6-cena/Daft Punk feat Pharrell Williams - Get Lucky.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-44",
+          "nombre": "Heroes",
+          "artista": "David Bowie",
+          "url": "/audio/bloque-6-cena/David Bowie - Heroes - Cover HSCC.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-45",
+          "nombre": "Money For Nothing",
+          "artista": "Dire Straits",
+          "url": "/audio/bloque-6-cena/Dire Straits - Money For Nothing.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-46",
+          "nombre": "The Sound Of Silence",
+          "artista": "Disturbed",
+          "url": "/audio/bloque-6-cena/Disturbed  - The Sound Of Silence.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-47",
+          "nombre": "Relax",
+          "artista": "Duran Duran",
+          "url": "/audio/bloque-6-cena/Duran Duran - Relax.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-48",
+          "nombre": "Lose Yourself",
+          "artista": "Eminem",
+          "url": "/audio/bloque-6-cena/Eminem - Lose Yourself.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-49",
+          "nombre": "The Final Countdown",
+          "artista": "Europe",
+          "url": "/audio/bloque-6-cena/Europe - The Final Countdown.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-50",
+          "nombre": "The Way",
+          "artista": "Fastball",
+          "url": "/audio/bloque-6-cena/Fastball - The Way.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-51",
+          "nombre": "She Drives Me Crazy",
+          "artista": "Fine Young Cannibals",
+          "url": "/audio/bloque-6-cena/Fine Young Cannibals - She Drives Me Crazy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-52",
+          "nombre": "Everybody Get Up",
+          "artista": "Five",
+          "url": "/audio/bloque-6-cena/Five - Everybody Get Up.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-53",
+          "nombre": "Learn to Fly",
+          "artista": "Foo Fighters",
+          "url": "/audio/bloque-6-cena/Foo Fighters - Learn to Fly.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-54",
+          "nombre": "What's Going On",
+          "artista": "Four Non Blondes",
+          "url": "/audio/bloque-6-cena/Four Non Blondes - What's Going On.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-55",
+          "nombre": "Do You Want To",
+          "artista": "Franz Ferdinand",
+          "url": "/audio/bloque-6-cena/Franz Ferdinand - Do You Want To.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-56",
+          "nombre": "Stupid Girl",
+          "artista": "Garbage",
+          "url": "/audio/bloque-6-cena/Garbage - Stupid Girl (karaoke).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-57",
+          "nombre": "Still Got The Blues",
+          "artista": "Gary Moore",
+          "url": "/audio/bloque-6-cena/Gary Moore - Still Got The Blues - Cover HSCC.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-58",
+          "nombre": "Crazy",
+          "artista": "Gnarls Barkley",
+          "url": "/audio/bloque-6-cena/Gnars Barkley - Crazy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-59",
+          "nombre": "Clint Eastwood",
+          "artista": "Gorillaz",
+          "url": "/audio/bloque-6-cena/Gorillaz - Clint Eastwood.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-60",
+          "nombre": "American Idiot",
+          "artista": "Green Day",
+          "url": "/audio/bloque-6-cena/Green Day - American Idiot.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-61",
+          "nombre": "Basket Case",
+          "artista": "Green Day",
+          "url": "/audio/bloque-6-cena/Green Day - Basket Case.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-62",
+          "nombre": "Boulevard of Broken Dreams",
+          "artista": "Green Day",
+          "url": "/audio/bloque-6-cena/Green Day - Boulevard of Broken Dreams.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-63",
+          "nombre": "Time of Your Life",
+          "artista": "Green Day",
+          "url": "/audio/bloque-6-cena/Green Day - Time of your life.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-64",
+          "nombre": "I Used To Love Her",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-6-cena/Guns n Roses - I Used To Love Her.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-65",
+          "nombre": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-6-cena/Guns n Roses - Sweet Child O'Mine (Acustico).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-66",
+          "nombre": "Welcome to the Jungle",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-6-cena/Guns n Roses - Welcome to the jungle - Remix .mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-67",
+          "nombre": "4 In The Morning",
+          "artista": "Gwen Stefani",
+          "url": "/audio/bloque-6-cena/Gwen Stefani - 4 In The Morning.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-68",
+          "nombre": "Maneater",
+          "artista": "Hall & Oates",
+          "url": "/audio/bloque-6-cena/Hall & Oates - Maneater.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-69",
+          "nombre": "All I Wanna Do Is Make Love To you",
+          "artista": "Heart",
+          "url": "/audio/bloque-6-cena/Heart - All I Wanna Do Is Make Love To you.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-70",
+          "nombre": "The Reason",
+          "artista": "Hoobastank",
+          "url": "/audio/bloque-6-cena/Hoobastank - The Reason.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-71",
+          "nombre": "Don't You Want Me",
+          "artista": "Human League",
+          "url": "/audio/bloque-6-cena/Human League - Don't you Want Me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-72",
+          "nombre": "Baby Don't Cry",
+          "artista": "INXS",
+          "url": "/audio/bloque-6-cena/INXS - Baby Don't Cry.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-73",
+          "nombre": "Somewhere Over the Rainbow",
+          "artista": "Israel Kamakawiwo",
+          "url": "/audio/bloque-6-cena/Israel Kamakawiwo - Somewhere Over the Rainbow.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-74",
+          "nombre": "Centerfold",
+          "artista": "J. Geils Band",
+          "url": "/audio/bloque-6-cena/J. Geils Band - Centerfold.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-75",
+          "nombre": "You Are Beautiful",
+          "artista": "James Blunt",
+          "url": "/audio/bloque-6-cena/James Blunt - You are beautifull.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-76",
+          "nombre": "I'm Yours",
+          "artista": "Jason Mraz",
+          "url": "/audio/bloque-6-cena/Jason Mraz - I'm Yours.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-77",
+          "nombre": "Keep Yourself Alive",
+          "artista": "Jeff Scott Soto",
+          "url": "/audio/bloque-6-cena/Jeff Scott Soto - Keep Yourself Alive.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-78",
+          "nombre": "We Built This City",
+          "artista": "Jefferson Starship",
+          "url": "/audio/bloque-6-cena/Jefferson Starship - We Built this City.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-79",
+          "nombre": "Crush",
+          "artista": "Jennifer Page",
+          "url": "/audio/bloque-6-cena/Jennifer Page - Crush.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-80",
+          "nombre": "One Of Us",
+          "artista": "Joan Osborne",
+          "url": "/audio/bloque-6-cena/Joan Osborne - One Of Us.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-81",
+          "nombre": "Don't Stop Believin'",
+          "artista": "Journey",
+          "url": "/audio/bloque-6-cena/Journey - Don't Stop Believin'.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-82",
+          "nombre": "Suddenly I See",
+          "artista": "Katie Tunstall",
+          "url": "/audio/bloque-6-cena/Katie Tunstall - Suddenly I see.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-83",
+          "nombre": "Everybody's Changing",
+          "artista": "Keane",
+          "url": "/audio/bloque-6-cena/Keane - Everybody's changing.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-84",
+          "nombre": "I Don't Think So",
+          "artista": "Kelis",
+          "url": "/audio/bloque-6-cena/Kelis - I Don't Think So.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-85",
+          "nombre": "Walk Away",
+          "artista": "Kelly Clarkson",
+          "url": "/audio/bloque-6-cena/Kelly Clarkson - Walk Away.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-86",
+          "nombre": "Bette Davis Eyes",
+          "artista": "Kim Carnes",
+          "url": "/audio/bloque-6-cena/Kim Carnes - Bette Davis Eyes.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-87",
+          "nombre": "Again",
+          "artista": "Lenny Kravitz",
+          "url": "/audio/bloque-6-cena/Lenny Kravitz - Again.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-88",
+          "nombre": "Lessons In Love",
+          "artista": "Level 42",
+          "url": "/audio/bloque-6-cena/Level 42 - Lessons In Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-89",
+          "nombre": "Smile",
+          "artista": "Lily Allen",
+          "url": "/audio/bloque-6-cena/Lily Allen - Smile.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-90",
+          "nombre": "Sweet Home Alabama",
+          "artista": "Lynyrd Skynyrd",
+          "url": "/audio/bloque-6-cena/Lynyrd Skynyrd - Sweet Home Alabama.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-91",
+          "nombre": "This Love",
+          "artista": "Maroon 5",
+          "url": "/audio/bloque-6-cena/Maroon 5 - This love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-92",
+          "nombre": "Ain't It Heavy",
+          "artista": "Melissa Etheridge",
+          "url": "/audio/bloque-6-cena/Melissa Etheridge - Ain't It Heavy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-93",
+          "nombre": "Who Can It Be Now",
+          "artista": "Men at Work",
+          "url": "/audio/bloque-6-cena/Men at work - Who can it be now.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-94",
+          "nombre": "Grace Kelly",
+          "artista": "MIKA",
+          "url": "/audio/bloque-6-cena/MIKA - Grace Kelly.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-95",
+          "nombre": "Torn",
+          "artista": "Natalie Imbruglia",
+          "url": "/audio/bloque-6-cena/Natalie Imbruglia - Torn.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-96",
+          "nombre": "I'm Like a Bird",
+          "artista": "Nelly Furtado",
+          "url": "/audio/bloque-6-cena/Nelly Furtado - I'm like a Bird.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-97",
+          "nombre": "You Get What You Give",
+          "artista": "New Radicals",
+          "url": "/audio/bloque-6-cena/New Radicals - You Get What You Give.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-98",
+          "nombre": "Wonderwall",
+          "artista": "Oasis",
+          "url": "/audio/bloque-6-cena/Oasis - Wonderwall.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-99",
+          "nombre": "Hit That",
+          "artista": "Offspring",
+          "url": "/audio/bloque-6-cena/Offspring - Hit That.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-100",
+          "nombre": "Your Love",
+          "artista": "The Outfield",
+          "url": "/audio/bloque-6-cena/The Outfield - Your Love - Cover HSCC.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-101",
+          "nombre": "Don't Get Me Wrong",
+          "artista": "The Pretenders",
+          "url": "/audio/bloque-6-cena/The Pretenders - Don't Get Me Wrong.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-102",
+          "nombre": "Heroes",
+          "artista": "The Wallflowers",
+          "url": "/audio/bloque-6-cena/The Wallflowers - Heroes.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-103",
+          "nombre": "I Don't Wanna Lose You",
+          "artista": "Tina Turner",
+          "url": "/audio/bloque-6-cena/Tina Turner - I Don't Wanna Lose You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-104",
+          "nombre": "Simply the Best",
+          "artista": "Tina Turner",
+          "url": "/audio/bloque-6-cena/Tina Turner - Simply the Best.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-105",
+          "nombre": "Africa",
+          "artista": "Toto",
+          "url": "/audio/bloque-6-cena/Toto - Africa.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-106",
+          "nombre": "Beautiful Day",
+          "artista": "U2",
+          "url": "/audio/bloque-6-cena/U2 - Beautiful Day.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-107",
+          "nombre": "Pride (In The Name of Love)",
+          "artista": "U2",
+          "url": "/audio/bloque-6-cena/U2 - Pride (In The Name of Love).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b6-108",
+          "nombre": "Owner Of Lonely Heart",
+          "artista": "Yes",
+          "url": "/audio/bloque-6-cena/Yes - Owner Of Lonely Heart.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

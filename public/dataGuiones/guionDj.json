@@ -1,0 +1,146 @@
+{
+  "evento": "Guión DJ - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "19:00 a 04:00",
+  "rol": "DJ",
+  "responsable": "Control musical completo del evento",
+  "bloques": [
+    {
+      "id": "bloque-1-recepcion",
+      "nombre": "Recepción Invitados",
+      "horaInicio": "19:00",
+      "horaFin": "19:30",
+      "estilo_musical": "Jazz suave, bossa nova, instrumental relajado",
+      "volumen": "Bajo - ambiente conversación",
+      "canciones_sugeridas": [
+        "The Girl from Ipanema - Stan Getz",
+        "Fly Me to the Moon - Frank Sinatra",
+        "Corcovado - Astrud Gilberto",
+        "Mas que Nada - Sérgio Mendes"
+      ],
+      "notas_tecnicas": "Música de fondo para welcome drink. Verificar equipo sonido exterior."
+    },
+    {
+      "id": "bloque-2-ceremonia",
+      "nombre": "Ceremonia Civil",
+      "horaInicio": "19:30",
+      "horaFin": "20:15",
+      "estilo_musical": "Música clásica, vals instrumental",
+      "volumen": "Moderado - momentos específicos",
+      "canciones_especificas": [
+        "Canon in D - Pachelbel (entrada novios)",
+        "Ave Maria - Schubert (momento ceremonial)",
+        "Clair de Lune - Debussy (firma de acta)"
+      ],
+      "notas_tecnicas": "SILENCIO ABSOLUTO durante votos. Coordinar entrada novios con animador."
+    },
+    {
+      "id": "bloque-6-cena",
+      "nombre": "Cena - Ambiente Musical",
+      "horaInicio": "21:25",
+      "horaFin": "22:15",
+      "estilo_musical": "Pop suave, baladas románticas, jazz contemporáneo",
+      "volumen": "Medio - no interferir con conversación",
+      "canciones_sugeridas": [
+        "Wonderful Tonight - Eric Clapton",
+        "Perfect - Ed Sheeran",
+        "All of Me - John Legend",
+        "La Vie en Rose - Daniela Andrade"
+      ],
+      "notas_tecnicas": "Transición suave post-show mozos. Música que acompañe cena."
+    },
+    {
+      "id": "bloque-8A-coreografia",
+      "nombre": "Coreografía de Novios",
+      "horaInicio": "22:45",
+      "horaFin": "22:55",
+      "canciones_especificas": [
+        "COLGADO EN TUS MANOS - Carlos Baute (versión exacta coreografía)"
+      ],
+      "volumen": "Destacado - audio perfecto",
+      "notas_tecnicas": "VERIFICAR VERSIÓN EXACTA. Posición fija, no cambios durante coreografía."
+    },
+    {
+      "id": "bloque-8B-vals",
+      "nombre": "Vals Familiar",
+      "horaInicio": "22:55",
+      "horaFin": "23:10",
+      "estilo_musical": "Vals tradicional",
+      "canciones_sugeridas": [
+        "The Blue Danube - Strauss",
+        "Moon River - Henry Mancini",
+        "Sleeping Beauty Waltz - Tchaikovsky"
+      ],
+      "volumen": "Moderado - ambiente elegante",
+      "notas_tecnicas": "Transición suave desde coreografía. Coordinar con animador para invitación familiares."
+    },
+    {
+      "id": "bloque-8C-aperturabaile",
+      "nombre": "Apertura Pista de Baile",
+      "horaInicio": "23:10",
+      "horaFin": "23:25",
+      "estilo_musical": "Pop energético, rock, cumbia",
+      "volumen": "Alto - energía festiva inicial",
+      "canciones_sugeridas": [
+        "Uptown Funk - Bruno Mars",
+        "Danza Kuduro - Don Omar",
+        "Gasolina - Daddy Yankee",
+        "Livin' on a Prayer - Bon Jovi"
+      ],
+      "notas_tecnicas": "Playlist de 45 min. Transición progresiva desde vals."
+    },
+    {
+      "id": "bloque-11-banda",
+      "nombre": "Show Banda en Vivo",
+      "horaInicio": "00:00",
+      "horaFin": "00:35",
+      "coordinacion": "ALEJANDRO TOCA 30 MIN - ceder control audio",
+      "volumen": "Concert level - nivel concierto",
+      "notas_tecnicas": "Ceder control a técnico de banda. Momento especial: Fabiola canta 'Vuela Vuela' al final."
+    },
+    {
+      "id": "bloque-12-baile2",
+      "nombre": "Segundo Bloque Baile",
+      "horaInicio": "00:35",
+      "horaFin": "01:05",
+      "estilo_musical": "Continuación energía banda + hits bailables",
+      "volumen": "Alto - mantener momentum",
+      "canciones_sugeridas": [
+        "Don't Stop Believin' - Journey",
+        "Waka Waka - Shakira",
+        "La Tortura - Shakira",
+        "I Gotta Feeling - Black Eyed Peas"
+      ],
+      "notas_tecnicas": "Conectar estilo banda con música comercial. 30 min sin pausas."
+    },
+    {
+      "id": "bloque-16-horaloca",
+      "nombre": "Hora Loca",
+      "horaInicio": "02:05",
+      "horaFin": "03:05",
+      "estilo_musical": "Hits energéticos, electrónica, efectos especiales",
+      "volumen": "Muy alto - máxima energía",
+      "canciones_sugeridas": [
+        "Sandstorm - Darude",
+        "Levels - Avicii",
+        "Titanium - David Guetta",
+        "We Found Love - Rihanna"
+      ],
+      "notas_tecnicas": "COORDINAR CON COTILLÓN Y LUCES. Playlist 60 min sin pausas. Efectos sonoros especiales."
+    },
+    {
+      "id": "bloque-18-desayuno",
+      "nombre": "Desayuno y Cierre",
+      "horaInicio": "03:15",
+      "horaFin": "04:00",
+      "estilo_musical": "Chill out, lounge, música ambiental suave",
+      "volumen": "Bajo - ambiente relajado",
+      "canciones_sugeridas": [
+        "Bitter Sweet Symphony - The Verve",
+        "Chillout mixes instrumentales",
+        "Música ambiental relajante"
+      ],
+      "notas_tecnicas": "Transición suave desde fiesta. Música que permita conversación y despedida."
+    }
+  ]
+}

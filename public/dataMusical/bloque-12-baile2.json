@@ -1,0 +1,467 @@
+{
+    "bloque-12-baile2": {
+      "bloque_musical": "2do Bloque de Baile",
+      "total_canciones": 55,
+      "existen": 31,
+      "faltan": 24,
+      "canciones": [
+        {
+          "id": "b12-01",
+          "nombre": "Intervención Animador - Baile 2",
+          "artista": "Animador",
+          "url": "/audio/bloque-12-baile2/Intro Baile Pachanga.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-02",
+          "nombre": "Suavemente",
+          "artista": "Elvis Crespo",
+          "url": "/audio/bloque-12-baile2/Elvis Crespo - Suavemente.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-03",
+          "nombre": "La Vida es un Carnaval (Remix)",
+          "artista": "Celia Cruz",
+          "url": "/audio/bloque-12-baile2/Celia Cruz - Carnaval Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-04",
+          "nombre": "Danza Kuduro",
+          "artista": "Don Omar ft. Lucenzo",
+          "url": "/audio/bloque-12-baile2/Don Omar - Danza Kuduro.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-05",
+          "nombre": "Gasolina",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-12-baile2/Daddy Yankee - Gasolina.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-06",
+          "nombre": "La Gozadera",
+          "artista": "Gente de Zona ft. Marc Anthony",
+          "url": "/audio/bloque-12-baile2/Gente de Zona - La Gozadera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-07",
+          "nombre": "Despacito",
+          "artista": "Luis Fonsi ft. Daddy Yankee",
+          "url": "/audio/bloque-12-baile2/Luis Fonsi - Despacito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-08",
+          "nombre": "Vivir Mi Vida",
+          "artista": "Marc Anthony",
+          "url": "/audio/bloque-12-baile2/Marc Anthony - Vivir Mi Vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-09",
+          "nombre": "Dile",
+          "artista": "Don Omar",
+          "url": "/audio/bloque-12-baile2/Don Omar - Dile.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-10",
+          "nombre": "El Perdón",
+          "artista": "Nicky Jam & Enrique Iglesias",
+          "url": "/audio/bloque-12-baile2/Nicky Jam - El Perdon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-11",
+          "nombre": "Bailando",
+          "artista": "Enrique Iglesias",
+          "url": "/audio/bloque-12-baile2/Enrique Iglesias - Bailando.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-12",
+          "nombre": "Propuesta Indecente",
+          "artista": "Romeo Santos",
+          "url": "/audio/bloque-12-baile2/Romeo Santos - Propuesta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-13",
+          "nombre": "Echa Pa'lla (Manos Pa'rriba)",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-12-baile2/Pitbull - Echa Pa'lla.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-14",
+          "nombre": "Dura",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-12-baile2/Daddy Yankee - Dura.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-15",
+          "nombre": "Felices los 4",
+          "artista": "Maluma",
+          "url": "/audio/bloque-12-baile2/Maluma - Felices los 4.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-16",
+          "nombre": "Mi Gente",
+          "artista": "J Balvin ft. Willy William",
+          "url": "/audio/bloque-12-baile2/J Balvin - Mi Gente.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-17",
+          "nombre": "Taki Taki",
+          "artista": "DJ Snake ft. Selena Gomez, Ozuna, Cardi B",
+          "url": "/audio/bloque-12-baile2/DJ Snake - Taki Taki.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-18",
+          "nombre": "Con Calma",
+          "artista": "Daddy Yankee ft. Snow",
+          "url": "/audio/bloque-12-baile2/Daddy Yankee - Con Calma.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-19",
+          "nombre": "Mía",
+          "artista": "Bad Bunny ft. Drake",
+          "url": "/audio/bloque-12-baile2/Bad Bunny - Mia.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-20",
+          "nombre": "China",
+          "artista": "Anuel AA, Daddy Yankee, Karol G, Ozuna, J Balvin",
+          "url": "/audio/bloque-12-baile2/China - Varios Artistas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-21",
+          "nombre": "Vivir Mi Vida (Remix)",
+          "artista": "Marc Anthony ft. Gente de Zona",
+          "url": "/audio/bloque-12-baile2/Marc Anthony - Vivir Mi Vida Remix.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-22",
+          "nombre": "La Bilirrubina",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - Bilirrubina.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-23",
+          "nombre": "El Niágara en Bicicleta",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - Niagara.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-24",
+          "nombre": "El Amante",
+          "artista": "Nicky Jam",
+          "url": "/audio/bloque-12-baile2/Nicky Jam - El Amante.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b12-25",
+          "nombre": "Shaky Shaky",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-12-baile2/Daddy Yankee - Shaky Shaky.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-26",
+          "nombre": "La Bomba Loca",
+          "artista": "Gustavo Cordera",
+          "url": "/audio/bloque-12-baile2/Gustavo Cordera - La Bomba Loca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-27",
+          "nombre": "El Venao",
+          "artista": "Ilegales",
+          "url": "/audio/bloque-12-baile2/Ilegales - El venao.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-28",
+          "nombre": "Here Come The Hotstepper",
+          "artista": "Ini Kamoze",
+          "url": "/audio/bloque-12-baile2/Ini Kamoze - Here Come The Hotstepper.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-29",
+          "nombre": "Games People Play",
+          "artista": "Inner Circle",
+          "url": "/audio/bloque-12-baile2/Inner Circle - Games People Play.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-30",
+          "nombre": "Sweat (A La La La La Long)",
+          "artista": "Inner Circle",
+          "url": "/audio/bloque-12-baile2/Inner Circle - Sweat (A La La La La Long).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-31",
+          "nombre": "Reggae Para Mirtha (Legrand)",
+          "artista": "Intoxicados",
+          "url": "/audio/bloque-12-baile2/Intoxicados - Reagge Para Mirtha (Legrand).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-32",
+          "nombre": "Mi Gente",
+          "artista": "J Balvin, Willy William",
+          "url": "/audio/bloque-12-baile2/J Balvin, Willy William - Mi Gente.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-33",
+          "nombre": "Tranquila",
+          "artista": "Javier Garcia",
+          "url": "/audio/bloque-12-baile2/Javier Garcia - Tranquila.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-34",
+          "nombre": "Dígale",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - Digale.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-35",
+          "nombre": "Gracias",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - GRACIAS.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-36",
+          "nombre": "Homenaje al Cuarteto",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - Homenaje al cuarteto.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-37",
+          "nombre": "Nominado",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - NOMINADO.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-38",
+          "nombre": "Pero Me Acuerdo De Ti",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - PERO ME ACUERDO DE TI.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-39",
+          "nombre": "Piensa en Mi",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - Piensa en mi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-40",
+          "nombre": "Quiéreme",
+          "artista": "Jean Carlos",
+          "url": "/audio/bloque-12-baile2/Jean Carlos - QUIEREME.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-41",
+          "nombre": "Get Right",
+          "artista": "Jennifer Lopez",
+          "url": "/audio/bloque-12-baile2/Jennifer Lopez - Get right.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-42",
+          "nombre": "Let's Get Loud",
+          "artista": "Jennifer Lopez",
+          "url": "/audio/bloque-12-baile2/Jennifer Lopez - Let's get loud.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-43",
+          "nombre": "Don't Worry Be Happy",
+          "artista": "Jimmy Cliff",
+          "url": "/audio/bloque-12-baile2/jimmy cliff - Dont Worry Be Happy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-44",
+          "nombre": "Reggae Nights",
+          "artista": "Jimmy Cliff",
+          "url": "/audio/bloque-12-baile2/Jimmy Cliff - Reggae Nights.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-45",
+          "nombre": "Sunshine Reggae",
+          "artista": "Jimmy Cliff",
+          "url": "/audio/bloque-12-baile2/Jimmy Cliff - Sunshine Reggea.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-46",
+          "nombre": "I Can See Clearly Now",
+          "artista": "Jimmy Cliff & UB40",
+          "url": "/audio/bloque-12-baile2/Jimmy Cliff & UB40 - I Can See Clearly Now.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-47",
+          "nombre": "Agarrense de las Manos",
+          "artista": "José Luis Rodriguez (El Puma)",
+          "url": "/audio/bloque-12-baile2/José Luis Rodriguez (El Puma) - Agarrense de las manos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-48",
+          "nombre": "Diosito Santo",
+          "artista": "José Luis Rodriguez (El Puma)",
+          "url": "/audio/bloque-12-baile2/Jose Luis Rodriguez (El Puma) - Diosito santo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-49",
+          "nombre": "La Fiesta",
+          "artista": "José Luis Rodriguez (El Puma)",
+          "url": "/audio/bloque-12-baile2/Jose Luis Rodriguez (El Puma) - La fiesta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-50",
+          "nombre": "A Pedir Su Mano",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - A pedir su mano.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-51",
+          "nombre": "Bachata En Fukuoka",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - Bachata En Fukuoka.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-52",
+          "nombre": "La Guagua",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - La Guagua.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-53",
+          "nombre": "La Llave De Mi Corazón",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - La Llave De Mi Corazon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-54",
+          "nombre": "Ojalá Que Llueva Café",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - Ojala que llueva cafe.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b12-55",
+          "nombre": "Rosalía",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-12-baile2/Juan Luis Guerra - Rosalía.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,191 @@
+{
+    "bloque-14-torta": {
+      "bloque_musical": "Torta + Barra Libre (Fiesta Disco)",
+      "total_canciones": 20,
+      "existen": 0,
+      "faltan": 20,
+      "canciones": [
+        {
+          "id": "b14-01",
+          "nombre": "Intervención Animador - Torta",
+          "artista": "Animador",
+          "url": "/audio/bloque-14-torta/01-Voz Animador Torta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-02",
+          "nombre": "Sugar",
+          "artista": "Maroon 5",
+          "url": "/audio/bloque-14-torta/02-Maroon 5 - Sugar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-03",
+          "nombre": "Le Freak",
+          "artista": "Chic",
+          "url": "/audio/bloque-14-torta/03-Chic - Le Freak.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-04",
+          "nombre": "Good Times",
+          "artista": "Chic",
+          "url": "/audio/bloque-14-torta/04-Chic - Good Times.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-05",
+          "nombre": "I Feel Love",
+          "artista": "Donna Summer",
+          "url": "/audio/bloque-14-torta/05-Donna Summer - I Feel Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-06",
+          "nombre": "Last Dance",
+          "artista": "Donna Summer",
+          "url": "/audio/bloque-14-torta/06-Donna Summer - Last Dance.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-07",
+          "nombre": "Superstition",
+          "artista": "Stevie Wonder",
+          "url": "/audio/bloque-14-torta/07-Stevie Wonder - Superstition.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-08",
+          "nombre": "September",
+          "artista": "Earth, Wind & Fire",
+          "url": "/audio/bloque-14-torta/08-EWF - September.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-09",
+          "nombre": "Boogie Wonderland",
+          "artista": "Earth, Wind & Fire",
+          "url": "/audio/bloque-14-torta/09-EWF - Boogie Wonderland.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-10",
+          "nombre": "You Should Be Dancing",
+          "artista": "Bee Gees",
+          "url": "/audio/bloque-14-torta/10-Bee Gees - You Should Be Dancing.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-11",
+          "nombre": "Funkytown",
+          "artista": "Lipps Inc.",
+          "url": "/audio/bloque-14-torta/11-Lipps Inc - Funkytown.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-12",
+          "nombre": "I'm Coming Out",
+          "artista": "Diana Ross",
+          "url": "/audio/bloque-14-torta/12-Diana Ross - Coming Out.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-13",
+          "nombre": "Shake Your Groove Thing",
+          "artista": "Peaches & Herb",
+          "url": "/audio/bloque-14-torta/13-Peaches Herb - Shake.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-14",
+          "nombre": "That's the Way (I Like It)",
+          "artista": "KC and The Sunshine Band",
+          "url": "/audio/bloque-14-torta/14-KC Sunshine - Thats the Way.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-15",
+          "nombre": "Ring My Bell",
+          "artista": "Anita Ward",
+          "url": "/audio/bloque-14-torta/15-Anita Ward - Ring My Bell.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-16",
+          "nombre": "Got to Be Real",
+          "artista": "Cheryl Lynn",
+          "url": "/audio/bloque-14-torta/16-Cheryl Lynn - Got to Be Real.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-17",
+          "nombre": "Celebration",
+          "artista": "Kool & The Gang",
+          "url": "/audio/bloque-14-torta/17-Kool and The Gang - Celebration.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-18",
+          "nombre": "We Are Family",
+          "artista": "Sister Sledge",
+          "url": "/audio/bloque-14-torta/18-Sister Sledge - We Are Family.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-19",
+          "nombre": "Dancing Queen",
+          "artista": "ABBA",
+          "url": "/audio/bloque-14-torta/19-ABBA - Dancing Queen.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b14-20",
+          "nombre": "Stayin' Alive",
+          "artista": "Bee Gees",
+          "url": "/audio/bloque-14-torta/20-Bee Gees - Stayin Alive.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

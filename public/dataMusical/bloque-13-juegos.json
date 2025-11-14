@@ -1,0 +1,191 @@
+{
+    "bloque-13-juegos": {
+      "bloque_musical": "Juego del Ramo y del Whisky (Fiesta Total)",
+      "total_canciones": 20,
+      "existen": 0,
+      "faltan": 20,
+      "canciones": [
+        {
+          "id": "b13-01",
+          "nombre": "Intervención Animador - Juego Ramo",
+          "artista": "Animador",
+          "url": "/audio/bloque-13-juegos/01-Voz Animador Juego Ramo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-02",
+          "nombre": "Single Ladies (Put a Ring on It)",
+          "artista": "Beyoncé",
+          "url": "/audio/bloque-13-juegos/02-Beyoncé - Single Ladies.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-03",
+          "nombre": "Intervención Animador - Juego Whisky",
+          "artista": "Animador",
+          "url": "/audio/bloque-13-juegos/03-Voz Animador Juego Whisky.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-04",
+          "nombre": "Dancing Queen",
+          "artista": "ABBA",
+          "url": "/audio/bloque-13-juegos/04-ABBA - Dancing Queen.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-05",
+          "nombre": "I Will Survive",
+          "artista": "Gloria Gaynor",
+          "url": "/audio/bloque-13-juegos/05-Gloria Gaynor - I Will Survive.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-06",
+          "nombre": "Y.M.C.A.",
+          "artista": "Village People",
+          "url": "/audio/bloque-13-juegos/06-Village People - YMCA.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-07",
+          "nombre": "Celebration",
+          "artista": "Kool & The Gang",
+          "url": "/audio/bloque-13-juegos/07-Kool and The Gang - Celebration.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-08",
+          "nombre": "We Are Family",
+          "artista": "Sister Sledge",
+          "url": "/audio/bloque-13-juegos/08-Sister Sledge - We Are Family.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-09",
+          "nombre": "Uptown Funk",
+          "artista": "Mark Ronson ft. Bruno Mars",
+          "url": "/audio/bloque-13-juegos/09-Bruno Mars - Uptown Funk.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-10",
+          "nombre": "Happy",
+          "artista": "Pharrell Williams",
+          "url": "/audio/bloque-13-juegos/10-Pharrell - Happy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-11",
+          "nombre": "Can't Stop the Feeling!",
+          "artista": "Justin Timberlake",
+          "url": "/audio/bloque-13-juegos/11-Justin Timberlake - Cant Stop.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-12",
+          "nombre": "Wake Me Up",
+          "artista": "Avicii",
+          "url": "/audio/bloque-13-juegos/12-Avicii - Wake Me Up.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-13",
+          "nombre": "Don't Stop Believin'",
+          "artista": "Journey",
+          "url": "/audio/bloque-13-juegos/13-Journey - Dont Stop Believin.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-14",
+          "nombre": "Sweet Caroline",
+          "artista": "Neil Diamond",
+          "url": "/audio/bloque-13-juegos/14-Neil Diamond - Sweet Caroline.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-15",
+          "nombre": "Mamma Mia",
+          "artista": "ABBA",
+          "url": "/audio/bloque-13-juegos/15-ABBA - Mamma Mia.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-16",
+          "nombre": "Footloose",
+          "artista": "Kenny Loggins",
+          "url": "/audio/bloque-13-juegos/16-Kenny Loggins - Footloose.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-17",
+          "nombre": "Girls Just Want to Have Fun",
+          "artista": "Cyndi Lauper",
+          "url": "/audio/bloque-13-juegos/17-Cyndi Lauper - Girls Just Want.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-18",
+          "nombre": "Love Shack",
+          "artista": "The B-52's",
+          "url": "/audio/bloque-13-juegos/18-B52s - Love Shack.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-19",
+          "nombre": "We Found Love",
+          "artista": "Rihanna ft. Calvin Harris",
+          "url": "/audio/bloque-13-juegos/19-Rihanna - We Found Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b13-20",
+          "nombre": "I Gotta Feeling",
+          "artista": "The Black Eyed Peas",
+          "url": "/audio/bloque-13-juegos/20-Black Eyed Peas - I Gotta Feeling.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

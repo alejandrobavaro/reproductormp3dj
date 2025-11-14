@@ -1,0 +1,997 @@
+// █████████████████████████████████████████████████
+// ███ ESTILOS BASE - GUION MANAGER MEJORADO (MOBILE FIRST) ███
+// █████████████████████████████████████████████████
+
+.guion-manager-container {
+  width: 100%;
+  background: rgba(35, 35, 35, 0.95);
+  padding: 12px;
+  border-radius: 8px;
+  color: #e0e0e0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  
+  &.inside-player {
+    background: rgba(40, 40, 40, 0.85);
+    border: 1px solid rgba(255, 152, 0, 0.2);
+  }
+  
+  &.full-view {
+    background: rgba(30, 30, 30, 0.98);
+    min-height: 600px;
+  }
+}
+
+// [Estados] Carga y vacío
+.guion-manager-loading,
+.guion-manager-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+  
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(255, 152, 0, 0.3);
+    border-top: 4px solid #ff9800;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  small {
+    font-size: 12px;
+    color: #888;
+  }
+}
+
+.guion-manager-loading {
+  color: #ff9800;
+}
+
+.guion-manager-empty {
+  color: #aaa;
+}
+
+// [Sección] Cabecera mejorada
+.guion-manager-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(255, 152, 0, 0.3);
+  
+  .guion-header-info {
+    flex: 1;
+    
+    .guion-titulo {
+      font-size: 18px;
+      margin: 0 0 8px 0;
+      color: #ff9800;
+      font-weight: 700;
+      line-height: 1.2;
+      
+      .guion-rol {
+        color: #90caf9;
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 8px;
+      }
+    }
+    
+    .guion-meta-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 8px;
+      
+      span {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 6px 10px;
+        border-radius: 6px;
+        font-size: 12px;
+        color: #ccc;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        font-weight: 500;
+      }
+    }
+    
+    .guion-objetivo {
+      font-size: 13px;
+      color: #aaa;
+      line-height: 1.4;
+      background: rgba(255, 152, 0, 0.1);
+      padding: 8px 12px;
+      border-radius: 4px;
+      border-left: 3px solid #ff9800;
+      
+      strong {
+        color: #ff9800;
+      }
+    }
+  }
+  
+  .guion-export-buttons {
+    .export-btn {
+      background: linear-gradient(135deg, #ff9800, #f57c00);
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(255, 152, 0, 0.3);
+      
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+        background: linear-gradient(135deg, #f57c00, #ef6c00);
+      }
+      
+      &:active {
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+// [Sección] Contenido principal
+.guion-manager-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+// [Columna] Lista de bloques mejorada
+.guion-lista-bloques {
+  .guion-lista-titulo {
+    font-size: 16px;
+    margin: 0 0 12px 0;
+    color: #ff9800;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .guion-coordinacion {
+      font-size: 12px;
+      color: #90caf9;
+      font-weight: 500;
+      background: rgba(144, 202, 249, 0.1);
+      padding: 4px 8px;
+      border-radius: 4px;
+    }
+  }
+}
+
+.guion-bloques-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: rgba(40, 40, 40, 0.7);
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.guion-bloque-item {
+  background: rgba(50, 50, 50, 0.8);
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  border-left: 4px solid transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  
+  &:hover {
+    background: rgba(70, 70, 70, 0.9);
+    transform: translateX(4px);
+    border-left-color: #90caf9;
+  }
+  
+  &.active {
+    background: rgba(33, 150, 243, 0.15);
+    border-left-color: #2196F3;
+    border-color: rgba(33, 150, 243, 0.3);
+    transform: translateX(4px);
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: -4px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #2196F3;
+      border-radius: 4px 0 0 4px;
+    }
+  }
+  
+  .bloque-hora {
+    font-size: 11px;
+    color: #90caf9;
+    margin-bottom: 6px;
+    font-weight: 600;
+    background: rgba(144, 202, 249, 0.1);
+    padding: 3px 8px;
+    border-radius: 12px;
+    align-self: flex-start;
+    display: inline-block;
+  }
+  
+  .bloque-nombre {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.3;
+    
+    .bloque-id {
+      font-size: 10px;
+      color: #ff9800;
+      background: rgba(255, 152, 0, 0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-right: 8px;
+      font-family: 'Courier New', monospace;
+      font-weight: 700;
+    }
+  }
+  
+  .bloque-indicator {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    animation: pulse 2s infinite;
+  }
+}
+
+// [Columna] Detalle del bloque mejorado
+.guion-detalle-bloque {
+  background: rgba(40, 40, 40, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  min-height: 300px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.detalle-vacio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: #888;
+  text-align: center;
+  
+  p {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  
+  small {
+    font-size: 13px;
+    color: #666;
+  }
+}
+
+.detalle-content {
+  .detalle-header {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 152, 0, 0.2);
+    
+    h4 {
+      font-size: 18px;
+      margin: 0 0 8px 0;
+      color: #ff9800;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+    
+    .detalle-horario {
+      font-size: 14px;
+      color: #90caf9;
+      font-weight: 600;
+      background: rgba(144, 202, 249, 0.1);
+      padding: 6px 12px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+  }
+}
+
+.detalle-secciones {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detalle-seccion {
+  background: rgba(60, 60, 60, 0.5);
+  padding: 16px;
+  border-radius: 6px;
+  border-left: 4px solid #ff9800;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  
+  &:hover {
+    background: rgba(70, 70, 70, 0.7);
+    transform: translateX(2px);
+  }
+  
+  h5 {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+    color: #ff9800;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    &::before {
+      font-size: 16px;
+    }
+  }
+  
+  p {
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #ccc;
+    
+    strong {
+      color: #fff;
+      font-weight: 600;
+    }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  ul {
+    margin: 8px 0;
+    padding-left: 20px;
+    
+    li {
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: #ccc;
+      line-height: 1.4;
+      position: relative;
+      
+      &::marker {
+        color: #ff9800;
+      }
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// [Sección] Información adicional global
+.guion-info-adicional {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(40, 40, 40, 0.8);
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-seccion {
+  h5 {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+    color: #ff9800;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    &::before {
+      font-size: 16px;
+    }
+  }
+  
+  ul {
+    margin: 0;
+    padding-left: 20px;
+    
+    li {
+      font-size: 13px;
+      margin-bottom: 8px;
+      color: #ccc;
+      line-height: 1.4;
+      
+      &::marker {
+        color: #ff9800;
+      }
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// [Animaciones]
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(33, 150, 243, 0.7);
+  }
+  50% { 
+    transform: scale(1.05);
+    box-shadow: 0 0 0 4px rgba(33, 150, 243, 0);
+  }
+}
+
+// [Scrollbar personalizada]
+.guion-bloques-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.guion-bloques-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.guion-bloques-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ff9800, #f57c00);
+  border-radius: 3px;
+}
+
+.guion-bloques-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #f57c00, #ef6c00);
+}
+
+// █████████████████████████████████████████████████
+// ███ BREAKPOINT TABLET (768px) ███
+// █████████████████████████████████████████████████
+@media (min-width: 768px) {
+  .guion-manager-container {
+    padding: 20px;
+    
+    &.full-view {
+      min-height: 700px;
+    }
+  }
+  
+  .guion-manager-header {
+    .guion-header-info {
+      .guion-titulo {
+        font-size: 20px;
+        
+        .guion-rol {
+          font-size: 15px;
+        }
+      }
+      
+      .guion-meta-info {
+        gap: 12px;
+        
+        span {
+          font-size: 13px;
+          padding: 8px 12px;
+        }
+      }
+      
+      .guion-objetivo {
+        font-size: 14px;
+        padding: 10px 15px;
+      }
+    }
+    
+    .guion-export-buttons {
+      .export-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+    }
+  }
+  
+  .guion-manager-content {
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  .guion-lista-bloques {
+    width: 45%;
+    
+    .guion-lista-titulo {
+      font-size: 17px;
+    }
+  }
+  
+  .guion-detalle-bloque {
+    width: 55%;
+    padding: 25px;
+    min-height: 400px;
+  }
+  
+  .guion-bloques-container {
+    max-height: 500px;
+    padding: 15px;
+  }
+  
+  .guion-bloque-item {
+    padding: 15px;
+    
+    .bloque-hora {
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+    
+    .bloque-nombre {
+      font-size: 15px;
+      
+      .bloque-id {
+        font-size: 11px;
+        padding: 3px 8px;
+      }
+    }
+  }
+  
+  .detalle-content {
+    .detalle-header {
+      h4 {
+        font-size: 20px;
+      }
+      
+      .detalle-horario {
+        font-size: 15px;
+        padding: 8px 14px;
+      }
+    }
+  }
+  
+  .detalle-seccion {
+    padding: 18px;
+    
+    h5 {
+      font-size: 15px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+    
+    ul li {
+      font-size: 14px;
+    }
+  }
+  
+  .guion-info-adicional {
+    padding: 25px;
+    flex-direction: row;
+    gap: 25px;
+    
+    .info-seccion {
+      flex: 1;
+      
+      h5 {
+        font-size: 15px;
+      }
+      
+      ul li {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ BREAKPOINT ESCRITORIO (1024px) ███
+// █████████████████████████████████████████████████
+@media (min-width: 1024px) {
+  .guion-manager-container {
+    padding: 25px;
+    
+    &.full-view {
+      min-height: 800px;
+    }
+  }
+  
+  .guion-manager-header {
+    margin-bottom: 25px;
+    
+    .guion-header-info {
+      .guion-titulo {
+        font-size: 22px;
+      }
+      
+      .guion-meta-info {
+        gap: 15px;
+      }
+    }
+  }
+  
+  .guion-manager-content {
+    gap: 30px;
+  }
+  
+  .guion-lista-bloques {
+    width: 40%;
+  }
+  
+  .guion-detalle-bloque {
+    width: 60%;
+    padding: 30px;
+  }
+  
+  .guion-bloques-container {
+    max-height: 600px;
+  }
+  
+  .guion-bloque-item {
+    .bloque-nombre {
+      font-size: 16px;
+    }
+  }
+  
+  .detalle-content {
+    .detalle-header {
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+  
+  .detalle-seccion {
+    padding: 20px;
+    
+    h5 {
+      font-size: 16px;
+    }
+  }
+  
+  .guion-info-adicional {
+    padding: 30px;
+    gap: 30px;
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ BREAKPOINT ESCRITORIO GRANDE (1440px) ███
+// █████████████████████████████████████████████████
+@media (min-width: 1440px) {
+  .guion-manager-container {
+    padding: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+    &.full-view {
+      min-height: 900px;
+    }
+  }
+  
+  .guion-manager-header {
+    .guion-header-info {
+      .guion-titulo {
+        font-size: 24px;
+      }
+      
+      .guion-meta-info {
+        span {
+          font-size: 14px;
+          padding: 10px 15px;
+        }
+      }
+    }
+  }
+  
+  .guion-manager-content {
+    gap: 35px;
+  }
+  
+  .guion-lista-bloques {
+    width: 35%;
+  }
+  
+  .guion-detalle-bloque {
+    width: 65%;
+  }
+  
+  .guion-bloques-container {
+    max-height: 700px;
+  }
+  
+  .detalle-content {
+    .detalle-header {
+      h4 {
+        font-size: 24px;
+      }
+      
+      .detalle-horario {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ ESTILOS ESPECÍFICOS POR TIPO DE GUION ███
+// █████████████████████████████████████████████████
+
+// DJ - Estilos específicos
+.guion-manager-container[data-guion-type="dj"] {
+  .detalle-seccion h5[data-icon="🎵"] {
+    color: #4caf50;
+  }
+  
+  .detalle-seccion h5[data-icon="🔊"] {
+    color: #ff5722;
+  }
+  
+  .detalle-seccion h5[data-icon="🎶"] {
+    color: #9c27b0;
+  }
+}
+
+// Animador - Estilos específicos
+.guion-manager-container[data-guion-type="animador"] {
+  .detalle-seccion h5[data-icon="📢"] {
+    color: #ffeb3b;
+  }
+  
+  .detalle-seccion h5[data-icon="✅"] {
+    color: #4caf50;
+  }
+}
+
+// Fotógrafos/Videoman - Estilos específicos
+.guion-manager-container[data-guion-type="fotografos"],
+.guion-manager-container[data-guion-type="videoman"] {
+  .detalle-seccion h5[data-icon="📸"],
+  .detalle-seccion h5[data-icon="🎥"] {
+    color: #e91e63;
+  }
+  
+  .detalle-seccion h5[data-icon="🎒"] {
+    color: #795548;
+  }
+}
+
+// Gastronómico - Estilos específicos
+.guion-manager-container[data-guion-type="gastronomico"] {
+  .detalle-seccion h5[data-icon="🍽️"],
+  .detalle-seccion h5[data-icon="🍴"] {
+    color: #ff9800;
+  }
+  
+  .detalle-seccion h5[data-icon="🍹"] {
+    color: #2196f3;
+  }
+  
+  .detalle-seccion h5[data-icon="👥"] {
+    color: #607d8b;
+  }
+}
+
+// Decoración - Estilos específicos
+.guion-manager-container[data-guion-type="decoracion"] {
+  .detalle-seccion h5[data-icon="🎨"] {
+    color: #9c27b0;
+  }
+  
+  .detalle-seccion h5[data-icon="🛠️"] {
+    color: #795548;
+  }
+}
+
+// Novios - Estilos específicos
+.guion-manager-container[data-guion-type="novios"] {
+  .detalle-seccion h5[data-icon="💑"] {
+    color: #e91e63;
+  }
+  
+  .detalle-seccion h5[data-icon="👨‍💼"] {
+    color: #2196f3;
+  }
+  
+  .detalle-seccion h5[data-icon="👰‍♀️"] {
+    color: #ff9800;
+  }
+}
+
+// Salón - Estilos específicos
+.guion-manager-container[data-guion-type="salon"] {
+  .detalle-seccion h5[data-icon="🏨"] {
+    color: #607d8b;
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ ESTADOS INTERACTIVOS MEJORADOS ███
+// █████████████████████████████████████████████████
+
+.guion-bloque-item {
+  // Efecto de elevación al hover
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  // Estado activo con sombra más pronunciada
+  &.active {
+    box-shadow: 0 6px 20px rgba(33, 150, 243, 0.3);
+  }
+}
+
+.detalle-seccion {
+  // Efecto de transición suave
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  // Diferentes colores de borde según el tipo de información
+  &[data-type="musica"] {
+    border-left-color: #4caf50;
+  }
+  
+  &[data-type="anuncios"] {
+    border-left-color: #ffeb3b;
+  }
+  
+  &[data-type="fotos"] {
+    border-left-color: #e91e63;
+  }
+  
+  &[data-type="comida"] {
+    border-left-color: #ff9800;
+  }
+  
+  &[data-type="coordinacion"] {
+    border-left-color: #2196f3;
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ UTILIDADES DE DISEÑO ███
+// █████████████████████████████████████████████████
+
+// Textos truncados para elementos largos
+.bloque-nombre {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+// Badges para estados
+.guion-status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  
+  &.status-pendiente {
+    background: rgba(255, 193, 7, 0.2);
+    color: #ffc107;
+    border: 1px solid rgba(255, 193, 7, 0.3);
+  }
+  
+  &.status-completado {
+    background: rgba(76, 175, 80, 0.2);
+    color: #4caf50;
+    border: 1px solid rgba(76, 175, 80, 0.3);
+  }
+  
+  &.status-progreso {
+    background: rgba(33, 150, 243, 0.2);
+    color: #2196f3;
+    border: 1px solid rgba(33, 150, 243, 0.3);
+  }
+}
+
+// Indicadores visuales
+.guion-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+  
+  &.indicator-musica { background: #4caf50; }
+  &.indicator-anuncios { background: #ffeb3b; }
+  &.indicator-fotos { background: #e91e63; }
+  &.indicator-comida { background: #ff9800; }
+  &.indicator-coordinacion { background: #2196f3; }
+}
+
+// █████████████████████████████████████████████████
+// ███ MODOS DE VISUALIZACIÓN ███
+// █████████████████████████████████████████████████
+
+// Modo compacto para dentro del reproductor
+.guion-manager-container.inside-player {
+  .guion-manager-content {
+    gap: 15px;
+  }
+  
+  .guion-lista-bloques {
+    .guion-lista-titulo {
+      font-size: 14px;
+    }
+  }
+  
+  .guion-bloques-container {
+    max-height: 250px;
+  }
+  
+  .guion-detalle-bloque {
+    min-height: 200px;
+    padding: 15px;
+  }
+  
+  .detalle-seccion {
+    padding: 12px;
+    
+    h5 {
+      font-size: 13px;
+    }
+    
+    p, ul li {
+      font-size: 12px;
+    }
+  }
+}
+
+// Modo de alta densidad para pantallas pequeñas
+@media (max-width: 767px) {
+  .guion-manager-container {
+    padding: 10px;
+  }
+  
+  .guion-manager-header {
+    flex-direction: column;
+    gap: 12px;
+    
+    .guion-header-info {
+      .guion-titulo {
+        font-size: 16px;
+      }
+    }
+    
+    .guion-export-buttons {
+      align-self: flex-end;
+    }
+  }
+  
+  .guion-bloques-container {
+    max-height: 300px;
+  }
+}

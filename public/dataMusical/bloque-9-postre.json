@@ -1,0 +1,412 @@
+{
+    "bbloque-9-postre": {
+      "bloque_musical": "Postre + Foto Cabina",
+      "total_canciones": 49,
+      "existen": 48,
+      "faltan": 1,
+      "canciones": [
+        {
+          "id": "b9-01",
+          "nombre": "Intervención Animador",
+          "artista": "Animador",
+          "url": "/audio/bbloque-9-postre/01-Voz Animador Torta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b9-02",
+          "nombre": "Beautiful Strange (Ambient Mix)",
+          "artista": "Café del Mar",
+          "url": "/audio/bbloque-9-postre/bossa - cafe del mar - beautiful strange (ambient mix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-03",
+          "nombre": "(I Can't Get No) Satisfaction",
+          "artista": "Michelle Simonal",
+          "url": "/audio/bbloque-9-postre/bossa 'n stones - michelle simonal - (i can't get no) satisfaction(2).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-04",
+          "nombre": "Out of Time",
+          "artista": "Bossa 'n Stones",
+          "url": "/audio/bbloque-9-postre/bossa 'n stones - out of time.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-05",
+          "nombre": "Hey Jude",
+          "artista": "Bossa n' Stone",
+          "url": "/audio/bbloque-9-postre/bossa n stone - hey jude.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-06",
+          "nombre": "Ruby Tuesday",
+          "artista": "Bossa n' Stone",
+          "url": "/audio/bbloque-9-postre/bossa n stone - ruby tuesday.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-07",
+          "nombre": "A Hard Day's Night",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - A Hard Day's Night.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-08",
+          "nombre": "Blackbird",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - Blackbird.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-09",
+          "nombre": "Come Together",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - Come Together.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-10",
+          "nombre": "Here Comes The Sun",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - Here Comes The Sun.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-11",
+          "nombre": "Let It Be",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - Let It Be.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-12",
+          "nombre": "Lucy in the Sky With Diamonds",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - Lucy in the Sky With Diamonds.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-13",
+          "nombre": "Yesterday",
+          "artista": "Bossa N' Beatles",
+          "url": "/audio/bbloque-9-postre/Bossa N' Beatles - Yesterday.mp3",
+          "imagen": "/img/00-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-14",
+          "nombre": "Boys Don't Cry",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' boys don´t cry.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-15",
+          "nombre": "Honky Tonk Women",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' honky tonk women.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-16",
+          "nombre": "Like a Stone",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' like a stone.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-17",
+          "nombre": "Buffalo Soldier (The Trumak Remix)",
+          "artista": "Bossa n' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa n' Marley - Buffalo Soldier (The Trumak Remix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-18",
+          "nombre": "Could You Be Loved (Bahian Roots Remix)",
+          "artista": "Bossa n' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa n' Marley - Could You Be Loved (Bahian Roots Remix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-19",
+          "nombre": "Get Up Stand Up",
+          "artista": "Bossa N' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa N' Marley - Get Up Stand Up.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-20",
+          "nombre": "No Woman, No Cry",
+          "artista": "Bossa N' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa N' Marley - No Woman, no cry.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-21",
+          "nombre": "One Love (Caipora Mix)",
+          "artista": "Bossa N' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa N' Marley - One Love (Caipora Mix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-22",
+          "nombre": "Redemption Song",
+          "artista": "Bossa N' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa N' Marley - Redemption Song.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-23",
+          "nombre": "Sun Is Shining (Shiny Remix)",
+          "artista": "Bossa N' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa N' Marley - Sun Is Shining (Shiny Remix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-24",
+          "nombre": "Waiting In Vain",
+          "artista": "Bossa N' Marley",
+          "url": "/audio/bbloque-9-postre/Bossa N' Marley - Waiting In Vain.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-25",
+          "nombre": "Miss You",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' miss you.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-26",
+          "nombre": "Nova 444",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' nova 444(2).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-27",
+          "nombre": "Purple Rain",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' purple rain.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-28",
+          "nombre": "Another One Bites The Dust",
+          "artista": "Bossa N' Queen",
+          "url": "/audio/bbloque-9-postre/Bossa N' Queen - Another one bites the dust.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-29",
+          "nombre": "Crazy Little Thing Called Love",
+          "artista": "Bossa N' Queen",
+          "url": "/audio/bbloque-9-postre/Bossa N' Queen - Crazy Little Thing Called Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-30",
+          "nombre": "Radio Ga Ga",
+          "artista": "Bossa N' Queen",
+          "url": "/audio/bbloque-9-postre/Bossa N' Queen - Radio Ga Ga.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-31",
+          "nombre": "We Are The Champions",
+          "artista": "Bossa N' Queen",
+          "url": "/audio/bbloque-9-postre/Bossa N' Queen - We Are The Champions.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-32",
+          "nombre": "We Will Rock You",
+          "artista": "Bossa N' Queen",
+          "url": "/audio/bbloque-9-postre/Bossa N' Queen - We Will Rock You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-33",
+          "nombre": "Knockin' On Heaven's Door",
+          "artista": "Bossa N' Roses",
+          "url": "/audio/bbloque-9-postre/Bossa N' Roses - Knockin' On Heaven's Door.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-34",
+          "nombre": "November Rain",
+          "artista": "Bossa N' Roses",
+          "url": "/audio/bbloque-9-postre/Bossa N' Roses - November Rain.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-35",
+          "nombre": "Sweet Child O' Mine",
+          "artista": "Bossa N' Roses",
+          "url": "/audio/bbloque-9-postre/Bossa N' Roses - Sweet Child O' Mine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-36",
+          "nombre": "Welcome To the Jungle",
+          "artista": "Bossa N' Roses",
+          "url": "/audio/bbloque-9-postre/Bossa N' Roses - Welcome To the Jungle.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-37",
+          "nombre": "Start Me Up Stone",
+          "artista": "Bossa n'",
+          "url": "/audio/bbloque-9-postre/Bossa n' start me up stone.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-38",
+          "nombre": "Angie",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Angie.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-39",
+          "nombre": "As Tears Go By",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - As Tears Go By.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-40",
+          "nombre": "Beast of Burden",
+          "artista": "Bossa n' stones",
+          "url": "/audio/bbloque-9-postre/Bossa n' stones - beast of burden(2).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-41",
+          "nombre": "Emotional Rescue",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Emotional Rescue.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-42",
+          "nombre": "Fool to Cry",
+          "artista": "Bossa n' stones",
+          "url": "/audio/bbloque-9-postre/Bossa n' stones - fool to cry.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-43",
+          "nombre": "I'm Free",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - I'm Free.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-44",
+          "nombre": "It's Only Rock 'n Roll (But I Like it)",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - It's Only Rock 'n Roll (But I Like it.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-45",
+          "nombre": "Jumpin' Jack Flash",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Jumpin' Jack Flash.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-46",
+          "nombre": "Paint it Black",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Paint it Black.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-47",
+          "nombre": "Start me up Brown sugar",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Start me up Brown sugar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-48",
+          "nombre": "Sympathy for the Devil",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Sympathy for the Devil.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-49",
+          "nombre": "Under My Thumb",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Under My Thumb.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b9-50",
+          "nombre": "Wild Horses",
+          "artista": "Bossa N' Stones",
+          "url": "/audio/bbloque-9-postre/Bossa N' Stones - Wild Horses.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

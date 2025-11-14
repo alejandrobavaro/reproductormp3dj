@@ -1,0 +1,150 @@
+{
+  "evento": "Guión Novios - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "14:00 a 04:15",
+  "rol": "Novios",
+  "responsable": "Alejandro y Fabiola",
+  "bloques": [
+    {
+      "id": "bloque-0A-fabimaquilladora",
+      "nombre": "Fabi - Preparación Maquillaje y Peinado",
+      "horaInicio": "14:00",
+      "horaFin": "17:00",
+      "tareas_fabi": [
+        "Maquillaje profesional (3 horas)",
+        "Peinado especial para ceremonia",
+        "Prueba final vestido y accesorios",
+        "Momento relax pre-eventos"
+      ],
+      "ubicacion": "Salón de belleza designado",
+      "recordatorios": "Kit emergencia: agujas, hilo, maquillaje touch-up, agua, snacks"
+    },
+    {
+      "id": "bloque-0E-transporte3",
+      "nombre": "Llegada al Salón y Encuentro",
+      "horaInicio": "18:00",
+      "horaFin": "18:45",
+      "tareas_ambos": [
+        "Llegada coordinada al salón (entradas separadas)",
+        "Encuentro privado pre-ceremonia",
+        "Momento para fotos íntimas",
+        "Calmar nervios y disfrutar momento"
+      ],
+      "coordinacion": "CON FOTÓGRAFOS - sesión pre-ceremonia",
+      "recordatorios": "Este momento es solo para ustedes - respirar y estar presentes"
+    },
+    {
+      "id": "bloque-2-ceremonia",
+      "nombre": "Ceremonia Civil",
+      "horaInicio": "19:30",
+      "horaFin": "20:15",
+      "tareas_ambos": [
+        "Entrada especial coordinada",
+        "Enfocarse en los votos y miradas",
+        "Disfrutar cada momento de la ceremonia",
+        "Firma de acta con testigos"
+      ],
+      "momento_especial": "Lluvia de arroz/pétalos al finalizar",
+      "recordatorios": "Respirar, sonreír, mirarse a los ojos. Este es su momento."
+    },
+    {
+      "id": "bloque-4-fotosgrupales",
+      "nombre": "Sesión de Fotos Grupales",
+      "horaInicio": "20:45",
+      "horaFin": "21:15",
+      "tareas_ambos": [
+        "Posar con invitados por mesas",
+        "Mantener energía y sonrisas",
+        "Interactuar con cada grupo",
+        "Disfrutar reencuentros"
+      ],
+      "estructura": "Ubicados en mesa principal, invitados detrás por grupos",
+      "recordatorios": "Hidratarse entre fotos. Delegar en animador para organización."
+    },
+    {
+      "id": "bloque-7A-brindisfamiliar",
+      "nombre": "Brindis Familiar y Emocional",
+      "horaInicio": "22:15",
+      "horaFin": "22:30",
+      "tareas_ambos": [
+        "Escuchar atentamente palabras familiares",
+        "Agradecer emocionadamente",
+        "Brindis informal con tragos de mesa"
+      ],
+      "intervenciones": "Padres de Alejandro, Tía Ana de Fabiola, amigos cercanos",
+      "recordatorios": "Tomar agua. Este es momento emotivo - permitirse sentir."
+    },
+    {
+      "id": "bloque-8A-coreografia",
+      "nombre": "Coreografía de Novios",
+      "horaInicio": "22:45",
+      "horaFin": "22:55",
+      "tareas_ambos": [
+        "Coreografía: 'Colgado en tus manos'",
+        "Concentración y disfrute del baile",
+        "Contacto visual y conexión emocional"
+      ],
+      "preparacion": "Canción exacta verificada con DJ",
+      "recordatorios": "Confiar en la práctica. Mirarse, no al público. Disfrutar el baile juntos."
+    },
+    {
+      "id": "bloque-8B-valsfamiliar",
+      "nombre": "Vals Familiar",
+      "horaInicio": "22:55",
+      "horaFin": "23:10",
+      "tareas_ambos": [
+        "Vals como pareja inicial",
+        "Incluir a padres y familiares cercanos",
+        "Disfrutar tradición familiar"
+      ],
+      "participantes": "Padres, padrinos, abuelos, familiares directos",
+      "recordatorios": "Momento tradicional y emotivo. Agradecer a familiares por participación."
+    },
+    {
+      "id": "bloque-11-banda",
+      "nombre": "Show Banda en Vivo - Almango Covers",
+      "horaInicio": "00:00",
+      "horaFin": "00:35",
+      "tareas_alejandro": "Tocar con la banda 30 minutos - setlist preparado",
+      "tareas_fabiola": "Disfrutar show, prepararse para sorpresa final",
+      "momento_especial": "Alejandro invita a Fabiola a cantar 'Vuela Vuela' al final",
+      "recordatorios": "Diversión y emoción. Momento único para compartir talento con invitados."
+    },
+    {
+      "id": "bloque-13-juegos",
+      "nombre": "Juegos del Ramo y Whisky",
+      "horaInicio": "01:05",
+      "horaFin": "01:25",
+      "tareas_alejandro": "Lanzar ramo a mujeres solteras",
+      "tareas_fabiola": "Lanzar liga a hombres solteros",
+      "diversion": "Ale hace de mujeres, Fabi de hombres - momento divertido",
+      "recordatorios": "Actitud juguetona y alegre. Premios creativos para ganadores."
+    },
+    {
+      "id": "bloque-14-torta",
+      "nombre": "Corte de Torta y Foto General",
+      "horaInicio": "01:25",
+      "horaFin": "01:50",
+      "tareas_ambos": [
+        "Ceremonia de corte de torta",
+        "Primeros bocados juntos",
+        "Participar en foto grupal general"
+      ],
+      "coordinacion": "CON ANIMADOR - organización foto, CON FOTÓGRAFOS - momento corte",
+      "recordatorios": "Sonreír para la foto grupal. Disfrutar momento dulce literal y figurado."
+    },
+    {
+      "id": "bloque-19-despedida",
+      "nombre": "Despedida y Souvenirs",
+      "horaInicio": "04:00",
+      "horaFin": "04:15",
+      "tareas_ambos": [
+        "Agradecimientos finales a todos los invitados",
+        "Entrega personalizada de souvenirs",
+        "Despedida emotiva y cálida"
+      ],
+      "souvenirs": "Velitas personalizadas para cada invitado",
+      "recordatorios": "Momento emotivo de cierre. Agradecer a cada persona por compartir día especial."
+    }
+  ]
+}

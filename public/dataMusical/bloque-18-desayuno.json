@@ -1,0 +1,405 @@
+{
+    "bloque-18-desayuno": {
+      "bloque_musical": "Desayuno Bailado (¡Última Pachanga!)",
+      "total_canciones": 80,
+      "existen": 21,
+      "faltan": 59,
+      "canciones": [
+        {
+          "id": "b18-01",
+          "nombre": "Intervención Animador - Desayuno Bailado",
+          "artista": "Animador",
+          "url": "/audio/bloque-18-desayuno/Voz Animador Pachanga Final.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Archivo de voz del animador"
+        },
+        {
+          "id": "b18-02",
+          "nombre": "Livin' La Vida Loca",
+          "artista": "Ricky Martin",
+          "url": "/audio/bloque-18-desayuno/Ricky Martin - Livin' la vida loca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-03",
+          "nombre": "María",
+          "artista": "Ricky Martin",
+          "url": "/audio/bloque-18-desayuno/Ricky Martin - María (Original).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-04",
+          "nombre": "La Copa de la Vida",
+          "artista": "Ricky Martin",
+          "url": "/audio/bloque-18-desayuno/Ricky Martin - La copa de la vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-05",
+          "nombre": "Shake Your Bon-Bon",
+          "artista": "Ricky Martin",
+          "url": "/audio/bloque-18-desayuno/Ricky Martin - Shake your bon-bon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-06",
+          "nombre": "Y.M.C.A.",
+          "artista": "Village People",
+          "url": "/audio/bloque-18-desayuno/Village People - YMCA.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-07",
+          "nombre": "El Baile Del Gorila",
+          "artista": "Melody",
+          "url": "/audio/bloque-18-desayuno/Melody - El Baile Del Gorila.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-08",
+          "nombre": "El Meneaito",
+          "artista": "General",
+          "url": "/audio/bloque-18-desayuno/General - El meneaito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-09",
+          "nombre": "El Tiburón",
+          "artista": "Proyecto Uno",
+          "url": "/audio/bloque-18-desayuno/Cumbia - Proyecto Uno - El tiburon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-10",
+          "nombre": "La Gozadera",
+          "artista": "Gente de Zona",
+          "url": "/audio/bloque-18-desayuno/Gente de Zona - La Gozadera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-11",
+          "nombre": "Danza Kuduro",
+          "artista": "Don Omar",
+          "url": "/audio/bloque-18-desayuno/Don Omar - Danza Kuduro.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-12",
+          "nombre": "El Perdón",
+          "artista": "Nicky Jam",
+          "url": "/audio/bloque-18-desayuno/Nicky Jam - El Perdón.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-13",
+          "nombre": "Limbo",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-18-desayuno/Daddy Yankee - Limbo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-14",
+          "nombre": "Gasolina",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-18-desayuno/Daddy Yankee - Gasolina.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-15",
+          "nombre": "Despacito",
+          "artista": "Luis Fonsi",
+          "url": "/audio/bloque-18-desayuno/Luis Fonsi - Despacito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-16",
+          "nombre": "La Bicicleta",
+          "artista": "Shakira",
+          "url": "/audio/bloque-18-desayuno/Shakira - La Bicicleta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-17",
+          "nombre": "Chantaje",
+          "artista": "Shakira",
+          "url": "/audio/bloque-18-desayuno/Shakira - Chantaje.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-18",
+          "nombre": "La Tortura",
+          "artista": "Shakira",
+          "url": "/audio/bloque-18-desayuno/Shakira - La Tortura (& Alejandro Sanz).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-19",
+          "nombre": "Waka Waka",
+          "artista": "Shakira",
+          "url": "/audio/bloque-18-desayuno/Shakira - Waka Waka.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-20",
+          "nombre": "Loca",
+          "artista": "Shakira",
+          "url": "/audio/bloque-18-desayuno/Shakira - Loca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-21",
+          "nombre": "Rabiosa",
+          "artista": "Shakira",
+          "url": "/audio/bloque-18-desayuno/Shakira - Rabiosa.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-22",
+          "nombre": "Dutty Wine",
+          "artista": "Tony Matterhorn",
+          "url": "/audio/bloque-18-desayuno/Tony Matterhorn - Dutty Wine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-23",
+          "nombre": "Papi",
+          "artista": "Jennifer Lopez",
+          "url": "/audio/bloque-18-desayuno/Jennifer Lopez - Papi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-24",
+          "nombre": "On The Floor",
+          "artista": "Jennifer Lopez",
+          "url": "/audio/bloque-18-desayuno/Jennifer Lopez - On The Floor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-25",
+          "nombre": "I Know You Want Me",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - I know you want me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-26",
+          "nombre": "Give Me Everything",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Give Me Everything.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-27",
+          "nombre": "Fireball",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Fireball.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-28",
+          "nombre": "Hotel Room Service",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Hotel Room Service.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-29",
+          "nombre": "Bon, Bon",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Bon, Bon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-30",
+          "nombre": "Rain Over Me",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Rain over me ft Marc Anthony.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-31",
+          "nombre": "Hey Baby",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Hey Baby.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-32",
+          "nombre": "Don't Stop The Party",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Don't Stop The Party ft.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-33",
+          "nombre": "I Like It",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Bad Bunny, J Balvin - I Like It.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-34",
+          "nombre": "El Taxi",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - El Taxi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-35",
+          "nombre": "Mueve La Cadera",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Mueve La Cadera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-36",
+          "nombre": "Baila Baila",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Baila Baila.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-37",
+          "nombre": "Echa Pa'lla",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Echa Pa'lla.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-38",
+          "nombre": "Dale",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Dale.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-39",
+          "nombre": "Pasarela",
+          "artista": "Pitbull",
+          "url": "/audio/bloque-18-desayuno/Pitbull - Pasarela.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-40",
+          "nombre": "Shaky Shaky",
+          "artista": "Daddy Yankee",
+          "url": "/audio/bloque-18-desayuno/Daddy Yankee - Shaky Shaky.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-41",
+          "nombre": "Bailando",
+          "artista": "Paradiso",
+          "url": "/audio/bloque-18-desayuno/Paradisio - Bailando.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-42",
+          "nombre": "La Flaca",
+          "artista": "Jarabe de Palo",
+          "url": "/audio/bloque-18-desayuno/Jarabe De Palo - La Flaca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-43",
+          "nombre": "Aserejé",
+          "artista": "Las Ketchup",
+          "url": "/audio/bloque-18-desayuno/Las Ketchup - Asereje.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-44",
+          "nombre": "Macarena",
+          "artista": "Los Del Río",
+          "url": "/audio/bloque-18-desayuno/Los Del Rio - Macarena.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b18-45",
+          "nombre": "Ai Se Eu Te Pego",
+          "artista": "Michel Teló",
+          "url": "/audio/bloque-18-desayuno/Michel Teló - Ai Se Eu Te Pego.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b18-46",
+          "nombre": "Taboo",
+          "artista": "Don Omar",
+          "url": "/audio/bloque-18-desayuno/Don Omar - Taboo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

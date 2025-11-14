@@ -1,0 +1,380 @@
+{
+  "bloque-1-recepcion": {
+    "bloque_musical": "Recepción Invitados y Copa y comida de entrada",
+    "total_canciones": 37,
+    "existen": 31,
+    "faltan": 6,
+    "canciones": [
+      {
+        "id": "b1-01",
+        "nombre": "Intervención Animador - Bienvenida",
+        "artista": "Animador",
+        "duracion": "0:45",
+        "url": "/audio/bloque-1-recepcion/b1-01-00-Voz Bienvenida.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Audio de bienvenida del animador"
+      },
+      {
+        "id": "b1-02",
+        "nombre": "The Shadow of Your Smile",
+        "artista": "Tony Bennett",
+        "duracion": "3:22",
+        "url": "/audio/bloque-1-recepcion/b1-03-03-Tony Bennett - The shadow of your Smile.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-03 en nombre"
+      },
+      {
+        "id": "b1-03",
+        "nombre": "The Way You Look Tonight",
+        "artista": "Michael Bublé",
+        "duracion": "4:12",
+        "url": "/audio/bloque-1-recepcion/b1-05-08-Michael Buble - The Way You Look Tonight.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-05 en nombre"
+      },
+      {
+        "id": "b1-04",
+        "nombre": "Route 66",
+        "artista": "Nat King Cole",
+        "duracion": "2:58",
+        "url": "/audio/bloque-1-recepcion/b1-06-09-Nat King Cole - Route 66.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-06 en nombre"
+      },
+      {
+        "id": "b1-05",
+        "nombre": "The Heart of Saturday Night",
+        "artista": "Diana Krall",
+        "duracion": "4:08",
+        "url": "/audio/bloque-1-recepcion/b1-07-13-Diana Krall - the_heart_of_saturday_night.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-07 en nombre"
+      },
+      {
+        "id": "b1-06",
+        "nombre": "Crazy",
+        "artista": "Patsy Cline",
+        "duracion": "2:43",
+        "url": "/audio/bloque-1-recepcion/b1-08-14-Jazz - Patsy Cline - Crazy.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-08 en nombre"
+      },
+      {
+        "id": "b1-07",
+        "nombre": "Here Comes The Sun",
+        "artista": "Bossa N' Beatles",
+        "duracion": "3:15",
+        "url": "/audio/bloque-1-recepcion/b1-09-Bossa N' Beatles - Here Comes The Sun.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-09 en nombre"
+      },
+      {
+        "id": "b1-08",
+        "nombre": "Is This Love",
+        "artista": "Bossa N' Marley",
+        "duracion": "3:28",
+        "url": "/audio/bloque-1-recepcion/b1-10-Bossa N' Marley - Is This Love.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-10 en nombre"
+      },
+      {
+        "id": "b1-09",
+        "nombre": "Sympathy for the Devil",
+        "artista": "Bossa N' Stones",
+        "duracion": "4:12",
+        "url": "/audio/bloque-1-recepcion/b1-11-Bossa N' Stones - Sympathy for the Devil.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-11 en nombre"
+      },
+      {
+        "id": "b1-10",
+        "nombre": "All My Loving",
+        "artista": "Bossa Nova",
+        "duracion": "2:55",
+        "url": "/audio/bloque-1-recepcion/b1-13-Bossa Nova - all my loving.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-13 en nombre"
+      },
+      {
+        "id": "b1-11",
+        "nombre": "Michelle",
+        "artista": "Bossa Nova",
+        "duracion": "3:22",
+        "url": "/audio/bloque-1-recepcion/b1-14-Bossa Nova - michelle.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-14 en nombre"
+      },
+      {
+        "id": "b1-12",
+        "nombre": "Paradise City",
+        "artista": "Bossa Nova",
+        "duracion": "3:45",
+        "url": "/audio/bloque-1-recepcion/b1-15-Bossa Nova - paradise city.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-15 en nombre"
+      },
+      {
+        "id": "b1-13",
+        "nombre": "Tristeza",
+        "artista": "Sergio Mendes & Brasil '66",
+        "duracion": "2:38",
+        "url": "/audio/bloque-1-recepcion/b1-16-Bossa Nova - sergio mendez & brasil '66 - fino bossa nova - tristeza.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-16 en nombre"
+      },
+      {
+        "id": "b1-14",
+        "nombre": "Used to Love Her",
+        "artista": "Bossa Nova",
+        "duracion": "3:15",
+        "url": "/audio/bloque-1-recepcion/b1-17-Bossa Nova - used to love her.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-17 en nombre"
+      },
+      {
+        "id": "b1-15",
+        "nombre": "Cinema Paradiso - Love Theme",
+        "artista": "Ennio Morricone",
+        "duracion": "3:52",
+        "url": "/audio/bloque-1-recepcion/b1-18-BSO - Cinema Paradiso - Love Theme Morricone.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-18 en nombre"
+      },
+      {
+        "id": "b1-16",
+        "nombre": "Contigo en la distancia",
+        "artista": "Caetano Veloso",
+        "duracion": "3:28",
+        "url": "/audio/bloque-1-recepcion/b1-19-Caetano Veloso - Contigo en la distancia.MP3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-19 en nombre"
+      },
+      {
+        "id": "b1-17",
+        "nombre": "Coraçao vagabundo",
+        "artista": "Caetano Veloso",
+        "duracion": "3:15",
+        "url": "/audio/bloque-1-recepcion/b1-20-Caetano Veloso - Coraçao vagabundo.MP3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-20 en nombre"
+      },
+      {
+        "id": "b1-18",
+        "nombre": "Você É Linda",
+        "artista": "Caetano Veloso",
+        "duracion": "3:42",
+        "url": "/audio/bloque-1-recepcion/b1-21-Caetano Veloso - Você É Linda.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-21 en nombre"
+      },
+      {
+        "id": "b1-19",
+        "nombre": "Pick Yourself Up",
+        "artista": "Diana Krall",
+        "duracion": "3:25",
+        "url": "/audio/bloque-1-recepcion/b1-22-Diana Krall - pick_yourself_up.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-22 en nombre"
+      },
+      {
+        "id": "b1-20",
+        "nombre": "Summer Wind",
+        "artista": "Frank Sinatra",
+        "duracion": "2:55",
+        "url": "/audio/bloque-1-recepcion/b1-25-Jazz - Frank Sinatra - Summer Wind.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-25 en nombre"
+      },
+      {
+        "id": "b1-21",
+        "nombre": "Quizás, Quizás, Quizás",
+        "artista": "Nat King Cole",
+        "duracion": "2:45",
+        "url": "/audio/bloque-1-recepcion/b1-27-Nat King Cole - Quizas, quizas, quizas.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-27 en nombre"
+      },
+      {
+        "id": "b1-22",
+        "nombre": "Circle of Life",
+        "artista": "North America",
+        "duracion": "4:52",
+        "url": "/audio/bloque-1-recepcion/b1-28-North America - Circle of Life.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-28 en nombre"
+      },
+      {
+        "id": "b1-23",
+        "nombre": "Can't Buy Me Love",
+        "artista": "Bossa N' Beatles",
+        "duracion": "2:38",
+        "url": "/audio/bloque-1-recepcion/b1-29-Bossa N' Beatles - Can't Buy Me Love.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-29 en nombre"
+      },
+      {
+        "id": "b1-24",
+        "nombre": "No Woman, No Cry",
+        "artista": "Bossa N' Marley",
+        "duracion": "3:52",
+        "url": "/audio/bloque-1-recepcion/b1-30-Bossa N' Marley - No Woman, no cry.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-30 en nombre"
+      },
+      {
+        "id": "b1-25",
+        "nombre": "Honky Tonk Women",
+        "artista": "Bossa N' Stones",
+        "duracion": "3:15",
+        "url": "/audio/bloque-1-recepcion/b1-31-Bossa N' Stones - Honky Tonk Women.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-31 en nombre"
+      },
+      {
+        "id": "b1-26",
+        "nombre": "Beautiful Day",
+        "artista": "Bossa N' U2",
+        "duracion": "4:08",
+        "url": "/audio/bloque-1-recepcion/b1-32-Bossa N' U2 - Beautiful Day.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-32 en nombre"
+      },
+      {
+        "id": "b1-27",
+        "nombre": "Brazilian Sunset",
+        "artista": "Bossa Nova",
+        "duracion": "3:22",
+        "url": "/audio/bloque-1-recepcion/b1-33-Bossa Nova - brazilian sunset.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-33 en nombre"
+      },
+      {
+        "id": "b1-28",
+        "nombre": "Bonita",
+        "artista": "Cuca Nova",
+        "duracion": "3:15",
+        "url": "/audio/bloque-1-recepcion/b1-34-Bossa Nova - cuca nova - bonita.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-34 en nombre"
+      },
+      {
+        "id": "b1-29",
+        "nombre": "Nana",
+        "artista": "Cuca Nova",
+        "duracion": "3:08",
+        "url": "/audio/bloque-1-recepcion/b1-35-Bossa Nova - cuca nova - nana.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-35 en nombre"
+      },
+      {
+        "id": "b1-30",
+        "nombre": "Voce Abusou",
+        "artista": "Daniela Mercuri",
+        "duracion": "3:25",
+        "url": "/audio/bloque-1-recepcion/b1-36-Bossa Nova - daniela mercuri - voce abusou.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-36 en nombre"
+      },
+      {
+        "id": "b1-31",
+        "nombre": "Voce Abusou",
+        "artista": "Gal Costa",
+        "duracion": "3:18",
+        "url": "/audio/bloque-1-recepcion/b1-37-Bossa Nova - gal costa - voce abusou.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "EXISTE",
+        "notas": "Archivo existe pero con ID b1-37 en nombre"
+      },
+      {
+        "id": "b1-32",
+        "nombre": "Canción Faltante Original b1-02",
+        "artista": "Por Definir",
+        "duracion": "0:00",
+        "url": "/audio/bloque-1-recepcion/b1-02-por-descargar.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "NO EXISTE",
+        "notas": "CANCIÓN FALTANTE - Originalmente b1-02 en JSON"
+      },
+      {
+        "id": "b1-33",
+        "nombre": "Canción Faltante Original b1-04",
+        "artista": "Por Definir",
+        "duracion": "0:00",
+        "url": "/audio/bloque-1-recepcion/b1-04-por-descargar.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "NO EXISTE",
+        "notas": "CANCIÓN FALTANTE - Originalmente b1-04 en JSON"
+      },
+      {
+        "id": "b1-34",
+        "nombre": "Canción Faltante Original b1-12",
+        "artista": "Por Definir",
+        "duracion": "0:00",
+        "url": "/audio/bloque-1-recepcion/b1-12-por-descargar.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "NO EXISTE",
+        "notas": "CANCIÓN FALTANTE - Originalmente b1-12 en JSON"
+      },
+      {
+        "id": "b1-35",
+        "nombre": "Canción Faltante Original b1-23",
+        "artista": "Por Definir",
+        "duracion": "0:00",
+        "url": "/audio/bloque-1-recepcion/b1-23-por-descargar.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "NO EXISTE",
+        "notas": "CANCIÓN FALTANTE - Originalmente b1-23 en JSON"
+      },
+      {
+        "id": "b1-36",
+        "nombre": "Canción Faltante Original b1-24",
+        "artista": "Por Definir",
+        "duracion": "0:00",
+        "url": "/audio/bloque-1-recepcion/b1-24-por-descargar.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "NO EXISTE",
+        "notas": "CANCIÓN FALTANTE - Originalmente b1-24 en JSON"
+      },
+      {
+        "id": "b1-37",
+        "nombre": "Canción Faltante Original b1-26",
+        "artista": "Por Definir",
+        "duracion": "0:00",
+        "url": "/audio/bloque-1-recepcion/b1-26-por-descargar.mp3",
+        "imagen": "/img/09-portadas/portada-1.png",
+        "estado": "NO EXISTE",
+        "notas": "CANCIÓN FALTANTE - Originalmente b1-26 en JSON"
+      }
+    ]
+  }
+}

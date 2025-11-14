@@ -1,0 +1,141 @@
+{
+  "evento": "Guión Animador - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "19:00 a 04:00",
+  "rol": "Animador",
+  "responsable": "Coordinación general y anuncios al público",
+  "bloques": [
+    {
+      "id": "bloque-3-saludoinvitados",
+      "nombre": "Saludos con Invitados",
+      "horaInicio": "20:30",
+      "horaFin": "20:45",
+      "anuncios": [
+        "¡Felicidades a los recién casados!",
+        "Los invitamos a pasar al salón principal",
+        "Encuentren sus mesas, la fiesta continúa"
+      ],
+      "acciones": "Guiar invitados al salón principal post-ceremonia"
+    },
+    {
+      "id": "bloque-4-fotosgrupales",
+      "nombre": "Fotos Grupales",
+      "horaInicio": "20:45",
+      "horaFin": "21:15",
+      "anuncios": [
+        "Mesa por mesa para fotos con los novios",
+        "Acérquense a la mesa principal cuando los llamemos",
+        "Formen fila ordenada detrás de los novios"
+      ],
+      "acciones": "Coordinar sistema eficiente de fotos por mesas"
+    },
+    {
+      "id": "bloque-7A-brindisfamiliar",
+      "nombre": "Brindis Familiar y Emocional",
+      "horaInicio": "22:15",
+      "horaFin": "22:30",
+      "anuncios": [
+        "Un momento muy especial: palabras de la familia",
+        "Atención para los padres del novio y tía de la novia",
+        "Un brindis por el amor y la nueva familia"
+      ],
+      "acciones": "Presentar intervenciones familiares y dirigir brindis informal"
+    },
+    {
+      "id": "bloque-7B-brindischampagne",
+      "nombre": "Brindis General con Champagne",
+      "horaInicio": "22:30",
+      "horaFin": "22:45",
+      "anuncios": [
+        "¡Todos de pie! Un brindis por Alejandro y Fabiola",
+        "Que tengan una vida llena de amor y felicidad",
+        "¡Salud por los novios!"
+      ],
+      "acciones": "Dirigir brindis grupal y coordinar foto con copas alzadas"
+    },
+    {
+      "id": "bloque-8B-valsfamiliar",
+      "nombre": "Vals Familiar",
+      "horaInicio": "22:55",
+      "horaFin": "23:10",
+      "anuncios": [
+        "Invitamos a padres, padrinos y familiares cercanos",
+        "Un vals para celebrar la unión de las familias",
+        "Todos a la pista para este momento tradicional"
+      ],
+      "acciones": "Coordinar participación familiares en vals"
+    },
+    {
+      "id": "bloque-8C-aperturabaile",
+      "nombre": "Apertura de Pista de Baile",
+      "horaInicio": "23:10",
+      "horaFin": "23:25",
+      "anuncios": [
+        "¡Que empiece la fiesta!",
+        "Todos a bailar, que la música no pare",
+        "Este es solo el comienzo de una noche increíble"
+      ],
+      "acciones": "Animar apertura general de pista de baile"
+    },
+    {
+      "id": "bloque-13-juegos",
+      "nombre": "Juego del Ramo y Whisky",
+      "horaInicio": "01:05",
+      "horaFin": "01:25",
+      "anuncios": [
+        "¡Hora de los juegos tradicionales!",
+        "Solteras al frente para el ramo de Fabiola",
+        "Solteros al frente para el whisky de Alejandro"
+      ],
+      "acciones": "Organizar participantes, animar juegos y anunciar ganadores"
+    },
+    {
+      "id": "bloque-14-torta",
+      "nombre": "Corte de Torta y Foto General",
+      "horaInicio": "01:25",
+      "horaFin": "01:50",
+      "anuncios": [
+        "Momento del corte de la torta",
+        "Todos alrededor para la foto grupal",
+        "¡Sonrían para el recuerdo!"
+      ],
+      "acciones": "Coordinar ceremonia de corte y foto grupal general"
+    },
+    {
+      "id": "bloque-15-barralibre",
+      "nombre": "Inauguración Barra Libre",
+      "horaInicio": "01:50",
+      "horaFin": "02:05",
+      "anuncios": [
+        "¡Atención! Barra libre oficialmente habilitada",
+        "Disfruten de tragos y bebidas sin límites",
+        "¡A cargar energías para la hora loca!"
+      ],
+      "acciones": "Anunciar apertura barra libre y shot grupal"
+    },
+    {
+      "id": "bloque-16-horaloca",
+      "nombre": "Hora Loca y Cotillón",
+      "horaInicio": "02:05",
+      "horaFin": "03:05",
+      "anuncios": [
+        "¡Llegó la hora loca!",
+        "Cotillón en las mesas: luces, confetti, diversión",
+        "Que nadie se quede quieto, ¡a bailar!"
+      ],
+      "acciones": "Animación máxima con cotillón y efectos especiales"
+    },
+    {
+      "id": "bloque-19-despedida",
+      "nombre": "Despedida y Souvenirs",
+      "horaInicio": "04:00",
+      "horaFin": "04:15",
+      "anuncios": [
+        "Gracias a todos por compartir este día inolvidable",
+        "No se olviden de sus souvenirs en la salida",
+        "Que tengan un feliz regreso a casa"
+      ],
+      "acciones": "Despedida emotiva y coordinación entrega souvenirs"
+    }
+  ]
+}

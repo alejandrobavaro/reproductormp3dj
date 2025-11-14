@@ -1,0 +1,107 @@
+{
+  "evento": "Guión Salón - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "14:00 a 04:00",
+  "rol": "Coordinación del Salón",
+  "responsable": "Casa del Mar - Jefe de sala y equipo completo",
+  "bloques": [
+    {
+      "id": "pre-boda-preparacion",
+      "nombre": "Preparación Completa del Salón",
+      "horaInicio": "14:00",
+      "horaFin": "18:00",
+      "areas_verificacion": [
+        "Electricidad: luces, equipos sonido, proyector, generador emergencia",
+        "Climatización: temperatura adecuada para 80 personas",
+        "Sanitarios: limpieza, suministros, elementos higiene",
+        "Espacios: 80 sillas, mesas, pista baile, áreas circulación"
+      ],
+      "servicios_incluidos": [
+        "Generador emergencia cortes luz",
+        "Ambulancia Vittal",
+        "Seguridad privada",
+        "Personal completo: mozos, cocina, limpieza, recepcionista, parking, valijero"
+      ],
+      "coordinacion": "Con todos los proveedores: decoración, catering, sonido, fotografía"
+    },
+    {
+      "id": "bloque-1-recepcion",
+      "nombre": "Recepción de Invitados",
+      "horaInicio": "19:00",
+      "horaFin": "19:30",
+      "areas_operativas": [
+        "Parking: coordinación entrada vehículos",
+        "Recepción: bienvenida y guía a área parque",
+        "Servicio: mozos con bandejas circulantes",
+        "Bar: servicio continuo welcome drink"
+      ],
+      "personal_requerido": "2 recepcionistas, 4 mozos, 2 bartenders, 1 parking",
+      "verificaciones": "QR redes sociales visible, flujo circulación optimizado"
+    },
+    {
+      "id": "bloque-3-saludoinvitados",
+      "nombre": "Transición al Salón Principal",
+      "horaInicio": "20:30",
+      "horaFin": "20:45",
+      "tareas": [
+        "Guiar invitados desde parque a salón principal",
+        "Indicar ubicación de mesas asignadas",
+        "Reanudar servicio comida/bebidas en salón"
+      ],
+      "coordinacion": "CON ANIMADOR - anuncios guía, CON MOZOS - servicio continuo"
+    },
+    {
+      "id": "bloque-7B-brindischampagne",
+      "nombre": "Preparación Brindis con Champagne",
+      "horaInicio": "22:15",
+      "horaFin": "22:30",
+      "preparacion": [
+        "Distribución copas champagne Chandonnay en todas las mesas",
+        "Verificar temperatura y cantidad suficiente",
+        "Personal listo para reponer copas inmediatamente"
+      ],
+      "personal_requerido": "4 mozos para distribución sincronizada",
+      "coordinacion": "CON ANIMADOR - timing exacto para brindis grupal"
+    },
+    {
+      "id": "bloque-15-barralibre",
+      "nombre": "Apertura Barra Libre",
+      "horaInicio": "01:50",
+      "horaFin": "04:00",
+      "preparacion": [
+        "Stock completo verificado: tragos, cerveza, vino, gaseosas, agua",
+        "Refuerzo personal bartender (3 + 2 apoyo)",
+        "Hielo y suministros para 2+ horas de servicio intensivo"
+      ],
+      "control": "Monitoreo continuo consumo - reposición proactiva",
+      "notas": "Horario contrato base hasta 03:00 - gestionar extensión a 04:00"
+    },
+    {
+      "id": "bloque-18-desayuno",
+      "nombre": "Servicio Desayuno Final",
+      "horaInicio": "03:15",
+      "horaFin": "04:00",
+      "servicio": [
+        "Coffee station: café, té, jugos",
+        "Medialunas dulces y saladas",
+        "Snacks salados",
+        "Servicio continuo y relajado"
+      ],
+      "areas": "Espacio desayuno diferenciado pero integrado al salón",
+      "personal_requerido": "2 mozos servicio desayuno"
+    },
+    {
+      "id": "bloque-19-despedida",
+      "nombre": "Cierre y Despedida",
+      "horaInicio": "04:00",
+      "horaFin": "04:30",
+      "tareas": [
+        "Mesa de souvenirs (velas) cerca de salida principal",
+        "Coordinación despedida ordenada y emotiva",
+        "Verificación pertenencias olvidadas por invitados",
+        "Agradecimiento a proveedores y equipo"
+      ],
+      "cierre_operativo": "Checklist final: luces, equipos, limpieza inicial, seguridad"
+    }
+  ]
+}

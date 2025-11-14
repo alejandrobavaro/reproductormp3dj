@@ -1,50 +1,107 @@
+// src/assets/scss/_01-General/_App.scss
+
 /* █████████████████████████████████████████████████
-   ███ ESTILOS BASE - APP (MOBILE FIRST) ███
+   ███ ESTILOS BASE - APP OPTIMIZADO (MOBILE FIRST) ███
    █████████████████████████████████████████████████ */
 
-   .spotify-app {
-    // ESTRUCTURA PRINCIPAL
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: rgba(25, 20, 20, 0.9);
-    color: white;
-  }
+// [Contenedor Principal] - Estructura base optimizada
+.spotify-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+  color: white;
+  overflow-x: hidden; // [Optimización] Evitar scroll horizontal
+}
+
+// [Contenido Principal] - Área optimizada entre header y footer
+.spotify-content {
+  flex: 1;
+  padding-top: 110px; // [Optimizado] 60px header + 50px nav-bar en móvil
+  padding-bottom: 40px; // [Optimizado] Menos espacio para footer
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
   
-  .spotify-content {
-    // CONTENEDOR PRINCIPAL
-    flex: 1;
-    padding-top: 60px; // Espacio para header
-    padding-bottom: 50px; // Espacio para footer
+  // [Contenedor Interno] - Máximo aprovechamiento
+  > div {
     width: 100%;
-    margin: 0 auto;
-    box-sizing: border-box;
+    max-width: 100%;
+    height: 100%; // [Optimización] Usar toda la altura disponible
+    overflow-x: hidden;
+  }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT TABLET (768px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 768px) {
+  .spotify-content {
+    padding: 0; // [Optimización] Sin padding lateral
+    padding-top: 120px; // [Optimizado] 70px header + 50px nav-bar
+    padding-bottom: 50px; // [Optimizado] Más espacio en tablet
+    max-width: 100%; // [Optimización] Usar todo el ancho
     
-    // CONTENIDOS HIJOS
     > div {
-      width: 100%;
-      max-width: 100%;
-      overflow-x: hidden;
+      padding: 0 15px; // [Optimización] Padding interno en lugar de externo
+      box-sizing: border-box;
     }
   }
-  
-  /* █████████████████████████████████████████████████
-     ███ BREAKPOINT TABLET (768px) ███
-     █████████████████████████████████████████████████ */
-  @media (min-width: 768px) {
-    .spotify-content {
-      padding: 1rem;
-      max-width: 90%;
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO (1024px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1024px) {
+  .spotify-content {
+    padding-top: 120px; // [Optimizado] Mismo que tablet
+    padding-bottom: 60px; // [Optimizado] Más espacio en escritorio
+    
+    > div {
+      padding: 0 20px; // [Optimización] Más padding en escritorio
+      max-width: 100%; // [Optimización] Seguir usando todo el ancho
     }
   }
-  
-  /* █████████████████████████████████████████████████
-     ███ BREAKPOINT ESCRITORIO (1024px) ███
-     █████████████████████████████████████████████████ */
-  @media (min-width: 1024px) {
-    .spotify-content {
-      padding-top: 70px;
-      padding-bottom: 60px;
-      max-width: 1200px;
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO GRANDE (1440px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1440px) {
+  .spotify-content {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    
+    > div {
+      padding: 0 30px; // [Optimización] Más padding en pantallas grandes
+      max-width: 100%; // [Optimización] Máximo aprovechamiento
     }
   }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO MUY GRANDE (1920px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1920px) {
+  .spotify-content {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    
+    > div {
+      padding: 0 40px; // [Optimización] Máximo padding
+      max-width: 100%; // [Optimización] Seguir expandiéndose
+    }
+  }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT 4K (2560px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 2560px) {
+  .spotify-content {
+    > div {
+      padding: 0 60px; // [Optimización] Padding generoso en 4K
+      max-width: 100%; // [Optimización] Continuar expansión
+    }
+  }
+}

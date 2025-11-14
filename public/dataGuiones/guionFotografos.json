@@ -1,0 +1,132 @@
+{
+  "evento": "Guión Fotógrafos - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "14:00 a 04:00",
+  "rol": "Fotógrafos",
+  "responsable": "Cobertura fotográfica completa del evento",
+  "bloques": [
+    {
+      "id": "pre-boda-fotos",
+      "nombre": "Preparativos y Encuentro Privado",
+      "horaInicio": "18:00",
+      "horaFin": "19:00",
+      "momentos_clave": [
+        "Detalles vestido Fabiola y accesorios",
+        "Alejandro preparación final",
+        "Encuentro privado novios pre-ceremonia",
+        "Momento emocional primer encuentro"
+      ],
+      "equipamiento": "Cámaras principales + lentes para detalles + flash suave"
+    },
+    {
+      "id": "bloque-2-ceremonia",
+      "nombre": "Ceremonia Civil",
+      "horaInicio": "19:30",
+      "horaFin": "20:15",
+      "momentos_clave": [
+        "Entrada novios al área ceremonia",
+        "Votos e intercambio de anillos",
+        "Firma de acta con 4 testigos",
+        "Lluvia de arroz/pétalos - salida festiva"
+      ],
+      "posiciones": "Frente arco (principal), laterales (ángulos), atrás (vista general)"
+    },
+    {
+      "id": "bloque-3-felicitaciones",
+      "nombre": "Saludos y Felicitaciones",
+      "horaInicio": "20:15",
+      "horaFin": "20:45",
+      "momentos_clave": [
+        "Saludos espontáneos con invitados",
+        "Abrazos y emociones familiares",
+        "Fotos casuales post-ceremonia"
+      ],
+      "organizacion": "Cobertura natural, no posada"
+    },
+    {
+      "id": "bloque-4-fotosgrupales",
+      "nombre": "Sesión Fotos Grupales",
+      "horaInicio": "20:45",
+      "horaFin": "21:15",
+      "estructura": "Novios en mesa principal + invitados detrás por mesas",
+      "tiempo_por_mesa": "2-3 minutos máximo",
+      "coordinacion": "CON ANIMADOR - llamado ordenado por números de mesa",
+      "equipamiento": "Flash externo para consistencia, lente gran angular"
+    },
+    {
+      "id": "bloque-7B-brindischampagne",
+      "nombre": "Brindis con Champagne",
+      "horaInicio": "22:30",
+      "horaFin": "22:45",
+      "momentos_clave": [
+        "Foto grupal con copas alzadas",
+        "Flash mob fotográfico coordinado",
+        "Emociones durante brindis"
+      ],
+      "preparacion": "Posición elevada para foto grupal completa"
+    },
+    {
+      "id": "bloque-8A-coreografia",
+      "nombre": "Coreografía Novios",
+      "horaInicio": "22:45",
+      "horaFin": "22:55",
+      "momentos_clave": [
+        "Coreografía completa 'Colgado en tus manos'",
+        "Expresiones faciales durante baile",
+        "Reacción del público"
+      ],
+      "equipamiento": "Cámaras con estabilización, lentes luminosos"
+    },
+    {
+      "id": "bloque-11-banda",
+      "nombre": "Show Banda en Vivo",
+      "horaInicio": "00:00",
+      "horaFin": "00:35",
+      "momentos_clave": [
+        "Alejandro tocando con la banda",
+        "Fabiola cantando 'Vuela Vuela'",
+        "Reacción invitados durante show"
+      ],
+      "posiciones": "Frente escenario, laterales, entre público"
+    },
+    {
+      "id": "bloque-14-torta",
+      "nombre": "Corte Torta y Foto General",
+      "horaInicio": "01:25",
+      "horaFin": "01:50",
+      "momentos_clave": [
+        "Ceremonia de corte de torta",
+        "Primeros bocados de torta",
+        "Foto grupal general con TODOS los invitados",
+        "Detalles mesa dulce y decoración"
+      ],
+      "preparacion": "Escaleras/plataforma para foto grupal, coordinación con animador"
+    },
+    {
+      "id": "bloque-16-horaloca",
+      "nombre": "Hora Loca - Energía y Cotillón",
+      "horaInicio": "02:05",
+      "horaFin": "03:05",
+      "momentos_clave": [
+        "Cotillón y luces especiales",
+        "Baile espontáneo y diversión",
+        "Primeros planos de alegría",
+        "Efectos visuales con luces"
+      ],
+      "equipamiento": "Cámaras con buena performance en baja luz"
+    },
+    {
+      "id": "bloque-19-despedida",
+      "nombre": "Despedida y Souvenirs",
+      "horaInicio": "04:00",
+      "horaFin": "04:15",
+      "momentos_clave": [
+        "Entrega de souvenirs (velas personalizadas)",
+        "Agradecimientos finales novios",
+        "Últimos abrazos y despedidas",
+        "Momento emotivo de cierre"
+      ],
+      "notas": "Última oportunidad para fotos espontáneas y emocionales"
+    }
+  ]
+}

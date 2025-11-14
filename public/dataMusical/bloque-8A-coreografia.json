@@ -1,0 +1,805 @@
+{
+    "bloque-8A-coreografia": {
+      "bloque_musical": "Baile de Novios + 1er Bloque Baile",
+      "total_canciones": 99,
+      "existen": 99,
+      "faltan": 0,
+      "canciones": [
+        {
+          "id": "b8-01",
+          "nombre": "Intervención Animador - Baile Romántico",
+          "artista": "Voz Animado",
+          "url": "/audio/08-baile-novios-bloque1/Voz Animador.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "El archivo 'Voz Animador.mp3' está en la carpeta."
+        },
+        {
+          "id": "b8-02",
+          "nombre": "Colgado en tus manos",
+          "artista": "Carlos Baute ft. Marta Sánchez",
+          "url": "/audio/bloque-8A-coreografia/Carlos Baute - Colgando en tus manos (& Marta sanchez).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "El archivo '00000 - BAILE FABI Y ALE - COLGADO EN TUS MANOS PISTA BAILE 1.mp3' está en la carpeta."
+        },
+        {
+          "id": "b8-03",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals Strauss - Mix Enganchado Vals.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-04",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals - imperial.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-05",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals - aIntStud.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-06",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals - aKiss.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-07",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals - andres.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-08",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals - aParis.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-09",
+          "nombre": "Vals",
+          "artista": "Vals Strauss",
+          "url": "/audio/bloque-8A-coreografia/Vals - derSchit.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-10",
+          "nombre": "La Petisita Culona",
+          "artista": "Bersuit Vergarabat",
+          "url": "/audio/bloque-8A-coreografia/Bersuit Vergarabat - la petisita culona.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-11",
+          "nombre": "Movidito movidito",
+          "artista": "Alcides",
+          "url": "/audio/bloque-8A-coreografia/Alcides - Movidito movidito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-12",
+          "nombre": "Violeta",
+          "artista": "Alcides",
+          "url": "/audio/bloque-8A-coreografia/Alcides - Violeta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-13",
+          "nombre": "Mira Hacia Tu Alrededor",
+          "artista": "Alejandro Lerner & Leon Gieco",
+          "url": "/audio/bloque-8A-coreografia/Alejandro Lerner & Leon Gieco - Mira Hacia Tu Alrededor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-14",
+          "nombre": "Te Lo Agradezco Pero No",
+          "artista": "Alejandro Sanz",
+          "url": "/audio/bloque-8A-coreografia/Alejandro Sanz - Te Lo Agradezco Pero No (with Shakira).MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-15",
+          "nombre": "Shimauta",
+          "artista": "Alfredo Casero",
+          "url": "/audio/bloque-8A-coreografia/Alfredo Casero - Shimauta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-16",
+          "nombre": "When I Need You",
+          "artista": "Alpha Blondie",
+          "url": "/audio/bloque-8A-coreografia/Alpha Blondie - When i need you (Reggae).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-17",
+          "nombre": "El Polvito del Amor",
+          "artista": "Amar Azul",
+          "url": "/audio/bloque-8A-coreografia/Amar Azul - El polvito del amor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-18",
+          "nombre": "Yo Me Enamoré",
+          "artista": "Amar Azul",
+          "url": "/audio/bloque-8A-coreografia/Amar Azul - yo me enamore.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-19",
+          "nombre": "Yo Tomo Licor",
+          "artista": "Amar Azul",
+          "url": "/audio/bloque-8A-coreografia/Amar Azul - Yo Tomo Licor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-20",
+          "nombre": "Y Si Te Vas",
+          "artista": "Américo y la Nueva Alegría",
+          "url": "/audio/bloque-8A-coreografia/Americo y la Nueva alegria - Y si te vas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-21",
+          "nombre": "Bonita",
+          "artista": "Andrés Cepeda",
+          "url": "/audio/bloque-8A-coreografia/Andres Cabas - Bonita.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-22",
+          "nombre": "Brindo por las Mujeres",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Brindo por las mujeres.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-23",
+          "nombre": "Cinco Minutos Más",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Cinco Minutos Mas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-24",
+          "nombre": "La Milonga del Marinero y el Capitán",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - La milonga del marinero y el capitan.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-25",
+          "nombre": "Las Tres Marías",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Las Tres Marias.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-26",
+          "nombre": "Mil Horas",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Mil Horas (Abuelos de la Nada).MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-27",
+          "nombre": "Para No Olvidar",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Para no olvidar.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-28",
+          "nombre": "Sin Documentos",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Sin documentos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-29",
+          "nombre": "Tuyo Siempre",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro - Tuyo siempre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-30",
+          "nombre": "La Parte de Adelante",
+          "artista": "Andrés Calamaro & Fabulosos Cadillacs",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro & Fabulosos Cadillacs - La parte de adelante.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-31",
+          "nombre": "Vasos Vacíos",
+          "artista": "Andrés Calamaro & Fabulosos Cadillacs",
+          "url": "/audio/bloque-8A-coreografia/Andres Calamaro & Fabulosos Cadillacs - Vasos vacios.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-32",
+          "nombre": "Suzzanna",
+          "artista": "Art Company",
+          "url": "/audio/bloque-8A-coreografia/Art Company - Suzzanna.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-33",
+          "nombre": "Se Que Vos Me Amas",
+          "artista": "Ataque 77 & Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Ataque 77 - Autenticos Decadentes - Se que vos me amas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-34",
+          "nombre": "Ay Sígueme Mi Dulce Amor",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - Ay sigueme mi dulce amor.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-35",
+          "nombre": "Besándote",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Besandote.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-36",
+          "nombre": "Como Me Voy a Olvidar",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Como me voy a olvidar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-37",
+          "nombre": "Corazón",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Corazón.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-38",
+          "nombre": "Diosa",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - Diosa.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-39",
+          "nombre": "El Dinero No Es Todo",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - El dinero no es todo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-40",
+          "nombre": "El Gran Señor",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - El Gran Señor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-41",
+          "nombre": "El Murguero",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - El Murguero.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-42",
+          "nombre": "La Guitarra",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - La guitarra.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-43",
+          "nombre": "La Marca de la Gorra",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - La marca de la gorra.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-44",
+          "nombre": "Loco Tu Forma de Ser",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Loco tu forma de ser.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-45",
+          "nombre": "Los Piratas",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Los Piratas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-46",
+          "nombre": "Luna Radiante",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - Luna Radiante.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-47",
+          "nombre": "Pendeviejo",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Autenticos Decadentes - Pendeviejo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-48",
+          "nombre": "Siga el Baile",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Siga el baile.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-49",
+          "nombre": "Vení Raquel",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Veni Raquel.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-50",
+          "nombre": "Viviré Por Siempre",
+          "artista": "Auténticos Decadentes",
+          "url": "/audio/bloque-8A-coreografia/Auténticos Decadentes - Viviré por siempre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-51",
+          "nombre": "Agua Salada",
+          "artista": "Axel Fernando",
+          "url": "/audio/bloque-8A-coreografia/Axel Fernando - Agua salada.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-52",
+          "nombre": "Celebra La Vida",
+          "artista": "Axel Fernando",
+          "url": "/audio/bloque-8A-coreografia/Axel fernando - Celebra La Vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-53",
+          "nombre": "Mamma Mía",
+          "artista": "Axel Fernando",
+          "url": "/audio/bloque-8A-coreografia/Axel Fernando - Mamma mía.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-54",
+          "nombre": "Mambo Tequila",
+          "artista": "Azúcar Moreno",
+          "url": "/audio/bloque-8A-coreografia/Azucar Moreno - Mambo Tequila.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-55",
+          "nombre": "Me Quedo Contigo",
+          "artista": "Azúcar Moreno",
+          "url": "/audio/bloque-8A-coreografia/Azucar Moreno - Me quedo contigo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-56",
+          "nombre": "Solo Se Vive Una Vez",
+          "artista": "Azúcar Moreno",
+          "url": "/audio/bloque-8A-coreografia/Azucar Moreno - Solo se vive una vez.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-57",
+          "nombre": "Ven Devórame Otra Vez",
+          "artista": "Azúcar Moreno",
+          "url": "/audio/bloque-8A-coreografia/Azucar Moreno - Ven Devorame Otra Vez.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-58",
+          "nombre": "Apretadito",
+          "artista": "Azul Azul",
+          "url": "/audio/bloque-8A-coreografia/Azul Azul - Apretadito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-59",
+          "nombre": "La Bomba",
+          "artista": "Azul Azul",
+          "url": "/audio/bloque-8A-coreografia/Azul Azul - La bomba.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-60",
+          "nombre": "Matame",
+          "artista": "Bachata - Anthony Santos",
+          "url": "/audio/bloque-8A-coreografia/Bachata - anthony santos - matame.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-61",
+          "nombre": "Duele Para Siempre",
+          "artista": "Bachata - Arthur",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Arthur - duele para siempre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-62",
+          "nombre": "Confesiones",
+          "artista": "Bachata - Aventura",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Aventura - confesiones.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-63",
+          "nombre": "Desprecio",
+          "artista": "Bachata - Aventura",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Aventura - despresio.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-64",
+          "nombre": "Ella Y Yo",
+          "artista": "Bachata - Aventura",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Aventura - Ella Y Yo Feat. Don Omar gd.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-65",
+          "nombre": "Mi Corazoncito",
+          "artista": "Bachata - Aventura",
+          "url": "/audio/bloque-8A-coreografia/Bachata - AVENTURA - Mi Corazoncito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-66",
+          "nombre": "Obsession",
+          "artista": "Bachata - Aventura",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Aventura - Obsession.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-67",
+          "nombre": "Su Veneno",
+          "artista": "Bachata - Aventura",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Aventura - su veneno.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-68",
+          "nombre": "Ella y Yo",
+          "artista": "Bachata - Aventura & Don Omar",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Aventura Ft Don Omar- Ella y Yo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-69",
+          "nombre": "Por Mi Timidez",
+          "artista": "Bachata - Romeo Santos",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Romeo Santos - por mi timidez.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-70",
+          "nombre": "Porque No Lo Dijiste",
+          "artista": "Bachata - Romeo Santos",
+          "url": "/audio/bloque-8A-coreografia/Bachata - Romeo santos - porque no lo dijiste.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-71",
+          "nombre": "Cara de la Luna",
+          "artista": "Bacilos",
+          "url": "/audio/bloque-8A-coreografia/Bacilos - Cara de la luna.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-72",
+          "nombre": "Mi Primer Millón",
+          "artista": "Bacilos",
+          "url": "/audio/bloque-8A-coreografia/Bacilos - Mi primer millon.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-73",
+          "nombre": "Amorfoda",
+          "artista": "Bad Bunny",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny - Amorfoda.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-74",
+          "nombre": "Chambea",
+          "artista": "Bad Bunny",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny - Chambea.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-75",
+          "nombre": "Soy Peor",
+          "artista": "Bad Bunny",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny - Soy Peor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-76",
+          "nombre": "Te Boté (Remix)",
+          "artista": "Bad Bunny, Darell, Ozuna, Nicky Jam",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny, Darell, Ozuna, Nicky Jam - Te Boté (Remix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-77",
+          "nombre": "MIA (feat. Drake)",
+          "artista": "Bad Bunny, Drake",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny, Drake - MIA (feat. Drake).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-78",
+          "nombre": "I Like It",
+          "artista": "Bad Bunny, J Balvin",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny, J Balvin - I Like It.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-79",
+          "nombre": "Sensualidad",
+          "artista": "Bad Bunny, Prince Royce, J Balvin",
+          "url": "/audio/bloque-8A-coreografia/Bad Bunny, Prince Royce, J Balvin - Sensualidad.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-80",
+          "nombre": "Donde Estará Mi Primavera",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - Donde estara mi primavera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-81",
+          "nombre": "Esa Chica Tiene Swing",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/banda 21 - esa chica tiene swing.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-82",
+          "nombre": "Eso Duele",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - eso duele.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-83",
+          "nombre": "Hasta El Sol De Hoy",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - hasta el sol de hoy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-84",
+          "nombre": "Mami Llegó Tu Papí",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - Mami Llego Tu Papi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-85",
+          "nombre": "Mi Mujer",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - mi mujer.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-86",
+          "nombre": "Olvídala",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - Olvidala.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-87",
+          "nombre": "Pásame La Botella",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - Pasame la botella.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-88",
+          "nombre": "Qué Bonito",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - Que bonito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-89",
+          "nombre": "Y Sigue La Gozadera",
+          "artista": "Banda 21",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 - Y sigue la gozadera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-90",
+          "nombre": "Qué Bonito",
+          "artista": "Banda 21 & La Konga",
+          "url": "/audio/bloque-8A-coreografia/Banda 21 & la konga - que bonito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-91",
+          "nombre": "Guapas",
+          "artista": "Bandana",
+          "url": "/audio/bloque-8A-coreografia/Bandana - Guapas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-92",
+          "nombre": "Stand By Me",
+          "artista": "The Beatles",
+          "url": "/audio/bloque-8A-coreografia/Beatles - Stand by me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-93",
+          "nombre": "Malo",
+          "artista": "Bebe",
+          "url": "/audio/bloque-8A-coreografia/Bebe - Malo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-94",
+          "nombre": "Mayores",
+          "artista": "Becky G & Bad Bunny",
+          "url": "/audio/bloque-8A-coreografia/Becky G & Bad bunny - Mayores.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-95",
+          "nombre": "Sin Pijama",
+          "artista": "Becky G, Natti Natasha",
+          "url": "/audio/bloque-8A-coreografia/Becky G, Natti Natasha - Sin Pijama.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-96",
+          "nombre": "El Viejo De Arriba",
+          "artista": "Bersuit Vergarabat",
+          "url": "/audio/bloque-8A-coreografia/Bersuit Vergarabat - El viejo de arriba.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-97",
+          "nombre": "La Argentinidad Al Palo",
+          "artista": "Bersuit Vergarabat",
+          "url": "/audio/bloque-8A-coreografia/Bersuit Vergarabat - La argentinidad al palo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-98",
+          "nombre": "La Bolsa",
+          "artista": "Bersuit Vergarabat",
+          "url": "/audio/bloque-8A-coreografia/Bersuit Vergarabat - La bolsa.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b8-99",
+          "nombre": "La Del Toro",
+          "artista": "Bersuit Vergarabat",
+          "url": "/audio/bloque-8A-coreografia/Bersuit Vergarabat - La del toro.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,236 @@
+{
+    "bloque-11-banda": {
+      "bloque_musical": "Banda en Vivo – 'Almango Pop Covers'",
+      "total_canciones": 25,
+      "existen": 0,
+      "faltan": 25,
+      "canciones": [
+        {
+          "id": "b11-01",
+          "nombre": "Intro Banda",
+          "artista": "Almango Pop Covers",
+          "url": "/audio/bloque-11-banda/01-Intro Banda.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-02",
+          "nombre": "Have You Ever Seen The Rain",
+          "artista": "Creedence Clearwater Revival",
+          "url": "/audio/bloque-11-banda/02-CCR - Have You Ever Seen.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-03",
+          "nombre": "Proud Mary",
+          "artista": "Creedence Clearwater Revival",
+          "url": "/audio/bloque-11-banda/03-CCR - Proud Mary.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-04",
+          "nombre": "It's a Heartache",
+          "artista": "Bonnie Tyler",
+          "url": "/audio/bloque-11-banda/04-Bonnie Tyler - Heartache.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-05",
+          "nombre": "Stand by Me",
+          "artista": "The Beatles",
+          "url": "/audio/bloque-11-banda/05-Beatles - Stand by Me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-06",
+          "nombre": "Every Breath You Take",
+          "artista": "The Police",
+          "url": "/audio/bloque-11-banda/06-Police - Every Breath.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-07",
+          "nombre": "Hey Jude",
+          "artista": "The Beatles",
+          "url": "/audio/bloque-11-banda/07-Beatles - Hey Jude.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-08",
+          "nombre": "What's Going On",
+          "artista": "Four Non Blondes",
+          "url": "/audio/bloque-11-banda/08-Four Non Blondes - Whats Going On.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-09",
+          "nombre": "Radio Ga Ga",
+          "artista": "Queen",
+          "url": "/audio/bloque-11-banda/09-Queen - Radio Ga Ga.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-10",
+          "nombre": "Take on Me",
+          "artista": "A-ha",
+          "url": "/audio/bloque-11-banda/10-Aha - Take on Me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-11",
+          "nombre": "Zombie",
+          "artista": "The Cranberries",
+          "url": "/audio/bloque-11-banda/11-Cranberries - Zombie.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-12",
+          "nombre": "Listen to Your Heart",
+          "artista": "Roxette",
+          "url": "/audio/bloque-11-banda/12-Roxette - Listen to your Heart.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-13",
+          "nombre": "Never Tear Us Apart",
+          "artista": "INXS",
+          "url": "/audio/bloque-11-banda/13-INXS - Never Tear Us Apart.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-14",
+          "nombre": "With or Without You",
+          "artista": "U2",
+          "url": "/audio/bloque-11-banda/14-U2 - With or Without You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-15",
+          "nombre": "(I've Had) The Time of My Life",
+          "artista": "Bill Medley",
+          "url": "/audio/bloque-11-banda/15-Time of My Life.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-16",
+          "nombre": "Fix You",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-11-banda/16-Coldplay - Fix You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-17",
+          "nombre": "Yellow",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-11-banda/17-Coldplay - Yellow.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-18",
+          "nombre": "It's My Life",
+          "artista": "Bon Jovi",
+          "url": "/audio/bloque-11-banda/18-Bon Jovi - Its My Life.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-19",
+          "nombre": "Under the Bridge",
+          "artista": "Red Hot Chili Peppers",
+          "url": "/audio/bloque-11-banda/19-RHCP - Under the Bridge.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-20",
+          "nombre": "You're the Voice",
+          "artista": "John Farnham",
+          "url": "/audio/bloque-11-banda/20-John Farnham - Voice.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-21",
+          "nombre": "Under Pressure",
+          "artista": "Queen",
+          "url": "/audio/bloque-11-banda/21-Queen - Under Pressure.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-22",
+          "nombre": "One More Night",
+          "artista": "Phil Collins",
+          "url": "/audio/bloque-11-banda/22-Phil Collins - One More Night.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-23",
+          "nombre": "Crazy Little Thing Called Love",
+          "artista": "Queen",
+          "url": "/audio/bloque-11-banda/23-Queen - Crazy Little Thing.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-24",
+          "nombre": "Footloose",
+          "artista": "Kenny Loggins",
+          "url": "/audio/bloque-11-banda/24-Kenny Loggins - Footloose.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b11-25",
+          "nombre": "Vuela Vuela (con Fabiola)",
+          "artista": "Almango Pop Covers ft. Fabiola",
+          "url": "/audio/bloque-11-banda/25-Vuela Vuela con Fabiola.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

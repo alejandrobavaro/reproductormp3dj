@@ -1,0 +1,182 @@
+{
+    "bloque-15-barralibre": {
+      "bloque_musical": "Foto General + Descontrol (Éxitos Explosivos)",
+      "total_canciones": 19,
+      "existen": 0,
+      "faltan": 19,
+      "canciones": [
+        {
+          "id": "b15-01",
+          "nombre": "Intervención Animador - Foto Grupal",
+          "artista": "Animador",
+          "url": "/audio/bloque-15-barralibre/01-Voz Animador Foto Grupal.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-02",
+          "nombre": "We Are Family",
+          "artista": "Sister Sledge",
+          "url": "/audio/bloque-15-barralibre/02-Sister Sledge - We Are Family.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-03",
+          "nombre": "Don't Stop Me Now",
+          "artista": "Queen",
+          "url": "/audio/bloque-15-barralibre/03-Queen - Dont Stop Me Now.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-04",
+          "nombre": "I Gotta Feeling",
+          "artista": "The Black Eyed Peas",
+          "url": "/audio/bloque-15-barralibre/04-Black Eyed Peas - I Gotta Feeling.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-05",
+          "nombre": "Uptown Funk",
+          "artista": "Mark Ronson ft. Bruno Mars",
+          "url": "/audio/bloque-15-barralibre/05-Bruno Mars - Uptown Funk.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-06",
+          "nombre": "Can't Stop the Feeling!",
+          "artista": "Justin Timberlake",
+          "url": "/audio/bloque-15-barralibre/06-Justin Timberlake - Cant Stop.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-07",
+          "nombre": "24K Magic",
+          "artista": "Bruno Mars",
+          "url": "/audio/bloque-15-barralibre/07-Bruno Mars - 24K Magic.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-08",
+          "nombre": "Shut Up and Dance",
+          "artista": "Walk the Moon",
+          "url": "/audio/bloque-15-barralibre/08-Walk the Moon - Shut Up and Dance.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-09",
+          "nombre": "Happy",
+          "artista": "Pharrell Williams",
+          "url": "/audio/bloque-15-barralibre/09-Pharrell - Happy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-10",
+          "nombre": "Wake Me Up",
+          "artista": "Avicii",
+          "url": "/audio/bloque-15-barralibre/10-Avicii - Wake Me Up.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-11",
+          "nombre": "We Found Love",
+          "artista": "Rihanna ft. Calvin Harris",
+          "url": "/audio/bloque-15-barralibre/11-Rihanna - We Found Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-12",
+          "nombre": "Titanium",
+          "artista": "David Guetta ft. Sia",
+          "url": "/audio/bloque-15-barralibre/12-David Guetta - Titanium.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-13",
+          "nombre": "Turn Down for What",
+          "artista": "DJ Snake & Lil Jon",
+          "url": "/audio/bloque-15-barralibre/13-DJ Snake - Turn Down.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-14",
+          "nombre": "Animals",
+          "artista": "Martin Garrix",
+          "url": "/audio/bloque-15-barralibre/14-Martin Garrix - Animals.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-15",
+          "nombre": "Sugar",
+          "artista": "Maroon 5",
+          "url": "/audio/bloque-15-barralibre/15-Maroon 5 - Sugar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-16",
+          "nombre": "Shape of You",
+          "artista": "Ed Sheeran",
+          "url": "/audio/bloque-15-barralibre/16-Ed Sheeran - Shape of You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-17",
+          "nombre": "Cheap Thrills",
+          "artista": "Sia",
+          "url": "/audio/bloque-15-barralibre/17-Sia - Cheap Thrills.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-18",
+          "nombre": "This Is What You Came For",
+          "artista": "Calvin Harris ft. Rihanna",
+          "url": "/audio/bloque-15-barralibre/18-Calvin Harris - This Is What.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b15-19",
+          "nombre": "Eu Preciso Te Falar",
+          "artista": "Gabriel O Pensador",
+          "url": "/audio/bloque-15-barralibre/19-Gabriel O Pensador - Eu Preciso.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

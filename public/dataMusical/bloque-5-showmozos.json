@@ -1,0 +1,180 @@
+{
+    "bloque-5-showmozos": {
+      "bloque_musical": "Entrada Show de los Mozos",
+      "total_canciones": 21,
+      "existen": 20,
+      "faltan": 1,
+      "canciones": [
+        {
+          "id": "b5-01",
+          "nombre": "Intervención Animador - Entrada Show",
+          "artista": "Animador",
+          "url": "/audio/bloque-5-showmozos/entrada_show.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b5-02",
+          "nombre": "Cosmos",
+          "artista": "Armin van Buuren",
+          "url": "/audio/bloque-5-showmozos/Armin van Buuren - Cosmos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-03",
+          "nombre": "Wake Me Up",
+          "artista": "Avicii",
+          "url": "/audio/bloque-5-showmozos/Avicii - Wake Me Up.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-04",
+          "nombre": "This Time",
+          "artista": "Avoure",
+          "url": "/audio/bloque-5-showmozos/Avoure - This Time.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-05",
+          "nombre": "Let It Go",
+          "artista": "Axwell",
+          "url": "/audio/bloque-5-showmozos/Axwell - Let It Go.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-06",
+          "nombre": "Harlem Shake",
+          "artista": "Baauer",
+          "url": "/audio/bloque-5-showmozos/Baauer - Harlem Shake.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-07",
+          "nombre": "Pump it Up",
+          "artista": "Bariloche",
+          "url": "/audio/bloque-5-showmozos/Bariloche - Danzel - Pump it Up Barilo bariloo no vamo a barilo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-08",
+          "nombre": "Samba De Janeiro",
+          "artista": "Bellini",
+          "url": "/audio/bloque-5-showmozos/Bellini - Samba De Janeiro.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-09",
+          "nombre": "Don't Touch Too Much",
+          "artista": "Benny Benassi",
+          "url": "/audio/bloque-5-showmozos/benny benassi - don't touch too much.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-10",
+          "nombre": "Love Generation",
+          "artista": "Bob Sinclair",
+          "url": "/audio/bloque-5-showmozos/Bob Sinclair - love generation.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-11",
+          "nombre": "I Like The Way You Move",
+          "artista": "Body Rockers",
+          "url": "/audio/bloque-5-showmozos/Body Rockers - I Like The Way You Move.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-12",
+          "nombre": "Boys, Boys, Boys",
+          "artista": "Sabrina",
+          "url": "/audio/bloque-5-showmozos/Electro - Sabrina - Boys, boys, boys.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-13",
+          "nombre": "Everybody's Free (To Feel Good)",
+          "artista": "Rozalla",
+          "url": "/audio/bloque-5-showmozos/Electro - Rozalla - Everybody's Free (To Feel Good).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-14",
+          "nombre": "Saturday Night",
+          "artista": "Whigfield",
+          "url": "/audio/bloque-5-showmozos/Electro - Whigfield - Saturday Night.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-15",
+          "nombre": "Oh Yeah",
+          "artista": "Yello",
+          "url": "/audio/bloque-5-showmozos/Electro - Yello - Oh Yeah.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-16",
+          "nombre": "Zookey (Lift Your Leg Up)",
+          "artista": "Yves Larock",
+          "url": "/audio/bloque-5-showmozos/Electro - Yves Larock - Zookey (Lift Your Leg Up).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-17",
+          "nombre": "Seven Nation Army (House Mix)",
+          "artista": "The White Stripes",
+          "url": "/audio/bloque-5-showmozos/Benny Benassi Vs The White Stripes - Seven Nation Army (House Mix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-18",
+          "nombre": "World Hold On",
+          "artista": "Bob Sinclair",
+          "url": "/audio/bloque-5-showmozos/Bob Sinclair - world hold on.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-19",
+          "nombre": "The Power",
+          "artista": "Snap",
+          "url": "/audio/bloque-5-showmozos/Electro - Snap - The Power.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-20",
+          "nombre": "I Love It (Fred Falke Remix)",
+          "artista": "Sneaky Sound System",
+          "url": "/audio/bloque-5-showmozos/Electro - Sneaky Sound System - I Love It (Fred Falke Remix).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b5-21",
+          "nombre": "Pump Up The Jam",
+          "artista": "Technotronic",
+          "url": "/audio/bloque-5-showmozos/Electro - Technotronic - Pump Up The Jam.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

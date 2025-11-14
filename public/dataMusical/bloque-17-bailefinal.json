@@ -1,0 +1,641 @@
+{
+    "bloque-17-bailefinal": {
+      "bloque_musical": "3er Bloque Baile – Fiesta del Rock Nacional",
+      "total_canciones": 70,
+      "existen": 1,
+      "faltan": 69,
+      "canciones": [
+        {
+          "id": "b17-01",
+          "nombre": "Intervención Animador - Baile Final",
+          "artista": "Animador",
+          "url": "/audio/bloque-17-bailefinal/Voz Animador Baile Final.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-02",
+          "nombre": "El Mono Relojero",
+          "artista": "Kapanga",
+          "url": "/audio/bloque-17-bailefinal/Kapanga - Mono Relojero.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-03",
+          "nombre": "No lo soñé",
+          "artista": "Patricio Rey y sus Redonditos de Ricota",
+          "url": "/audio/bloque-17-bailefinal/Redonditos - No lo soñé.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-04",
+          "nombre": "Ji Ji Ji",
+          "artista": "Patricio Rey y sus Redonditos de Ricota",
+          "url": "/audio/bloque-17-bailefinal/Redonditos - Ji Ji Ji.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-05",
+          "nombre": "De Música Ligera",
+          "artista": "Soda Stereo",
+          "url": "/audio/bloque-17-bailefinal/Soda - Musica Ligera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-06",
+          "nombre": "Cuando Pase el Temblor",
+          "artista": "Soda Stereo",
+          "url": "/audio/bloque-17-bailefinal/Soda - Temblor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-07",
+          "nombre": "El Ritmo del Garaje",
+          "artista": "Los Auténticos Decadentes",
+          "url": "/audio/bloque-17-bailefinal/Autenticos - Ritmo Garaje.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-08",
+          "nombre": "La Guitarra",
+          "artista": "Los Auténticos Decadentes",
+          "url": "/audio/bloque-17-bailefinal/Autenticos - Guitarra.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-09",
+          "nombre": "Dancing Queen",
+          "artista": "ABBA",
+          "url": "/audio/bloque-17-bailefinal/ABBA - Dancing Queen.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-10",
+          "nombre": "Mamma Mia",
+          "artista": "ABBA",
+          "url": "/audio/bloque-17-bailefinal/ABBA - Mamma Mia.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-11",
+          "nombre": "I Feel Good",
+          "artista": "James Brown",
+          "url": "/audio/bloque-17-bailefinal/James Brown - I feel good.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-12",
+          "nombre": "Please Please Please",
+          "artista": "James Brown",
+          "url": "/audio/bloque-17-bailefinal/James Brown - Please please please.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-13",
+          "nombre": "Sweet Home Chicago",
+          "artista": "Blues Brothers",
+          "url": "/audio/bloque-17-bailefinal/Blues Brothers - Sweet Home Chicago.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-14",
+          "nombre": "Hit the Road Jack",
+          "artista": "Ray Charles",
+          "url": "/audio/bloque-17-bailefinal/Ray Charles - Hit The Road Jack.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-15",
+          "nombre": "Johnny B. Goode",
+          "artista": "Chuck Berry",
+          "url": "/audio/bloque-17-bailefinal/Chuck Berry - Johnny B. Good.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-16",
+          "nombre": "Rock Around the Clock",
+          "artista": "Bill Haley & His Comets",
+          "url": "/audio/bloque-17-bailefinal/Bill Halley & His Comets - Rock Around the clock.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-17",
+          "nombre": "Los Calientes",
+          "artista": "Babasónicos",
+          "url": "/audio/bloque-17-bailefinal/Babasonicos - Los Calientes.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-18",
+          "nombre": "Veni Raquel",
+          "artista": "Los Piojos",
+          "url": "/audio/bloque-17-bailefinal/Piojos - Veni Raquel.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-19",
+          "nombre": "El Farolito",
+          "artista": "Ciro y los Persas",
+          "url": "/audio/bloque-17-bailefinal/Ciro - Farolito.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-20",
+          "nombre": "Pistolas",
+          "artista": "Las Pelotas",
+          "url": "/audio/bloque-17-bailefinal/Pelotas - Pistolas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-21",
+          "nombre": "Vamos las Bandas",
+          "artista": "Los Piojos",
+          "url": "/audio/bloque-17-bailefinal/Piojos - Vamos las Bandas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-22",
+          "nombre": "Rock and Roll y Fiebre",
+          "artista": "Pappo",
+          "url": "/audio/bloque-17-bailefinal/Pappo - Rock and Roll y Fiebre.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-23",
+          "nombre": "Ruta 66",
+          "artista": "Pappo",
+          "url": "/audio/bloque-17-bailefinal/Pappo - Ruta 66.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-24",
+          "nombre": "Rock del Gato",
+          "artista": "Ratones Paranoicos",
+          "url": "/audio/bloque-17-bailefinal/Ratones Paranoicos - Rock del Gato.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-25",
+          "nombre": "Rock del Pedazo",
+          "artista": "Ratones Paranoicos",
+          "url": "/audio/bloque-17-bailefinal/Ratones Paranoicos - Rock del pedazo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-26",
+          "nombre": "Sigue Girando",
+          "artista": "Ratones Paranoicos",
+          "url": "/audio/bloque-17-bailefinal/Ratones Paranoicos - Sigue Girando.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-27",
+          "nombre": "Vicio",
+          "artista": "Ratones Paranoicos",
+          "url": "/audio/bloque-17-bailefinal/Ratones Paranoicos - Vicio.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-28",
+          "nombre": "I Love Rock 'n' Roll",
+          "artista": "Joan Jett",
+          "url": "/audio/bloque-17-bailefinal/Joan Jett - I Love Rock And Roll.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-29",
+          "nombre": "You Can Leave Your Hat On",
+          "artista": "Joe Cocker",
+          "url": "/audio/bloque-17-bailefinal/Joe Cocker - You Can leave your hat on.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-30",
+          "nombre": "All Shook Up",
+          "artista": "Elvis Presley",
+          "url": "/audio/bloque-17-bailefinal/Elvis - All Shook Up.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-31",
+          "nombre": "Jailhouse Rock",
+          "artista": "Elvis Presley",
+          "url": "/audio/bloque-17-bailefinal/Elvis - Jailhouse Rock.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-32",
+          "nombre": "Great Balls of Fire",
+          "artista": "Jerry Lee Lewis",
+          "url": "/audio/bloque-17-bailefinal/Jerry Lee Lewis - Great balls of fire.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-33",
+          "nombre": "Good Golly Miss Molly",
+          "artista": "Little Richard",
+          "url": "/audio/bloque-17-bailefinal/Little Richard - Good golly miss molly.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-34",
+          "nombre": "Tutti Frutti",
+          "artista": "Little Richard",
+          "url": "/audio/bloque-17-bailefinal/Little Richard - Tutti Frutti.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-35",
+          "nombre": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-17-bailefinal/Guns N Roses - Sweet Child O' Mine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-36",
+          "nombre": "Welcome to the Jungle",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-17-bailefinal/Guns N Roses - Welcome to the Jungle.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-37",
+          "nombre": "Smoke on the Water",
+          "artista": "Deep Purple",
+          "url": "/audio/bloque-17-bailefinal/Deep Purple - Smoke on the Water.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-38",
+          "nombre": "Highway to Hell",
+          "artista": "AC/DC",
+          "url": "/audio/bloque-17-bailefinal/ACDC - Highway to Hell.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-39",
+          "nombre": "Back in Black",
+          "artista": "AC/DC",
+          "url": "/audio/bloque-17-bailefinal/ACDC - Back in Black.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-40",
+          "nombre": "Born to Be Wild",
+          "artista": "Steppenwolf",
+          "url": "/audio/bloque-17-bailefinal/Steppenwolf - Born to Be Wild.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-41",
+          "nombre": "Paint It Black",
+          "artista": "Rolling Stones",
+          "url": "/audio/bloque-17-bailefinal/Rolling Stones - Paint It Black.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-42",
+          "nombre": "Sympathy for the Devil",
+          "artista": "Rolling Stones",
+          "url": "/audio/bloque-17-bailefinal/Rolling Stones - Sympathy for the Devil.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-43",
+          "nombre": "Another One Bites the Dust",
+          "artista": "Queen",
+          "url": "/audio/bloque-17-bailefinal/Queen - Another One Bites the Dust.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-44",
+          "nombre": "We Will Rock You",
+          "artista": "Queen",
+          "url": "/audio/bloque-17-bailefinal/Queen - We Will Rock You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-45",
+          "nombre": "Livin' on a Prayer",
+          "artista": "Bon Jovi",
+          "url": "/audio/bloque-17-bailefinal/Bon Jovi - Livin' on a Prayer.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-46",
+          "nombre": "It's My Life",
+          "artista": "Bon Jovi",
+          "url": "/audio/bloque-17-bailefinal/Bon Jovi - It's My Life.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-47",
+          "nombre": "Sweet Home Alabama",
+          "artista": "Lynyrd Skynyrd",
+          "url": "/audio/bloque-17-bailefinal/Lynyrd Skynyrd - Sweet Home Alabama.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-48",
+          "nombre": "Free Bird",
+          "artista": "Lynyrd Skynyrd",
+          "url": "/audio/bloque-17-bailefinal/Lynyrd Skynyrd - Free Bird.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-49",
+          "nombre": "Hotel California",
+          "artista": "Eagles",
+          "url": "/audio/bloque-17-bailefinal/Eagles - Hotel California.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-50",
+          "nombre": "Take It Easy",
+          "artista": "Eagles",
+          "url": "/audio/bloque-17-bailefinal/Eagles - Take It Easy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-51",
+          "nombre": "Bohemian Rhapsody",
+          "artista": "Queen",
+          "url": "/audio/bloque-17-bailefinal/Queen - Bohemian Rhapsody.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-52",
+          "nombre": "Don't Stop Believin'",
+          "artista": "Journey",
+          "url": "/audio/bloque-17-bailefinal/Journey - Don't Stop Believin'.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-53",
+          "nombre": "Every Breath You Take",
+          "artista": "The Police",
+          "url": "/audio/bloque-17-bailefinal/The Police - Every Breath You Take.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-54",
+          "nombre": "Message in a Bottle",
+          "artista": "The Police",
+          "url": "/audio/bloque-17-bailefinal/The Police - Message in a Bottle.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-55",
+          "nombre": "Sweet Child O' Mine",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-17-bailefinal/Guns N' Roses - Sweet Child O' Mine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-56",
+          "nombre": "November Rain",
+          "artista": "Guns N' Roses",
+          "url": "/audio/bloque-17-bailefinal/Guns N' Roses - November Rain.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-57",
+          "nombre": "Smells Like Teen Spirit",
+          "artista": "Nirvana",
+          "url": "/audio/bloque-17-bailefinal/Nirvana - Smells Like Teen Spirit.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-58",
+          "nombre": "Come As You Are",
+          "artista": "Nirvana",
+          "url": "/audio/bloque-17-bailefinal/Nirvana - Come As You Are.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-59",
+          "nombre": "Zombie",
+          "artista": "The Cranberries",
+          "url": "/audio/bloque-17-bailefinal/The Cranberries - Zombie.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-60",
+          "nombre": "Linger",
+          "artista": "The Cranberries",
+          "url": "/audio/bloque-17-bailefinal/The Cranberries - Linger.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-61",
+          "nombre": "Bitter Sweet Symphony",
+          "artista": "The Verve",
+          "url": "/audio/bloque-17-bailefinal/The Verve - Bitter Sweet Symphony.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-62",
+          "nombre": "Wonderwall",
+          "artista": "Oasis",
+          "url": "/audio/bloque-17-bailefinal/Oasis - Wonderwall.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-63",
+          "nombre": "Don't Look Back in Anger",
+          "artista": "Oasis",
+          "url": "/audio/bloque-17-bailefinal/Oasis - Don't Look Back in Anger.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-64",
+          "nombre": "Under the Bridge",
+          "artista": "Red Hot Chili Peppers",
+          "url": "/audio/bloque-17-bailefinal/Red Hot Chili Peppers - Under the Bridge.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-65",
+          "nombre": "Californication",
+          "artista": "Red Hot Chili Peppers",
+          "url": "/audio/bloque-17-bailefinal/Red Hot Chili Peppers - Californication.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-66",
+          "nombre": "Yellow",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-17-bailefinal/Coldplay - Yellow.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-67",
+          "nombre": "Viva la Vida",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-17-bailefinal/Coldplay - Viva la Vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-68",
+          "nombre": "Clocks",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-17-bailefinal/Coldplay - Clocks.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-69",
+          "nombre": "Seven Nation Army",
+          "artista": "The White Stripes",
+          "url": "/audio/bloque-17-bailefinal/The White Stripes - Seven Nation Army.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b17-70",
+          "nombre": "Feel Good Inc",
+          "artista": "Gorillaz",
+          "url": "/audio/bloque-17-bailefinal/Gorillaz - Feel Good Inc.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

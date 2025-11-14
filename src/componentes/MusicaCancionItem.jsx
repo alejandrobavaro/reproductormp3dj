@@ -1,69 +1,49 @@
-/**
- * COMPONENTE: MusicaCancionItem
- * 
- * Propósito:
- * - Mostrar una canción individual en la lista
- * - Cargar y mostrar la duración del MP3 dinámicamente
- * - Permitir la reproducción al hacer clic
- * 
- * Comunicación:
- * - Recibe datos de la canción desde MusicaCancionesLista
- * - Notifica al padre cuando se hace clic (onPlay)
- * - No modifica estados externos directamente
- */
-
+// src/componentes/MusicaCancionItem.jsx
 import React, { useState, useEffect } from 'react';
 
 function MusicaCancionItem({ song, index, isCurrent, onPlay }) {
-  // ████████████████████████████████████████████
-  // ███ 1. ESTADOS LOCALES ███
-  // ████████████████████████████████████████████
-  const [duration, setDuration] = useState(null); // Almacena la duración en segundos
+  const [duration, setDuration] = useState(null);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
-  // ████████████████████████████████████████████
-  // ███ 2. EFECTOS SECUNDARIOS ███
-  // ████████████████████████████████████████████
-  
-  // [Efecto] Carga la duración del MP3 cuando el componente se monta o cambia la URL
   useEffect(() => {
     if (!song.url) {
       setDuration(null);
       return;
     }
 
-    // Crear elemento de audio para leer metadatos
-    const audio = new Audio(song.url);
-    
-    // Handler para cuando se cargan los metadatos
-    const handleLoadedMetadata = () => {
-      setDuration(audio.duration);
-    };
+    const loadTimer = setTimeout(() => {
+      const audio = new Audio();
+      
+      const handleLoadedMetadata = () => {
+        setDuration(audio.duration);
+        audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+      };
 
-    // Handler para errores
-    const handleError = () => {
-      setDuration(null);
-    };
+      const handleError = () => {
+        setDuration(null);
+        audio.removeEventListener('error', handleError);
+      };
 
-    // Agregar event listeners
-    audio.addEventListener('loadedmetadata', handleLoadedMetadata);
-    audio.addEventListener('error', handleError);
+      audio.addEventListener('loadedmetadata', handleLoadedMetadata);
+      audio.addEventListener('error', handleError);
+      audio.src = song.url;
 
-    // Limpieza al desmontar
-    return () => {
-      audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
-      audio.removeEventListener('error', handleError);
-    };
+      const timeoutId = setTimeout(() => {
+        audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+        audio.removeEventListener('error', handleError);
+        setDuration(null);
+      }, 5000);
+
+      return () => {
+        clearTimeout(timeoutId);
+        audio.removeEventListener('loadedmetadata', handleLoadedMetadata);
+        audio.removeEventListener('error', handleError);
+      };
+    }, 100);
+
+    return () => clearTimeout(loadTimer);
   }, [song.url]);
 
-  // ████████████████████████████████████████████
-  // ███ 3. FUNCIONES AUXILIARES ███
-  // ████████████████████████████████████████████
-  
-  /**
-   * Formatea segundos a MM:SS
-   * @param {number} seconds - Duración en segundos
-   * @returns {string} Tiempo formateado
-   */
   const formatDuration = (seconds) => {
     if (!seconds || isNaN(seconds)) return '--:--';
     const mins = Math.floor(seconds / 60);
@@ -71,36 +51,42 @@ function MusicaCancionItem({ song, index, isCurrent, onPlay }) {
     return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
   };
 
-  // ████████████████████████████████████████████
-  // ███ 4. RENDERIZADO ███
-  // ████████████████████████████████████████████
+  const handleImageLoad = () => setImageLoaded(true);
+  const handleImageError = (e) => {
+    e.target.src = '/img/default-cover.png';
+    setImageLoaded(true);
+  };
+
   return (
     <li 
       className={`song-item ${isCurrent ? 'current' : ''}`}
       onClick={onPlay}
       aria-current={isCurrent ? 'true' : 'false'}
+      title={`Reproducir: ${song.nombre} - ${song.artista}`}
     >
-      {/* Número de pista */}
-      <span className="song-index">{index + 1}</span>
-      
-      {/* Contenedor de información principal */}
-      <div className="song-info">
-        {/* Portada del álbum */}
-        <img 
-          src={song.imagen || '/img/default-cover.png'} 
-          alt={`Portada de ${song.nombre}`}
-          className="song-cover"
-          onError={(e) => e.target.src = '/img/default-cover.png'}
-        />
-        
-        {/* Detalles de la canción */}
-        <div className="song-details">
-          <span className="song-name">{song.nombre}</span>
-          <span className="song-artist">{song.artista}</span>
+      {/* Número y portada en misma celda */}
+      <div className="song-start">
+        <span className="song-index">{index + 1}</span>
+        <div className="song-cover-container">
+          <img 
+            src={song.imagen || '/img/default-cover.png'} 
+            alt=""
+            className={`song-cover-mini ${imageLoaded ? 'loaded' : 'loading'}`}
+            onLoad={handleImageLoad}
+            onError={handleImageError}
+          />
+          {!imageLoaded && <div className="cover-placeholder"></div>}
         </div>
       </div>
       
-      {/* Duración formateada */}
+      {/* Información en línea continua */}
+      <div className="song-main-line">
+        <span className="song-name">{song.nombre}</span>
+        <span className="song-artist-separator">•</span>
+        <span className="song-artist">{song.artista}</span>
+      </div>
+      
+      {/* Duración alineada a la derecha */}
       <span className="song-duration">
         {formatDuration(duration)}
       </span>

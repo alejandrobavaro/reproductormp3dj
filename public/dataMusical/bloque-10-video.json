@@ -1,0 +1,29 @@
+{
+    "bloque-10-video": {
+      "bloque_musical": "Video Historia Novios",
+      "total_canciones": 2,
+      "existen": 0,
+      "faltan": 2,
+      "canciones": [
+        {
+          "id": "b10-01",
+          "nombre": "Intervención Animador - Video",
+          "artista": "Animador",
+          "url": "/audio/bloque-10-video/01-Voz Animador Video.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b10-02",
+          "nombre": "Nuestra Canción",
+          "artista": "Selección novios",
+          "url": "/audio/bloque-10-video/02-Cancion Novios.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        }
+      ]
+    }
+  }
+  

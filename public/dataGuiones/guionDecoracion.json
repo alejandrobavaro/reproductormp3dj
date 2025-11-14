@@ -1,0 +1,70 @@
+{
+  "evento": "Guión Decoración - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "14:00 a 04:00",
+  "rol": "Decoración",
+  "responsable": "Preparación y mantenimiento de espacios decorativos",
+  "bloques": [
+    {
+      "id": "pre-boda-decoracion",
+      "nombre": "Montaje Inicial Completo",
+      "horaInicio": "14:00",
+      "horaFin": "18:00",
+      "areas_trabajo": [
+        "Entrada y recepción: bienvenida y QR redes sociales",
+        "Área ceremonia: arco floral, sillas decoradas, alfombra",
+        "Salón principal: mesa novios, centros de mesa, iluminación",
+        "Pista baile: preparación base para iluminación especial"
+      ],
+      "verificaciones": "Iluminación ambiental, guirnaldas, elementos lluvia (arroz/pétalos)"
+    },
+    {
+      "id": "transicion-1",
+      "nombre": "Transición Ceremonia → Recepción",
+      "horaInicio": "20:15",
+      "horaFin": "20:45",
+      "preparacion": [
+        "Retirar elementos específicos de ceremonia",
+        "Adecuar espacio para sesión de fotos grupales",
+        "Verificar iluminación área de fotos"
+      ],
+      "coordinacion": "CON FOTÓGRAFOS - espacio optimizado para trabajo"
+    },
+    {
+      "id": "transicion-2",
+      "nombre": "Preparación Pista Baile",
+      "horaInicio": "23:10",
+      "horaFin": "23:25",
+      "preparacion": [
+        "Pista de baile despejada y segura",
+        "Iluminación especial coreografía y vals",
+        "Eliminar obstáculos alrededor de pista"
+      ],
+      "verificaciones": "Seguridad pista, iluminación funcional, espacio circulación"
+    },
+    {
+      "id": "bloque-16-horaloca",
+      "nombre": "Preparación Hora Loca",
+      "horaInicio": "01:50",
+      "horaFin": "02:05",
+      "preparacion": [
+        "Distribución bolsas de cotillón en mesas",
+        "Preparar efectos especiales de luces",
+        "Verificar confetti y elementos pirotécnicos seguros"
+      ],
+      "coordinacion": "CON ANIMADOR - timing reparto cotillón y efectos"
+    },
+    {
+      "id": "bloque-18-desayuno",
+      "nombre": "Preparación Espacio Desayuno",
+      "horaInicio": "03:00",
+      "horaFin": "03:15",
+      "preparacion": [
+        "Adecuar área desayuno diferenciada",
+        "Iluminación suave y ambiente relajado",
+        "Preparar mesa de souvenirs cerca de salida"
+      ],
+      "verificaciones": "Accesibilidad, comodidad, ambiente apropiado"
+    }
+  ]
+}

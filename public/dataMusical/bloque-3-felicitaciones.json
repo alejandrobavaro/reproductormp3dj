@@ -1,0 +1,520 @@
+{
+    "bloque-3-saludoinvitados": {
+      "bloque_musical": "Saludo y Fotos con Invitados",
+      "total_canciones": 51,
+      "existen": 50,
+      "faltan": 1,
+      "canciones": [
+        {
+          "id": "b3-01",
+          "nombre": "Intervención Animador - Saludos",
+          "artista": "Animador",
+          "duracion": "1:10",
+          "url": "/audio/bloque-3-saludoinvitados/Voz Animador.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Audio de saludos del animador"
+        },
+        {
+          "id": "b3-02",
+          "nombre": "Piano Solo",
+          "artista": "Forrest Gump",
+          "duracion": "2:45",
+          "url": "/audio/bloque-3-saludoinvitados/Bso - Forrest Gump - Piano Solo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Tema instrumental de Forrest Gump"
+        },
+        {
+          "id": "b3-03",
+          "nombre": "You are Beautiful",
+          "artista": "James Blunt",
+          "duracion": "3:34",
+          "url": "/audio/bloque-3-saludoinvitados/James Blunt - You are beautifull.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Nota: 'beautifull' en archivo (error ortográfico)"
+        },
+        {
+          "id": "b3-04",
+          "nombre": "Come What May",
+          "artista": "Moulin Rouge",
+          "duracion": "4:48",
+          "url": "/audio/bloque-3-saludoinvitados/Bso - Moulin Rouge - Come What May.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Tema de la película Moulin Rouge"
+        },
+        {
+          "id": "b3-05",
+          "nombre": "Over The Rainbow",
+          "artista": "Andre Rieu",
+          "duracion": "3:22",
+          "url": "/audio/bloque-3-saludoinvitados/BSO - Andre Rieu - Over The Rainbow.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b3-06",
+          "nombre": "Titanic",
+          "artista": "Andre Rieu",
+          "duracion": "4:15",
+          "url": "/audio/bloque-3-saludoinvitados/BSO - Andre Rieu - Titanic.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b3-07",
+          "nombre": "One More Try",
+          "artista": "George Michael",
+          "duracion": "5:53",
+          "url": "/audio/bloque-3-saludoinvitados/George Michael - One More Try.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b3-08",
+          "nombre": "Iris",
+          "artista": "Goo Goo Dolls",
+          "duracion": "4:49",
+          "url": "/audio/bloque-3-saludoinvitados/Goo Goo Dolls - Iris.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b3-09",
+          "nombre": "Don't Cry",
+          "artista": "Guns N' Roses",
+          "duracion": "4:44",
+          "url": "/audio/bloque-3-saludoinvitados/Guns n Roses - Don´t cry.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b3-10",
+          "nombre": "Patience",
+          "artista": "Guns N' Roses",
+          "duracion": "5:56",
+          "url": "/audio/bloque-3-saludoinvitados/Guns n Roses - Patience.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b3-11",
+          "nombre": "Crazy",
+          "artista": "Aerosmith",
+          "duracion": "5:16",
+          "url": "/audio/bloque-3-saludoinvitados/Aerosmith - Crazy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-06 en JSON"
+        },
+        {
+          "id": "b3-12",
+          "nombre": "Cryin'",
+          "artista": "Aerosmith",
+          "duracion": "5:08",
+          "url": "/audio/bloque-3-saludoinvitados/Aerosmith - Cryin'.MP3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-07 en JSON"
+        },
+        {
+          "id": "b3-13",
+          "nombre": "What It Takes",
+          "artista": "Aerosmith",
+          "duracion": "5:11",
+          "url": "/audio/bloque-3-saludoinvitados/Aerosmith - What It Takes.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-08 en JSON"
+        },
+        {
+          "id": "b3-14",
+          "nombre": "Total Eclipse of the Heart",
+          "artista": "Air Supply",
+          "duracion": "4:28",
+          "url": "/audio/bloque-3-saludoinvitados/Air Supply - Total Eclipse Of The Heart.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-09 en JSON"
+        },
+        {
+          "id": "b3-15",
+          "nombre": "Forever Young",
+          "artista": "Alphaville",
+          "duracion": "3:46",
+          "url": "/audio/bloque-3-saludoinvitados/Alphaville - Forever Young.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-10 en JSON"
+        },
+        {
+          "id": "b3-16",
+          "nombre": "When I See You Smile",
+          "artista": "Bad English",
+          "duracion": "4:17",
+          "url": "/audio/bloque-3-saludoinvitados/Bad English - When I See You Smile.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-11 en JSON"
+        },
+        {
+          "id": "b3-17",
+          "nombre": "Imagine",
+          "artista": "John Lennon",
+          "duracion": "3:04",
+          "url": "/audio/bloque-3-saludoinvitados/Beatles - John Lennon - Imagine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-12 en JSON"
+        },
+        {
+          "id": "b3-18",
+          "nombre": "Let It Be",
+          "artista": "The Beatles",
+          "duracion": "4:03",
+          "url": "/audio/bloque-3-saludoinvitados/Beatles - Let It Be.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-13 en JSON"
+        },
+        {
+          "id": "b3-19",
+          "nombre": "Yesterday",
+          "artista": "The Beatles",
+          "duracion": "2:05",
+          "url": "/audio/bloque-3-saludoinvitados/Beatles - Yesterday.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-14 en JSON"
+        },
+        {
+          "id": "b3-20",
+          "nombre": "Ain't No Sunshine",
+          "artista": "Bill Withers",
+          "duracion": "2:05",
+          "url": "/audio/bloque-3-saludoinvitados/Bill Withers - Aint no sunshine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-15 en JSON - Nota: 'Aint' en archivo"
+        },
+        {
+          "id": "b3-21",
+          "nombre": "Eyes Without a Face",
+          "artista": "Billy Idol",
+          "duracion": "4:58",
+          "url": "/audio/bloque-3-saludoinvitados/Billy Idol - Eyes without a face.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-16 en JSON"
+        },
+        {
+          "id": "b3-22",
+          "nombre": "Honesty",
+          "artista": "Billy Joel",
+          "duracion": "3:53",
+          "url": "/audio/bloque-3-saludoinvitados/Billy Joel - Honesty.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-17 en JSON"
+        },
+        {
+          "id": "b3-23",
+          "nombre": "Just The Way You Are",
+          "artista": "Billy Joel",
+          "duracion": "4:50",
+          "url": "/audio/bloque-3-saludoinvitados/Billy Joel - Just The Way You Are.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-18 en JSON"
+        },
+        {
+          "id": "b3-24",
+          "nombre": "Always",
+          "artista": "Bon Jovi",
+          "duracion": "5:53",
+          "url": "/audio/bloque-3-saludoinvitados/Bon Jovi - Always.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-19 en JSON"
+        },
+        {
+          "id": "b3-25",
+          "nombre": "Bed of Roses",
+          "artista": "Bon Jovi",
+          "duracion": "6:34",
+          "url": "/audio/bloque-3-saludoinvitados/Bon Jovi - Bed of Roses.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-20 en JSON"
+        },
+        {
+          "id": "b3-26",
+          "nombre": "All For Love",
+          "artista": "Bryan Adams",
+          "duracion": "4:43",
+          "url": "/audio/bloque-3-saludoinvitados/Bryan Adams - All For Love (Rod Stewart, Sting).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-21 en JSON"
+        },
+        {
+          "id": "b3-27",
+          "nombre": "Flying",
+          "artista": "Bryan Adams",
+          "duracion": "3:41",
+          "url": "/audio/bloque-3-saludoinvitados/Bryan Adams - Flying.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-22 en JSON"
+        },
+        {
+          "id": "b3-28",
+          "nombre": "Here I Am",
+          "artista": "Bryan Adams",
+          "duracion": "4:44",
+          "url": "/audio/bloque-3-saludoinvitados/Bryan Adams - Here I Am.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-23 en JSON"
+        },
+        {
+          "id": "b3-29",
+          "nombre": "I'll Always Be Right There",
+          "artista": "Bryan Adams",
+          "duracion": "3:18",
+          "url": "/audio/bloque-3-saludoinvitados/Bryan Adams - Unplugged - I´ll always be right there.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-24 en JSON - Nota: 'I´ll' en archivo"
+        },
+        {
+          "id": "b3-30",
+          "nombre": "I Finally Found Someone",
+          "artista": "Bryan Adams & Barbara Streisand",
+          "duracion": "3:41",
+          "url": "/audio/bloque-3-saludoinvitados/Bryan Adams & Barbara Streisand - I Finally Found Someone.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-25 en JSON"
+        },
+        {
+          "id": "b3-31",
+          "nombre": "When I Need You",
+          "artista": "Celine Dion",
+          "duracion": "4:13",
+          "url": "/audio/bloque-3-saludoinvitados/Celine Dion - When I Need You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-26 en JSON"
+        },
+        {
+          "id": "b3-32",
+          "nombre": "Fix You",
+          "artista": "Coldplay",
+          "duracion": "4:54",
+          "url": "/audio/bloque-3-saludoinvitados/Coldplay - Fix You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-27 en JSON"
+        },
+        {
+          "id": "b3-33",
+          "nombre": "The Scientist",
+          "artista": "Coldplay",
+          "duracion": "5:09",
+          "url": "/audio/bloque-3-saludoinvitados/Coldplay - The Scientist.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-28 en JSON"
+        },
+        {
+          "id": "b3-34",
+          "nombre": "Long As I Can See the Light",
+          "artista": "Credence",
+          "duracion": "3:33",
+          "url": "/audio/bloque-3-saludoinvitados/Credence - Long As I Can See the Light.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-29 en JSON"
+        },
+        {
+          "id": "b3-35",
+          "nombre": "Beautiful",
+          "artista": "Cristina Aguilera",
+          "duracion": "3:59",
+          "url": "/audio/bloque-3-saludoinvitados/Cristina Aguilera - Beautiful.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-30 en JSON"
+        },
+        {
+          "id": "b3-36",
+          "nombre": "True Colors",
+          "artista": "Cyndi Lauper",
+          "duracion": "3:47",
+          "url": "/audio/bloque-3-saludoinvitados/Cyndi Lauper - True Colors.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-31 en JSON"
+        },
+        {
+          "id": "b3-37",
+          "nombre": "Love Bites",
+          "artista": "Def Leppard",
+          "duracion": "5:47",
+          "url": "/audio/bloque-3-saludoinvitados/Def Leppard - Love Bites.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-32 en JSON"
+        },
+        {
+          "id": "b3-38",
+          "nombre": "Ordinary World",
+          "artista": "Duran Duran",
+          "duracion": "5:40",
+          "url": "/audio/bloque-3-saludoinvitados/Duran Duran - Ordinary world.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-33 en JSON"
+        },
+        {
+          "id": "b3-39",
+          "nombre": "Blue Eyes",
+          "artista": "Elton John",
+          "duracion": "3:26",
+          "url": "/audio/bloque-3-saludoinvitados/Elton John - Blue Eyes.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-34 en JSON"
+        },
+        {
+          "id": "b3-40",
+          "nombre": "Candle In The Wind",
+          "artista": "Elton John",
+          "duracion": "3:49",
+          "url": "/audio/bloque-3-saludoinvitados/Elton John - Candle In The Wind - 1998 - Ladydi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-35 en JSON - Nota: 'Ladydi' en archivo"
+        },
+        {
+          "id": "b3-41",
+          "nombre": "Circle of Life",
+          "artista": "Elton John",
+          "duracion": "4:51",
+          "url": "/audio/bloque-3-saludoinvitados/Elton John - Circle of life.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-36 en JSON"
+        },
+        {
+          "id": "b3-42",
+          "nombre": "Live Like Horses",
+          "artista": "Elton John",
+          "duracion": "5:10",
+          "url": "/audio/bloque-3-saludoinvitados/Elton John - Live Like Horses.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-37 en JSON"
+        },
+        {
+          "id": "b3-43",
+          "nombre": "Something About The Way You Look Tonight",
+          "artista": "Elton John",
+          "duracion": "4:09",
+          "url": "/audio/bloque-3-saludoinvitados/Elton John - Something About The Way You Look Tonight.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-38 en JSON"
+        },
+        {
+          "id": "b3-44",
+          "nombre": "Your Song",
+          "artista": "Elton John",
+          "duracion": "4:03",
+          "url": "/audio/bloque-3-saludoinvitados/Elton John - Your Song (Rod Stewart).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-39 en JSON"
+        },
+        {
+          "id": "b3-45",
+          "nombre": "Can't Help Falling In Love",
+          "artista": "Elvis",
+          "duracion": "3:01",
+          "url": "/audio/bloque-3-saludoinvitados/Elvis - Can´t Help Falling In Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-40 en JSON - Nota: 'Can´t' en archivo"
+        },
+        {
+          "id": "b3-46",
+          "nombre": "More Than Words",
+          "artista": "Extreme",
+          "duracion": "5:35",
+          "url": "/audio/bloque-3-saludoinvitados/Extreme - More Than Words.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-41 en JSON"
+        },
+        {
+          "id": "b3-47",
+          "nombre": "I Want to Know What Love Is",
+          "artista": "Foreigner",
+          "duracion": "5:04",
+          "url": "/audio/bloque-3-saludoinvitados/Foreigner - I Want to Know What Love Is.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-42 en JSON"
+        },
+        {
+          "id": "b3-48",
+          "nombre": "Forever Love",
+          "artista": "Gary Barlow",
+          "duracion": "4:18",
+          "url": "/audio/bloque-3-saludoinvitados/Gary Barlow - Forever Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-43 en JSON"
+        },
+        {
+          "id": "b3-49",
+          "nombre": "Still Got The Blues",
+          "artista": "Gary Moore",
+          "duracion": "6:10",
+          "url": "/audio/bloque-3-saludoinvitados/Gary Moore - Still Got The Blues.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-44 en JSON"
+        },
+        {
+          "id": "b3-50",
+          "nombre": "Careless Whisper",
+          "artista": "George Michael",
+          "duracion": "5:04",
+          "url": "/audio/bloque-3-saludoinvitados/George Michael - Careless Whisper.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b3-45 en JSON"
+        },
+        {
+          "id": "b3-51",
+          "nombre": "Intervención Animador - Fotos",
+          "artista": "Animador",
+          "duracion": "0:45",
+          "url": "/audio/bloque-3-saludoinvitados/Voz Animador Fotos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "CANCIÓN FALTANTE - Originalmente b3-05 en JSON - Archivo 'Voz Animador Fotos.mp3' no encontrado en carpeta"
+        }
+      ]
+    }
+  }

@@ -1,0 +1,396 @@
+{
+    "bloque-4-fotosgrupales": {
+      "bloque_musical": "Fotos Grupales",
+      "total_canciones": 48,
+      "existen": 47,
+      "faltan": 1,
+      "canciones": [
+        {
+          "id": "b4-01",
+          "nombre": "Intervención Animador - Fotos",
+          "artista": "Voz Animador",
+          "url": "/audio/bloque-4-fotosgrupales/Voz Animador.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-02",
+          "nombre": "Fama",
+          "artista": "Bso - Fama",
+          "url": "/audio/bloque-4-fotosgrupales/Bso - Fama.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-03",
+          "nombre": "La parte de adelante",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - La parte de adelante.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-04",
+          "nombre": "Algo de mi en tu corazón",
+          "artista": "Alejandro Lerner",
+          "url": "/audio/bloque-4-fotosgrupales/Alejandro Lerner - Algo de mi en tu corazón.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-05",
+          "nombre": "No es lo mismo",
+          "artista": "Alejandro Sanz",
+          "url": "/audio/bloque-4-fotosgrupales/Alejandro Sanz - No es lo mismo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-06",
+          "nombre": "Me Haces Tanto Bien",
+          "artista": "Amistades Peligrosas",
+          "url": "/audio/bloque-4-fotosgrupales/Amistades Peligrosas - Me Haces Tanto Bien.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-07",
+          "nombre": "10 Años Después",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - 10 Años Después.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-08",
+          "nombre": "El Fantasma",
+          "artista": "Árbol",
+          "url": "/audio/bloque-4-fotosgrupales/Arbol - El Fantasma.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-09",
+          "nombre": "Amigo",
+          "artista": "Ataque 77",
+          "url": "/audio/bloque-4-fotosgrupales/Ataque 77 - Amigo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-10",
+          "nombre": "Eres",
+          "artista": "Café Tacuba",
+          "url": "/audio/bloque-4-fotosgrupales/Cafe Tacuba - Eres.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-11",
+          "nombre": "Colgando en tus manos",
+          "artista": "Carlos Baute",
+          "url": "/audio/bloque-4-fotosgrupales/Carlos Baute - Colgando en tus manos (& Marta Sanchez).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-12",
+          "nombre": "A rodar mi vida",
+          "artista": "Fito Páez",
+          "url": "/audio/bloque-4-fotosgrupales/Fito Paez - A rodar mi vida.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-13",
+          "nombre": "Adios",
+          "artista": "Gustavo Cerati",
+          "url": "/audio/bloque-4-fotosgrupales/Gustavo Cerati - Adios.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-14",
+          "nombre": "Sweet Home Alabama",
+          "artista": "Forest Gump",
+          "url": "/audio/bloque-4-fotosgrupales/BSO - Forest Gump - Sweet Home Alabama.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-15",
+          "nombre": "Power of Love",
+          "artista": "Huey Lewis",
+          "url": "/audio/bloque-4-fotosgrupales/BSO - Huey Lewis - Power of Love (Back to the Future).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-16",
+          "nombre": "A las nueve",
+          "artista": "No Te Va Gustar",
+          "url": "/audio/bloque-4-fotosgrupales/No Te Va Gustar - A las nueve.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-17",
+          "nombre": "Casa De Locos",
+          "artista": "Ricardo Arjona",
+          "url": "/audio/bloque-4-fotosgrupales/Ricardo Arjona - Casa De Locos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-18",
+          "nombre": "Bombón de azúcar",
+          "artista": "Ricky Martin",
+          "url": "/audio/bloque-4-fotosgrupales/Ricky Martin - Bombon de azucar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-19",
+          "nombre": "Chiquilla",
+          "artista": "Seguridad Social",
+          "url": "/audio/bloque-4-fotosgrupales/Seguridad Social - Chiquilla.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-20",
+          "nombre": "Ciega Sordomuda",
+          "artista": "Shakira",
+          "url": "/audio/bloque-4-fotosgrupales/Shakira - Ciega Sordomuda.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-21",
+          "nombre": "Cuando pase el temblor",
+          "artista": "Soda Stereo",
+          "url": "/audio/bloque-4-fotosgrupales/Soda Stereo - Cuando pase el temblor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-22",
+          "nombre": "Rasguña las piedras",
+          "artista": "Sui Generis",
+          "url": "/audio/bloque-4-fotosgrupales/Sui Generis - Rasguña las piedras.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-23",
+          "nombre": "Como estamos hoy",
+          "artista": "Super Ratones",
+          "url": "/audio/bloque-4-fotosgrupales/Super Ratones - Como estamos hoy.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-24",
+          "nombre": "La mascara",
+          "artista": "La mascara",
+          "url": "/audio/bloque-4-fotosgrupales/BSO - La mascara.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-25",
+          "nombre": "Lady Marmalade",
+          "artista": "Moulin Rouge",
+          "url": "/audio/bloque-4-fotosgrupales/BSO - Lady Marmalade - Moulin Rouge.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-26",
+          "nombre": "Arruinarse",
+          "artista": "Tan Bionica",
+          "url": "/audio/bloque-4-fotosgrupales/Tan Bionica - Arruinarse.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-27",
+          "nombre": "El Oso",
+          "artista": "Antonio Birabent",
+          "url": "/audio/bloque-4-fotosgrupales/Antonio Birabent - El Oso.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b4-28",
+          "nombre": "Hace Calor (los rodriguez)",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Hace Calor (los rodriguez).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-29",
+          "nombre": "Salgo A Caminar",
+          "artista": "Antonio Birabent",
+          "url": "/audio/bloque-4-fotosgrupales/Antonio Birabent - Salgo A Caminar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-30",
+          "nombre": "Mirala, Miralo",
+          "artista": "Alejandra Guzmán",
+          "url": "/audio/bloque-4-fotosgrupales/Alejandra Guzman - Mirala, Miralo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-31",
+          "nombre": "Una Vez",
+          "artista": "Antonio Birabent",
+          "url": "/audio/bloque-4-fotosgrupales/Antonio Birabent - Una Vez.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-32",
+          "nombre": "Yo Nunca Te Dije",
+          "artista": "Antonio Birabent",
+          "url": "/audio/bloque-4-fotosgrupales/Antonio Birabent - Yo Nunca Te Dije.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-33",
+          "nombre": "Pequeños Sueños",
+          "artista": "Árbol",
+          "url": "/audio/bloque-4-fotosgrupales/Arbol - Pequeños Sueños.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-34",
+          "nombre": "Trenes, camiones y tractores",
+          "artista": "Árbol",
+          "url": "/audio/bloque-4-fotosgrupales/Arbol - Trenes, camiones y tractores.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-35",
+          "nombre": "Hacelo por mi",
+          "artista": "Ataque 77",
+          "url": "/audio/bloque-4-fotosgrupales/Ataque 77 - Hacelo por mi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-36",
+          "nombre": "No me arrepiento de este amor",
+          "artista": "Ataque 77",
+          "url": "/audio/bloque-4-fotosgrupales/Ataque 77 - No me arrepiento de este amor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-37",
+          "nombre": "Back To Black",
+          "artista": "Amy Winehouse",
+          "url": "/audio/bloque-4-fotosgrupales/Amy Winehouse - Back To Black.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-38",
+          "nombre": "Me Quedaré Solo",
+          "artista": "Amistades Peligrosas",
+          "url": "/audio/bloque-4-fotosgrupales/Amistades Peligrosas - Me Quedaré Solo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-39",
+          "nombre": "A los ojos",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - A los ojos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-40",
+          "nombre": "Algun lugar encontrare",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Algún lugar encontraré.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-41",
+          "nombre": "Cartas sin marcar",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Cartas sin marcar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-42",
+          "nombre": "Corazón en venta",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Corazón en venta.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-43",
+          "nombre": "Costumbres Argentinas",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Costumbres Argentinas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-44",
+          "nombre": "Cuando Te Conocí",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Cuando Te Conocí.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-45",
+          "nombre": "Donde manda marinero",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Donde manda marinero.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-46",
+          "nombre": "Dulce Condena",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Dulce Condena.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-47",
+          "nombre": "Estadio Azteca",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Estadio Azteca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b4-48",
+          "nombre": "Flaca",
+          "artista": "Andrés Calamaro",
+          "url": "/audio/bloque-4-fotosgrupales/Andres Calamaro - Flaca.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

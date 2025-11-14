@@ -1,107 +1,226 @@
+// src/assets/scss/_03-Componentes/_Musica.scss
+
 /* █████████████████████████████████████████████████
-   ███ ESTILOS BASE - MUSICA (MOBILE FIRST) ███
+   ███ ESTILOS BASE - MUSICA OPTIMIZADO (MOBILE FIRST) ███
    █████████████████████████████████████████████████ */
 
-   .music-page {
-    width: 100%;
-    background-color: rgba(30, 30, 30, 0.8);
-    min-height: 100vh;
-  }
+// [Contenedor Principal] - Fondo y estructura base optimizada
+.music-page {
+  width: 100%;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  min-height: calc(100vh - 110px); // [Optimizado] Restar altura del header + nav
   
-  /* DISEÑO MÓVIL (DEFAULT) */
-  .music-mobile-layout {
+  // [Estado] Pantalla de carga optimizada
+  &.loading {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 60vh; // [Optimizado] Altura mínima para carga
+    
+    .loading-progress {
+      width: 200px;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      
+      .loading-bar {
+        height: 100%;
+        background: linear-gradient(90deg, #ff9800, #ff5722);
+        border-radius: 3px;
+        transition: width 0.3s ease;
+      }
+    }
+    
+    p {
+      color: #ccc;
+      font-size: 14px;
+      margin: 0;
+      text-align: center;
+    }
+    
+    small {
+      color: #888;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  }
+}
+
+// [Layout] Móvil por defecto - ultra compacto
+.music-mobile-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px;
+  min-height: calc(100vh - 110px); // [Optimizado] Altura exacta
+  
+  .music-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+// [Layout] Escritorio - oculto en móvil
+.music-desktop-layout {
+  display: none;
+}
+
+// [Componente] Alertas temporales optimizadas
+.alert-message {
+  position: fixed;
+  top: 120px; // [Optimizado] Debajo del header + nav
+  right: 15px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: white;
+  border-radius: 6px;
+  z-index: 1000;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+  animation: slideInAlert 0.3s ease, fadeOutAlert 0.3s ease 1.7s forwards;
+  
+  @keyframes slideInAlert {
+    from { transform: translateX(100px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes fadeOutAlert {
+    to { opacity: 0; transform: translateY(-10px); }
+  }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT TABLET (768px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 768px) {
+  .music-page {
+    min-height: calc(100vh - 120px); // [Optimizado] Ajustar altura
+  }
+  
+  .music-mobile-layout {
+    padding: 12px;
     gap: 15px;
-    padding: 10px;
+    min-height: calc(100vh - 120px);
     
     .music-container {
-      display: flex;
-      flex-direction: column;
       gap: 15px;
     }
   }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO (1024px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1024px) {
+  .music-page {
+    min-height: calc(100vh - 120px); // [Optimizado] Misma altura
+  }
   
-  .music-desktop-layout {
+  // [Estrategia] Ocultar móvil, mostrar escritorio
+  .music-mobile-layout {
     display: none;
   }
   
-  /* ALERTAS */
-  .alert-message {
-    position: fixed;
-    top: 100px;
-    right: 20px;
-    padding: 12px 20px;
-    background-color: #ff9800;
-    color: #333;
-    border-radius: 6px;
-    z-index: 1000;
-    animation: fadeInOut 3s ease-in-out;
-    font-weight: bold;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  @keyframes fadeInOut {
-    0%, 100% { opacity: 0; transform: translateY(-20px); }
-    10%, 90% { opacity: 1; transform: translateY(0); }
-  }
-  
-  /* █████████████████████████████████████████████████
-     ███ BREAKPOINT TABLET (768px) ███
-     █████████████████████████████████████████████████ */
-  @media (min-width: 768px) {
-    .music-mobile-layout {
-      padding: 15px;
-      gap: 20px;
-    }
-  }
-  
-  /* █████████████████████████████████████████████████
-     ███ BREAKPOINT ESCRITORIO (1024px) ███
-     █████████████████████████████████████████████████ */
-  @media (min-width: 1024px) {
-    .music-mobile-layout {
-      display: none;
-    }
+  .music-desktop-layout {
+    display: block; // [Optimizado] Solo grid sin controles
+    height: calc(100vh - 120px); // [Optimizado] Altura exacta
     
-    .music-desktop-layout {
+    // [Sección] Contenido principal - 2 columnas (MÁXIMO ESPACIO)
+    .music-content-section {
       display: grid;
-      grid-template-rows: auto 1fr;
-      height: auto;
-      gap: 0;
+      grid-template-columns: 320px 1fr;
+      height: 100%; // [Optimizado] Usar toda la altura disponible
       
-      .music-controls-section {
-        padding: 15px 25px;
-        background: rgba(40, 40, 40, 0.9);
-        position: sticky;
-        top: 0;
-        z-index: 10;
+      // [Columnas] Estilos compartidos
+      .music-songs-column,
+      .evento-guion-column {
+        height: 100%;
+        overflow-y: auto;
+        padding: 15px;
+        
+        // [Optimización] Scrollbar ultra delgada
+        &::-webkit-scrollbar {
+          width: 4px;
+        }
+        
+        &::-webkit-scrollbar-track {
+          background: rgba(255, 255, 255, 0.05);
+        }
+        
+        &::-webkit-scrollbar-thumb {
+          background: linear-gradient(to bottom, #ff9800, #ff5722);
+          border-radius: 2px;
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+          background: linear-gradient(to bottom, #ff5722, #ff9800);
+        }
       }
       
-      .music-content-section {
-        display: grid;
-        grid-template-columns: 30% 70%;
-        height: calc(100vh - 180px);
-        
-        .music-songs-column,
-        .evento-guion-column {
-          height: 100%;
-          overflow-y: auto;
-          padding: 20px;
-          
-          &::-webkit-scrollbar {
-            width: 8px;
-          }
-          
-          &::-webkit-scrollbar-thumb {
-            background: rgba(255, 152, 0, 0.5);
-            border-radius: 4px;
-          }
-        }
-        
-        .music-songs-column {
-          border-right: 1px solid rgba(255, 255, 255, 0.1);
-        }
+      // [Columna Izquierda] Lista de canciones
+      .music-songs-column {
+        border-right: 1px solid rgba(255, 255, 255, 0.08);
+        background: rgba(30, 30, 30, 0.7);
+      }
+      
+      // [Columna Derecha] Guion del evento
+      .evento-guion-column {
+        background: rgba(35, 35, 35, 0.8);
       }
     }
   }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO GRANDE (1440px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1440px) {
+  .music-desktop-layout {
+    .music-content-section {
+      grid-template-columns: 350px 1fr; // [Optimización] Más ancho
+      
+      .music-songs-column,
+      .evento-guion-column {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO MUY GRANDE (1920px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1920px) {
+  .music-desktop-layout {
+    .music-content-section {
+      grid-template-columns: 380px 1fr; // [Optimización] Máximo ancho
+      
+      .music-songs-column,
+      .evento-guion-column {
+        padding: 25px;
+      }
+    }
+  }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT 4K (2560px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 2560px) {
+  .music-desktop-layout {
+    .music-content-section {
+      grid-template-columns: 420px 1fr; // [Optimización] Extra ancho en 4K
+      
+      .music-songs-column,
+      .evento-guion-column {
+        padding: 30px;
+      }
+    }
+  }
+}

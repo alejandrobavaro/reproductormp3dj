@@ -1,0 +1,240 @@
+{
+    "bloque-2-ceremonia": {
+      "bloque_musical": "Ceremonia Civil",
+      "total_canciones": 23,
+      "existen": 23,
+      "faltan": 0,
+      "canciones": [
+        {
+          "id": "b2-01",
+          "nombre": "Intervención Animador - Entrada Novios",
+          "artista": "Animador",
+          "duracion": "1:15",
+          "url": "/audio/bloque-2-ceremonia/Voz Animador.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Audio de entrada de novios"
+        },
+        {
+          "id": "b2-02",
+          "nombre": "Thank You for Loving Me",
+          "artista": "Bon Jovi",
+          "duracion": "4:18",
+          "url": "/audio/bloque-2-ceremonia/Bon Jovi - Thank you for loving me.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Canción romántica de Bon Jovi"
+        },
+        {
+          "id": "b2-03",
+          "nombre": "Marcha Nupcial",
+          "artista": "Vitamin String Quartet",
+          "duracion": "3:45",
+          "url": "/audio/bloque-2-ceremonia/Marcha nupcial.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Tema clásico de ceremonia"
+        },
+        {
+          "id": "b2-04",
+          "nombre": "A Groovy Kind Of Love",
+          "artista": "Phil Collins",
+          "duracion": "3:30",
+          "url": "/audio/bloque-2-ceremonia/Phil Collins - A Groovy Kind Of Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Balada romántica de Phil Collins"
+        },
+        {
+          "id": "b2-05",
+          "nombre": "Imagine",
+          "artista": "John Lennon",
+          "duracion": "3:04",
+          "url": "/audio/bloque-2-ceremonia/Beatles - John Lennon - Imagine.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "ARCHIVO EXTRA EN CARPETA - No estaba en JSON original"
+        },
+        {
+          "id": "b2-06",
+          "nombre": "I Will Always Love You",
+          "artista": "Whitney Houston",
+          "duracion": "4:31",
+          "url": "/audio/bloque-2-ceremonia/Whitney Houston - I Will Always Love You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-11 en JSON"
+        },
+        {
+          "id": "b2-07",
+          "nombre": "My Heart Will Go On",
+          "artista": "Celine Dion",
+          "duracion": "4:40",
+          "url": "/audio/bloque-2-ceremonia/Celine dion - Titanic - My heart will go on.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-12 en JSON"
+        },
+        {
+          "id": "b2-08",
+          "nombre": "Endless Love",
+          "artista": "Diana Ross & Lionel Richie",
+          "duracion": "4:28",
+          "url": "/audio/bloque-2-ceremonia/Mariah Carey - Endless Love.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-13 en JSON - Nota: Artista en archivo es Mariah Carey"
+        },
+        {
+          "id": "b2-09",
+          "nombre": "I Don't Want to Miss a Thing",
+          "artista": "Aerosmith",
+          "duracion": "4:56",
+          "url": "/audio/bloque-2-ceremonia/Aerosmith - I Don't Want To Miss A Thing.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-14 en JSON"
+        },
+        {
+          "id": "b2-10",
+          "nombre": "(Everything I Do) I Do It for You",
+          "artista": "Bryan Adams",
+          "duracion": "4:05",
+          "url": "/audio/bloque-2-ceremonia/Bryan Adams - Everything I Do I Do It For You.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-15 en JSON"
+        },
+        {
+          "id": "b2-11",
+          "nombre": "Hero",
+          "artista": "Mariah Carey",
+          "duracion": "4:18",
+          "url": "/audio/bloque-2-ceremonia/Mariah Carey - Hero.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-22 en JSON"
+        },
+        {
+          "id": "b2-12",
+          "nombre": "Love of my life",
+          "artista": "Queen",
+          "duracion": "3:39",
+          "url": "/audio/bloque-2-ceremonia/Queen - Love of my life.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-23 en JSON"
+        },
+        {
+          "id": "b2-13",
+          "nombre": "From This Moment On",
+          "artista": "Shania Twain",
+          "duracion": "3:43",
+          "url": "/audio/bloque-2-ceremonia/Shanaia Twain - From This Moment On (Duo).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-24 en JSON - Nota: 'Shanaia' en archivo"
+        },
+        {
+          "id": "b2-14",
+          "nombre": "You're Still the One",
+          "artista": "Shania Twain",
+          "duracion": "3:34",
+          "url": "/audio/bloque-2-ceremonia/Shanaia Twain - You're Still The One.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-25 en JSON - Nota: 'Shanaia' en archivo"
+        },
+        {
+          "id": "b2-15",
+          "nombre": "When a Man Loves a Woman",
+          "artista": "Michael Bolton",
+          "duracion": "3:51",
+          "url": "/audio/bloque-2-ceremonia/Michael Bolton - When a man loves a woman.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-26 en JSON"
+        },
+        {
+          "id": "b2-16",
+          "nombre": "Wonderful Tonight",
+          "artista": "Eric Clapton",
+          "duracion": "3:44",
+          "url": "/audio/bloque-2-ceremonia/Eric Clapton - Wonderful Tonight.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-27 en JSON"
+        },
+        {
+          "id": "b2-17",
+          "nombre": "When I See You Smile",
+          "artista": "Bad English",
+          "duracion": "4:17",
+          "url": "/audio/bloque-2-ceremonia/Bad English - When I See You Smile.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-42 en JSON"
+        },
+        {
+          "id": "b2-18",
+          "nombre": "November Rain",
+          "artista": "Guns N' Roses",
+          "duracion": "8:57",
+          "url": "/audio/bloque-2-ceremonia/Guns n Roses - November rain.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-43 en JSON"
+        },
+        {
+          "id": "b2-19",
+          "nombre": "Let It Be",
+          "artista": "The Beatles",
+          "duracion": "4:03",
+          "url": "/audio/bloque-2-ceremonia/Beatles - Let It Be.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-44 en JSON"
+        },
+        {
+          "id": "b2-20",
+          "nombre": "Yesterday",
+          "artista": "The Beatles",
+          "duracion": "2:05",
+          "url": "/audio/bloque-2-ceremonia/Beatles - Yesterday.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-45 en JSON"
+        },
+        {
+          "id": "b2-21",
+          "nombre": "What A Wonderful World",
+          "artista": "Louis Armstrong",
+          "duracion": "2:17",
+          "url": "/audio/bloque-2-ceremonia/Louis Armstrong - What A Wonderful World (Cover).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-46 en JSON"
+        },
+        {
+          "id": "b2-22",
+          "nombre": "Open Arms",
+          "artista": "Journey",
+          "duracion": "3:18",
+          "url": "/audio/bloque-2-ceremonia/Journey - Open Arms.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-47 en JSON"
+        },
+        {
+          "id": "b2-23",
+          "nombre": "Honesty",
+          "artista": "Billy Joel",
+          "duracion": "3:53",
+          "url": "/audio/bloque-2-ceremonia/Billy Joel - Honesty.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE",
+          "notas": "Originalmente b2-48 en JSON"
+        }
+      ]
+    }
+  }

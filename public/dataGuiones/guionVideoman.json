@@ -1,0 +1,164 @@
+{
+  "evento": "Guión Videoman - Boda Alejandro & Fabiola",
+  "fecha": "23 de noviembre 2025",
+  "horario": "14:00 a 04:15",
+  "rol": "Videógrafo",
+  "responsable": "Grabación audiovisual completa del evento",
+  "bloques": [
+    {
+      "id": "pre-boda-video",
+      "nombre": "Preparativos y Llegadas",
+      "horaInicio": "14:00",
+      "horaFin": "19:00",
+      "plan_grabacion": [
+        "Detalles vestido Fabiola y accesorios",
+        "Alejandro preparaciones finales",
+        "Llegadas coordinadas al salón",
+        "Encuentro privado novios pre-ceremonia"
+      ],
+      "audio": "Sonido ambiente natural, declaraciones breves espontáneas",
+      "equipamiento": "Cámaras 4K, audio ambiente, estabilizador"
+    },
+    {
+      "id": "bloque-2-ceremonia",
+      "nombre": "Ceremonia Civil Completa",
+      "horaInicio": "19:30",
+      "horaFin": "20:15",
+      "plan_grabacion": [
+        "Cámara principal: ángulo frontal completo ceremonia",
+        "Cámara secundaria: primeros planos emociones y reacciones",
+        "Cobertura: entrada novios, votos, firma acta, lluvia pétalos"
+      ],
+      "audio_critico": "Micrófono oficial para votos completos + audio ambiente",
+      "momentos_imprescindibles": "Votos palabra por palabra, intercambio anillos, firma con testigos"
+    },
+    {
+      "id": "bloque-4-fotosgrupales",
+      "nombre": "Sesión Fotos Grupales",
+      "horaInicio": "20:45",
+      "horaFin": "21:15",
+      "cobertura": [
+        "Sistema eficiente por mesas",
+        "Interacciones naturales entre novios e invitados",
+        "Ambiente y organización del proceso"
+      ],
+      "audio": "Conversaciones espontáneas, risas, ambiente festivo",
+      "notas": "Coordinar con fotógrafos para no interferir pero capturar proceso completo"
+    },
+    {
+      "id": "bloque-7A-brindisfamiliar",
+      "nombre": "Brindis Familiar y Emocional",
+      "horaInicio": "22:15",
+      "horaFin": "22:30",
+      "plan_grabacion": [
+        "Intervenciones completas de familiares",
+        "Reacciones novios durante palabras emocionales",
+        "Brindis informal con tragos de mesa"
+      ],
+      "audio": "Palabras familiares completas y claras, ambiente emocional",
+      "participantes": "Padres de Alejandro, Tía Ana de Fabiola, amigos cercanos"
+    },
+    {
+      "id": "bloque-8A-coreografia",
+      "nombre": "Coreografía de Novios",
+      "horaInicio": "22:45",
+      "horaFin": "22:55",
+      "plan_grabacion": [
+        "Cámara estable para coreografía completa sin cortes",
+        "Segunda cámara: primeros planos faciales y emociones",
+        "Tercer ángulo: reacción del público"
+      ],
+      "audio": "Música 'Colgado en tus manos' original sin interferencias",
+      "preparacion": "Posición fija anticipada - no movimiento durante coreografía completa"
+    },
+    {
+      "id": "bloque-8B-valsfamiliar",
+      "nombre": "Vals Familiar",
+      "horaInicio": "22:55",
+      "horaFin": "23:10",
+      "cobertura": [
+        "Vals inicial de novios como pareja",
+        "Inclusión progresiva de familiares",
+        "Emociones y tradición familiar"
+      ],
+      "audio": "Música vals tradicional clara + ambiente familiar",
+      "participantes": "Padres, padrinos, abuelos, familiares directos"
+    },
+    {
+      "id": "bloque-10-video",
+      "nombre": "Proyección Video Pareja",
+      "horaInicio": "23:40",
+      "horaFin": "00:00",
+      "plan_grabacion": [
+        "Reacciones novios viendo su video",
+        "Emociones invitados durante proyección",
+        "Transición a show banda en vivo"
+      ],
+      "coordinacion": "CON TÉCNICO AUDIO/VIDEO - prueba previa proyector y pantallas",
+      "momento_clave": "Alejandro preparándose con banda mientras termina video"
+    },
+    {
+      "id": "bloque-11-banda",
+      "nombre": "Show Banda en Vivo - Almango Covers",
+      "horaInicio": "00:00",
+      "horaFin": "00:35",
+      "plan_grabacion": [
+        "Cobertura completa 30 minutos de show",
+        "Enfoque en Alejandro tocando con banda",
+        "Reacción público y ambiente festivo",
+        "Momento especial: Fabiola canta 'Vuela Vuela'"
+      ],
+      "audio": "Grabación directa de consola + audio ambiente sincronizado",
+      "equipamiento": "Cámaras con buena performance en luces de show, audio multicanal"
+    },
+    {
+      "id": "bloque-14-torta",
+      "nombre": "Corte de Torta y Foto General",
+      "horaInicio": "01:25",
+      "horaFin": "01:50",
+      "momentos_clave": [
+        "Ceremonia completa de corte de torta",
+        "Primeros bocados de novios",
+        "Foto grupal general con todos los invitados",
+        "Ambiente y celebración"
+      ],
+      "coordinacion": "CON FOTÓGRAFOS - no interferir pero capturar ángulos complementarios",
+      "audio": "Aplausos, felicitaciones, ambiente festivo"
+    },
+    {
+      "id": "bloque-16-horaloca",
+      "nombre": "Hora Loca - Energía Máxima",
+      "horaInicio": "02:05",
+      "horaFin": "03:05",
+      "plan_grabacion": [
+        "Cámaras en movimiento capturando energía y cotillón",
+        "Enfoque en luces, confetti, efectos especiales",
+        "Primeros planos de diversión y baile espontáneo",
+        "Ambiente general de fiesta máxima"
+      ],
+      "estilo": "Creatividad máxima - planos dinámicos, efectos visuales",
+      "audio": "Música alta + efectos especiales + ambiente festivo"
+    },
+    {
+      "id": "bloque-19-despedida",
+      "nombre": "Despedida y Souvenirs",
+      "horaInicio": "04:00",
+      "horaFin": "04:15",
+      "momentos_clave": [
+        "Agradecimientos finales de novios",
+        "Entrega de souvenirs (velas personalizadas)",
+        "Últimos abrazos y despedidas emocionales",
+        "Cierre del evento"
+      ],
+      "audio": "Palabras de agradecimiento, emociones, ambiente íntimo",
+      "estilo": "Planos emotivos, primeros planos faciales, momentos íntimos"
+    }
+  ],
+  "entregables": [
+    "Video highlights emocional (3-5 minutos)",
+    "Video ceremonia completa (20-25 minutos)", 
+    "Video fiesta y celebración (15-20 minutos)",
+    "Video show banda completo (30 minutos)",
+    "Video momentos clave (10-12 minutos)"
+  ]
+}

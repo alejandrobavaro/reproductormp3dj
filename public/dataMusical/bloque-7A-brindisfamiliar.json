@@ -1,0 +1,389 @@
+{
+    "bloque-7A-brindisfamiliar": {
+      "bloque_musical": "Brindis + Discursos",
+      "total_canciones": 47,
+      "existen": 47,
+      "faltan": 0,
+      "canciones": [
+        {
+          "id": "b7-01",
+          "nombre": "Intervención Animador - Brindis",
+          "artista": "Voz Animador",
+          "url": "/audio/bloque-7A-brindisfamiliar/Voz Animador.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-02",
+          "nombre": "Paradise",
+          "artista": "Coldplay",
+          "url": "/audio/bloque-7A-brindisfamiliar/Coldplay - Paradise.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-03",
+          "nombre": "A veces quisiera",
+          "artista": "Alejandro Lerner",
+          "url": "/audio/bloque-7A-brindisfamiliar/Alejandro Lerner - A veces quisiera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-04",
+          "nombre": "A la primera persona",
+          "artista": "Alejandro Sanz",
+          "url": "/audio/bloque-7A-brindisfamiliar/Alejandro Sanz - A la primera persona.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-05",
+          "nombre": "A gritos de esperanza",
+          "artista": "Alex Ubago",
+          "url": "/audio/bloque-7A-brindisfamiliar/Alex Ubago - A gritos de esperanza.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-06",
+          "nombre": "Sin Ti No Soy Nada",
+          "artista": "Amaral",
+          "url": "/audio/bloque-7A-brindisfamiliar/Amaral - Sin Ti No Soy Nada.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-07",
+          "nombre": "Eres casi el hombre perfecto",
+          "artista": "Ana Cirre",
+          "url": "/audio/bloque-7A-brindisfamiliar/Ana Cirre - Eres casi el hombre perfecto.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-08",
+          "nombre": "Vivo Per Lei",
+          "artista": "Andrea Bocelli",
+          "url": "/audio/bloque-7A-brindisfamiliar/Andrea Bocelli - Vivo Per Lei (con Marta Sánchez).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-09",
+          "nombre": "Crimenes perfectos",
+          "artista": "Andres Calamaro",
+          "url": "/audio/bloque-7A-brindisfamiliar/Andres Calamaro - Crimenes perfectos.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-10",
+          "nombre": "Decir Adios",
+          "artista": "Carlos Ponce",
+          "url": "/audio/bloque-7A-brindisfamiliar/Carlos Ponce - Decir Adios.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-11",
+          "nombre": "Contra vientos y mareas",
+          "artista": "Chayanne",
+          "url": "/audio/bloque-7A-brindisfamiliar/Chayanne - Contra vientos y mareas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-12",
+          "nombre": "Me quedo contigo",
+          "artista": "Chunguitos",
+          "url": "/audio/bloque-7A-brindisfamiliar/Chunguitos - Me quedo contigo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-13",
+          "nombre": "Angel",
+          "artista": "Cristian Castro",
+          "url": "/audio/bloque-7A-brindisfamiliar/Cristian Castro - Angel.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-14",
+          "nombre": "Desnúdate mujer",
+          "artista": "David Bisbal",
+          "url": "/audio/bloque-7A-brindisfamiliar/David Bisbal - Desnúdate mujer.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-15",
+          "nombre": "Dejame entrar",
+          "artista": "Diego Torres",
+          "url": "/audio/bloque-7A-brindisfamiliar/Diego Torres - Dejame entrar.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-16",
+          "nombre": "Con su Blanca Palidez",
+          "artista": "Donato y Estefano",
+          "url": "/audio/bloque-7A-brindisfamiliar/Donato y Estefano - Con su Blanca Palidez.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-17",
+          "nombre": "Cuando los sapos bailen flamenco",
+          "artista": "Ella Baila Sola",
+          "url": "/audio/bloque-7A-brindisfamiliar/Ella Baila Sola - Cuando los sapos bailen flamenco.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-18",
+          "nombre": "Eterna Soledad",
+          "artista": "Enanitos Verdes",
+          "url": "/audio/bloque-7A-brindisfamiliar/Enanitos Verdes - Eterna Soledad.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-19",
+          "nombre": "Experiencia Religiosa",
+          "artista": "Enrique Iglesias",
+          "url": "/audio/bloque-7A-brindisfamiliar/Enrique Iglesias - Experiencia Religiosa.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-20",
+          "nombre": "Completamente enamorados",
+          "artista": "Eros Ramazotti",
+          "url": "/audio/bloque-7A-brindisfamiliar/Eros Ramazotti - Completamente enamorados.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-21",
+          "nombre": "Mariposa tecknicolor",
+          "artista": "Fito Paez",
+          "url": "/audio/bloque-7A-brindisfamiliar/Fito Paez - Mariposa tecknicolor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-22",
+          "nombre": "Como la abeja al panal",
+          "artista": "Juan Luis Guerra",
+          "url": "/audio/bloque-7A-brindisfamiliar/Juan Luis Guerra - Como la abeja al panal.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-23",
+          "nombre": "Nada valgo sin tu amor",
+          "artista": "Juanes",
+          "url": "/audio/bloque-7A-brindisfamiliar/Juanes - Nada valgo sin tu amor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-24",
+          "nombre": "Dust in the wind",
+          "artista": "Kansas",
+          "url": "/audio/bloque-7A-brindisfamiliar/Kansas - Dust in the wind.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-25",
+          "nombre": "Fuera de Mí",
+          "artista": "La Ley",
+          "url": "/audio/bloque-7A-brindisfamiliar/La Ley - Fuera de Mí.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-26",
+          "nombre": "Algo más",
+          "artista": "La Quinta Estación",
+          "url": "/audio/bloque-7A-brindisfamiliar/La Quinta Estación - Algo más.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-27",
+          "nombre": "Escucha tu corazón",
+          "artista": "Laura Pausini",
+          "url": "/audio/bloque-7A-brindisfamiliar/Laura Pausini - Escucha tu corazón.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-28",
+          "nombre": "En El País De La Libertad",
+          "artista": "Leon Gieco",
+          "url": "/audio/bloque-7A-brindisfamiliar/Leon Gieco - En El Pais De La Libertad.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-29",
+          "nombre": "Armas de seducción",
+          "artista": "Los Rancheros",
+          "url": "/audio/bloque-7A-brindisfamiliar/Los Rancheros - Armas de seducción.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-30",
+          "nombre": "Muchacha ojos de papel",
+          "artista": "Luis Alberto Spinetta",
+          "url": "/audio/bloque-7A-brindisfamiliar/Luis Alberto Spinetta - Muchacha ojos de papel (Live).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-31",
+          "nombre": "Abrázame",
+          "artista": "Luis Fonsi",
+          "url": "/audio/bloque-7A-brindisfamiliar/Luis Fonsi - Abrazame.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b7-32",
+          "nombre": "Donde Quiera Que Estés",
+          "artista": "Manuel Wirtz",
+          "url": "/audio/bloque-7A-brindisfamiliar/Manuel Wirtz - Donde Quiera Que Estes.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-33",
+          "nombre": "No hay otra manera",
+          "artista": "Moderatto",
+          "url": "/audio/bloque-7A-brindisfamiliar/Moderatto - No hay otra manera.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-34",
+          "nombre": "Por una como tú",
+          "artista": "Paolo Meneguzzi",
+          "url": "/audio/bloque-7A-brindisfamiliar/Paolo Meneguzzi - Por una como tu.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-35",
+          "nombre": "Desconfío",
+          "artista": "Pappo",
+          "url": "/audio/bloque-7A-brindisfamiliar/Pappo - Desconfío (Cover Smitten).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-36",
+          "nombre": "Pedacitos De Ti",
+          "artista": "Antonio Orozco",
+          "url": "/audio/bloque-7A-brindisfamiliar/Antonio Orozco y Arcangel - Pedacitos De Ti .mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "NO EXISTE",
+          "notas": "Falta archivo en carpeta"
+        },
+        {
+          "id": "b7-37",
+          "nombre": "Acompañame A Estar Solo",
+          "artista": "Ricardo Arjona",
+          "url": "/audio/bloque-7A-brindisfamiliar/Ricardo Arjona - Acompañame A Estar Solo.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-38",
+          "nombre": "A medio vivir",
+          "artista": "Ricky Martin",
+          "url": "/audio/bloque-7A-brindisfamiliar/Ricky Martin - A Medio vivir.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-39",
+          "nombre": "Si tu no estas aqui",
+          "artista": "Rosana",
+          "url": "/audio/bloque-7A-brindisfamiliar/Rosana - Si tu no estas aqui (version).mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-40",
+          "nombre": "Antología",
+          "artista": "Shakira",
+          "url": "/audio/bloque-7A-brindisfamiliar/Shakira - Antología.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-41",
+          "nombre": "A primera vista",
+          "artista": "Sin Bandera",
+          "url": "/audio/bloque-7A-brindisfamiliar/Sin Bandera - A primera vista.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-42",
+          "nombre": "Te Para Tres",
+          "artista": "Soda Stereo",
+          "url": "/audio/bloque-7A-brindisfamiliar/Soda Stereo - Te Para Tres.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-43",
+          "nombre": "A donde vayas",
+          "artista": "Soledad Pastorutti",
+          "url": "/audio/bloque-7A-brindisfamiliar/Soledad Pastorutti - A donde vayas.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-44",
+          "nombre": "A Puro Dolor",
+          "artista": "Son By Four",
+          "url": "/audio/bloque-7A-brindisfamiliar/Son By Four - A Puro Dolor.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-45",
+          "nombre": "Casi",
+          "artista": "Soraya",
+          "url": "/audio/bloque-7A-brindisfamiliar/Soraya - Casi.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-46",
+          "nombre": "Aprendizaje",
+          "artista": "Sui Generis",
+          "url": "/audio/bloque-7A-brindisfamiliar/Sui Generis - Aprendizaje.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        },
+        {
+          "id": "b7-47",
+          "nombre": "Tardes Negras",
+          "artista": "Tiziano Ferro",
+          "url": "/audio/bloque-7A-brindisfamiliar/Tiziano Ferro - Tardes Negras.mp3",
+          "imagen": "/img/09-portadas/portada-1.png",
+          "estado": "EXISTE"
+        }
+      ]
+    }
+  }
+  

@@ -1,187 +1,547 @@
+// src/assets/scss/_03-Componentes/_Header.scss
+
 /* █████████████████████████████████████████████████
-   ███ ESTILOS BASE - HEADER (MOBILE FIRST) ███
+   ███ ESTILOS BASE - HEADER CON REPRODUCTOR Y NAV DEBAJO (MOBILE FIRST) ███
    █████████████████████████████████████████████████ */
 
-   .app-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.95);
-    z-index: 1000;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+// [Header Principal] - Solo con logo y reproductor
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// [Wrapper] - Contenedor interno del header
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  gap: 8px;
+  position: relative;
+}
+
+/* ███ 1. Logo ███ - CORREGIDO */
+.logo-container {
+  flex-shrink: 0;
+  // ❌ ELIMINADO: z-index alto que tapaba los botones
+  // ✅ SOLUCIÓN: Logo solo en su área, sin superponerse a la nav-bar
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  .logo-image {
+    height: 35px;
+    width: auto;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+
+/* ███ 2. Reproductor Integrado ███ */
+.header-player {
+  display: none;
+}
+
+/* ███ 3. Controles móviles ███ */
+.mobile-controls {
+  display: flex;
+  align-items: center;
+  
+  button {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+
+// [Hamburguesa] - Botón menú móvil
+.menu-toggle {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+// [Barras] - Animación hamburguesa
+.toggle-bar {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s ease;
+  
+  &:nth-child(1) {
+    transform-origin: top left;
+  }
+  
+  &:nth-child(2) {
+    opacity: 1;
+  }
+  
+  &:nth-child(3) {
+    transform-origin: bottom left;
+  }
+  
+  &.open:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+  
+  &.open:nth-child(2) {
+    opacity: 0;
+  }
+  
+  &.open:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+}
+
+/* ███ 4. Barra de Navegación con Botones - DEBAJO DEL HEADER - CORREGIDO */
+.nav-bar {
+  position: fixed;
+  top: 60px; // ✅ Empieza JUSTO debajo del header
+  left: 0;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.98);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1001; // ✅ z-index MÁS ALTO que el header
+  display: none;
+  
+  &.active {
+    display: block;
+  }
+}
+
+// [Wrapper] - Contenedor de la barra de navegación
+.nav-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-height: 70vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+// [Botones] - Items del menú en barra de navegación
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  
+  // ✅ ESTADO NORMAL
+  &:hover {
+    color: white;
+    background-color: rgba(255, 152, 0, 0.2);
+    transform: translateY(-1px);
+  }
+  
+  // ✅ ESTADO ACTIVO
+  &.active {
+    background-color: rgba(255, 152, 0, 0.3);
+    color: white;
+    border: 1px solid rgba(255, 152, 0, 0.6);
+    font-weight: 600;
+  }
+  
+  // ✅ ESTADO FOCUS
+  &:focus {
+    outline: 2px solid rgba(255, 152, 0, 0.5);
+    outline-offset: 2px;
+  }
+}
+
+// [Iconos] - Iconos del menú
+.nav-icon {
+  margin-right: 10px;
+  font-size: 14px;
+  min-width: 16px;
+  text-align: center;
+}
+
+// [Texto] - Texto del menú
+.nav-text {
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT TABLET (768px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 768px) {
+  .app-header {
+    height: 70px;
   }
   
   .header-wrapper {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    gap: 15px;
   }
   
-  /* ███ 1. Logo ███ */
-  .logo-container {
-    .logo-link {
+  .logo-image {
+    height: 40px;
+  }
+  
+  // [Reproductor] - Visible en tablet
+  .header-player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    min-width: 0;
+    
+    // [Información] - Canción actual
+    .now-playing {
       display: flex;
       align-items: center;
-      height: 100%;
+      gap: 8px;
+      min-width: 0;
+      flex: 1;
+      
+      .now-playing-cover {
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        object-fit: cover;
+        flex-shrink: 0;
+      }
+      
+      .now-playing-info {
+        flex: 1;
+        min-width: 0;
+        
+        .now-playing-name {
+          color: white;
+          font-size: 13px;
+          font-weight: 600;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-bottom: 2px;
+        }
+        
+        .now-playing-artist {
+          color: #90caf9;
+          font-size: 11px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-bottom: 3px;
+        }
+        
+        .now-playing-meta {
+          display: flex;
+          justify-content: space-between;
+          font-size: 10px;
+          color: #aaa;
+          
+          .now-playing-block {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin-right: 8px;
+          }
+        }
+      }
+      
+      .no-song {
+        color: #666;
+        font-size: 12px;
+        font-style: italic;
+      }
     }
     
-    .logo-image {
-      height: 50px;
-      width: auto;
-      transition: transform 0.2s ease;
+    // [Progreso] - Barra de progreso
+    .progress-container {
+      flex: 2;
+      min-width: 120px;
       
-      &:hover {
-        transform: scale(1.05);
+      .progress-bar {
+        width: 100%;
+        height: 4px;
+        cursor: pointer;
+        background: #444;
+        border-radius: 2px;
+        
+        &::-webkit-slider-runnable-track {
+          width: 100%;
+          height: 4px;
+          cursor: pointer;
+          background: linear-gradient(
+            to right, 
+            #ff9800 0%, 
+            #ff9800 var(--progress, 0%), 
+            #444 var(--progress, 0%), 
+            #444 100%
+          );
+          border-radius: 2px;
+        }
+        
+        &::-webkit-slider-thumb {
+          appearance: none;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background: #ff9800;
+          cursor: pointer;
+          margin-top: -4px;
+        }
+      }
+    }
+    
+    // [Controles] - Botones de reproducción
+    .player-controls {
+      display: flex;
+      gap: 6px;
+      
+      .control-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        padding: 4px;
+        transition: transform 0.15s;
+        
+        &:hover:not(:disabled) {
+          transform: scale(1.1);
+        }
+        
+        &:disabled {
+          opacity: 0.4;
+          cursor: not-allowed;
+        }
+        
+        &.play-btn {
+          background: #ff9800;
+          border-radius: 50%;
+          width: 32px;
+          height: 32px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 11px;
+          
+          &:hover:not(:disabled) {
+            background: #e68900;
+          }
+        }
+      }
+    }
+    
+    // [Volumen] - Control de volumen
+    .volume-controls {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      
+      .volume-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        padding: 3px;
+        transition: transform 0.15s;
+        
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      
+      .volume-slider {
+        width: 60px;
+        cursor: pointer;
+        
+        &::-webkit-slider-runnable-track {
+          width: 100%;
+          height: 3px;
+          cursor: pointer;
+          background: #444;
+          border-radius: 1.5px;
+        }
+        
+        &::-webkit-slider-thumb {
+          appearance: none;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: #ff9800;
+          cursor: pointer;
+          margin-top: -3.5px;
+        }
       }
     }
   }
   
-  /* ███ 2. Menú principal ███ */
-  .main-nav {
-    display: none;
+  // [Barra de Navegación] - Visible y horizontal en tablet
+  .nav-bar {
     position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
-    flex-direction: column;
-    padding: 10px 0;
+    top: 70px; // ✅ Empieza JUSTO debajo del header de 70px
+    display: block;
+    height: 50px;
+    z-index: 1001; // ✅ z-index MÁS ALTO que el header
     
-    &.active {
-      display: flex;
-    }
-  }
-  
-  .nav-link {
-    display: flex;
-    align-items: center;
-    padding: 12px 20px;
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    transition: all 0.2s ease;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: inherit;
-    
-    &:hover, &.active {
-      color: white;
-      background-color: rgba(255, 255, 255, 0.1);
-    }
-  }
-  
-  .nav-icon {
-    margin-right: 12px;
-    font-size: 16px;
-  }
-  
-  .nav-text {
-    font-size: 14px;
-    font-weight: 500;
-  }
-  
-  /* ███ 3. Controles móviles ███ */
-  .mobile-controls {
-    button {
-      background: transparent;
-      border: none;
-      color: white;
-      padding: 5px;
-    }
-  }
-  
-  .menu-toggle {
-    position: relative;
-    width: 25px;
-    height: 25px;
-  }
-  
-  .toggle-bar {
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    left: 0;
-    transition: all 0.3s ease;
-    
-    &:nth-child(1) {
-      top: 5px;
-    }
-    
-    &:nth-child(2) {
-      top: 12px;
-    }
-    
-    &:nth-child(3) {
-      top: 19px;
-    }
-    
-    &.open:nth-child(1) {
-      transform: translateY(7px) rotate(45deg);
-    }
-    
-    &.open:nth-child(2) {
-      opacity: 0;
-    }
-    
-    &.open:nth-child(3) {
-      transform: translateY(-7px) rotate(-45deg);
-    }
-  }
-  
-  /* █████████████████████████████████████████████████
-     ███ BREAKPOINT TABLET (768px) ███
-     █████████████████████████████████████████████████ */
-  @media (min-width: 768px) {
-    .app-header {
-      height: 70px;
-    }
-    
-    .header-wrapper {
-      padding: 0 20px;
-    }
-    
-    .logo-image {
-      height: 35px;
-    }
-    
-    .main-nav {
-      position: static;
-      display: flex;
+    .nav-wrapper {
       flex-direction: row;
-      width: auto;
-      background-color: transparent;
-      padding: 0;
+      padding: 5px 15px;
+      gap: 8px;
+      max-height: none;
+      overflow-x: auto;
+      overflow-y: hidden;
+      
+      // Scrollbar horizontal personalizada
+      &::-webkit-scrollbar {
+        height: 4px;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        background: rgba(255, 152, 0, 0.5);
+        border-radius: 2px;
+      }
     }
     
     .nav-link {
-      padding: 10px 15px;
-      margin: 0 5px;
-      border-radius: 4px;
-    }
-    
-    .mobile-controls {
-      display: none;
+      padding: 6px 12px;
+      width: auto;
+      flex-shrink: 0;
+      white-space: nowrap;
+      
+      &:hover {
+        background-color: rgba(255, 152, 0, 0.2);
+        transform: translateY(-1px);
+      }
+      
+      &.active {
+        background-color: rgba(255, 152, 0, 0.3);
+        border: 1px solid rgba(255, 152, 0, 0.6);
+      }
+      
+      .nav-text {
+        font-size: 12px;
+      }
     }
   }
   
-  /* █████████████████████████████████████████████████
-     ███ BREAKPOINT ESCRITORIO (1024px) ███
-     █████████████████████████████████████████████████ */
-  @media (min-width: 1024px) {
-    .header-wrapper {
-      padding: 0 30px;
+  .mobile-controls {
+    display: none;
+  }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO (1024px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1024px) {
+  .header-wrapper {
+    padding: 0 20px;
+    gap: 20px;
+  }
+  
+  .header-player {
+    gap: 15px;
+    
+    .now-playing {
+      .now-playing-cover {
+        width: 44px;
+        height: 44px;
+      }
+      
+      .now-playing-name {
+        font-size: 14px;
+      }
+      
+      .now-playing-artist {
+        font-size: 12px;
+      }
+    }
+    
+    .progress-container {
+      min-width: 150px;
+    }
+    
+    .player-controls {
+      .control-btn.play-btn {
+        width: 34px;
+        height: 34px;
+        font-size: 12px;
+      }
+    }
+    
+    .volume-slider {
+      width: 70px;
+    }
+  }
+  
+  // [Barra de Navegación] - Más espaciosa en escritorio
+  .nav-bar {
+    .nav-wrapper {
+      padding: 5px 20px;
+      gap: 10px;
     }
     
     .nav-link {
-      padding: 12px 20px;
-      margin: 0 10px;
+      padding: 8px 14px;
+      
+      .nav-text {
+        font-size: 13px;
+      }
     }
   }
+}
+
+/* █████████████████████████████████████████████████
+   ███ BREAKPOINT ESCRITORIO GRANDE (1440px) ███
+   █████████████████████████████████████████████████ */
+@media (min-width: 1440px) {
+  .header-player {
+    .progress-container {
+      min-width: 180px;
+    }
+    
+    .volume-slider {
+      width: 80px;
+    }
+  }
+  
+  .nav-bar {
+    .nav-wrapper {
+      gap: 12px;
+    }
+  }
+}

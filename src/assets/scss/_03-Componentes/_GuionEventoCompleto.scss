@@ -1,0 +1,523 @@
+// █████████████████████████████████████████████████
+// ███ ESTILOS MEJORADOS - GUION EVENTO COMPLETO ███
+// █████████████████████████████████████████████████
+
+.evento-guion-container {
+  width: 100%;
+  background: rgba(35, 35, 35, 0.95);
+  padding: 12px;
+  color: #e0e0e0;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+// [Sección] Cabecera mejorada
+.evento-guion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid rgba(255, 152, 0, 0.3);
+  
+  .evento-guion-header-info {
+    flex: 1;
+    
+    .evento-guion-title {
+      font-size: 16px;
+      margin: 0 0 6px 0;
+      color: #ff9800;
+      font-weight: 700;
+      
+      .evento-guion-contrato-info {
+        font-size: 12px;
+        color: #90caf9;
+        font-weight: 400;
+        margin-left: 8px;
+      }
+    }
+    
+    .evento-guion-meta {
+      display: flex;
+      gap: 12px;
+      font-size: 12px;
+      color: #ccc;
+      flex-wrap: wrap;
+      
+      span {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 4px 8px;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+  
+  .evento-guion-export-buttons {
+    display: flex;
+    gap: 6px;
+    
+    .export-btn {
+      background: rgba(255, 152, 0, 0.15);
+      border: 1px solid rgba(255, 152, 0, 0.3);
+      color: #ff9800;
+      padding: 6px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      transition: all 0.2s;
+      font-weight: 500;
+      
+      &:hover {
+        background: rgba(255, 152, 0, 0.25);
+        transform: translateY(-1px);
+      }
+    }
+  }
+}
+
+// [Sección] Filtros
+.evento-guion-filtros {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+  
+  .filtro-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ccc;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: all 0.2s;
+    
+    &.active {
+      background: rgba(255, 152, 0, 0.2);
+      border-color: rgba(255, 152, 0, 0.4);
+      color: #ff9800;
+    }
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+// [Sección] Tabla mejorada
+.evento-guion-tabla {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.evento-guion-tabla-header {
+  display: none;
+  padding: 8px 10px;
+  background: rgba(255, 152, 0, 0.1);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #ff9800;
+  border: 1px solid rgba(255, 152, 0, 0.2);
+  
+  div {
+    padding: 0 6px;
+  }
+}
+
+.evento-guion-fila {
+  display: flex;
+  flex-direction: column;
+  background: rgba(50, 50, 50, 0.7);
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-left: 3px solid transparent;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  
+  &:hover {
+    background: rgba(70, 70, 70, 0.8);
+    transform: translateX(2px);
+  }
+  
+  &.active {
+    background: rgba(33, 150, 243, 0.15);
+    border-left-color: #2196F3;
+    border-color: rgba(33, 150, 243, 0.3);
+  }
+  
+  &.completado {
+    background: rgba(76, 175, 80, 0.1);
+    border-left-color: #4CAF50;
+    opacity: 0.9;
+  }
+  
+  &.en-progreso {
+    background: rgba(255, 152, 0, 0.1);
+    border-left-color: #ff9800;
+  }
+}
+
+// [Columnas] Mejoradas
+.evento-guion-col-hora {
+  font-size: 11px;
+  color: #90caf9;
+  margin-bottom: 4px;
+  font-weight: 600;
+  background: rgba(144, 202, 249, 0.1);
+  padding: 2px 6px;
+  border-radius: 3px;
+  align-self: flex-start;
+}
+
+.evento-guion-col-bloque {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  
+  .evento-guion-bloque-nombre {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    flex: 1;
+    line-height: 1.3;
+    
+    .evento-guion-bloque-id {
+      font-size: 10px;
+      color: #ff9800;
+      background: rgba(255, 152, 0, 0.1);
+      padding: 1px 4px;
+      border-radius: 3px;
+      margin-right: 6px;
+      font-family: monospace;
+    }
+  }
+  
+  .evento-guion-bloque-indicator {
+    background: #2196F3;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+}
+
+.evento-guion-col-actividades {
+  ul {
+    margin: 0 0 6px 0;
+    padding-left: 16px;
+    font-size: 11px;
+    color: #ccc;
+    
+    li {
+      margin-bottom: 3px;
+      line-height: 1.3;
+      
+      &.evento-guion-mas-actividades {
+        color: #888;
+        font-style: italic;
+        font-size: 10px;
+      }
+    }
+  }
+  
+  .evento-guion-bloque-extra {
+    display: flex;
+    gap: 6px;
+    font-size: 10px;
+    
+    span {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+  }
+}
+
+.evento-guion-col-estado {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+// [Componente] Switch mejorado
+.evento-guion-switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 16px;
+  
+  input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    
+    &:checked + .evento-guion-slider {
+      background: #4CAF50;
+    }
+    
+    &:checked + .evento-guion-slider:before {
+      transform: translateX(16px);
+    }
+  }
+  
+  .evento-guion-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #666;
+    transition: .3s;
+    border-radius: 16px;
+    
+    &:before {
+      position: absolute;
+      content: "";
+      height: 12px;
+      width: 12px;
+      left: 2px;
+      bottom: 2px;
+      background: white;
+      transition: .3s;
+      border-radius: 50%;
+    }
+  }
+}
+
+.evento-guion-estado-texto {
+  font-size: 11px;
+  color: #aaa;
+  font-weight: 600;
+  min-width: 20px;
+}
+
+// [Sección] Detalle mucho más completo
+.evento-guion-detalle {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(40, 40, 40, 0.9);
+  border-radius: 6px;
+  border-left: 4px solid #ff9800;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.evento-guion-detalle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  
+  h4 {
+    font-size: 15px;
+    margin: 0;
+    color: #ff9800;
+    font-weight: 700;
+    flex: 1;
+    
+    .evento-guion-detalle-hora {
+      font-size: 12px;
+      color: #90caf9;
+      margin-left: 10px;
+      font-weight: 500;
+    }
+  }
+  
+  .evento-guion-detalle-estado {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    &.completado {
+      background: rgba(76, 175, 80, 0.2);
+      color: #4CAF50;
+      border: 1px solid rgba(76, 175, 80, 0.4);
+    }
+    
+    &.en-progreso {
+      background: rgba(255, 152, 0, 0.2);
+      color: #ff9800;
+      border: 1px solid rgba(255, 152, 0, 0.4);
+    }
+    
+    &.pendiente {
+      background: rgba(158, 158, 158, 0.2);
+      color: #9e9e9e;
+      border: 1px solid rgba(158, 158, 158, 0.4);
+    }
+  }
+}
+
+.evento-guion-detalle-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+// Estilos para las diferentes secciones del detalle
+.evento-guion-detalle-menu,
+.evento-guion-detalle-actividades,
+.evento-guion-detalle-extra,
+.evento-guion-detalle-responsable,
+.evento-guion-detalle-notas {
+  h5 {
+    font-size: 12px;
+    margin: 0 0 6px 0;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 11px;
+    color: #ccc;
+    line-height: 1.4;
+    
+    strong {
+      color: #fff;
+    }
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 0;
+    font-size: 11px;
+    color: #ccc;
+    
+    li {
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+  }
+}
+
+.evento-guion-detalle-menu {
+  background: rgba(76, 175, 80, 0.05);
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-left: 3px solid #4CAF50;
+}
+
+.evento-guion-detalle-notas {
+  background: rgba(255, 193, 7, 0.05);
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-left: 3px solid #ffc107;
+}
+
+// [Sección] Información del contrato
+.evento-guion-info-contrato {
+  margin-top: 15px;
+  padding: 12px;
+  background: rgba(255, 152, 0, 0.05);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 152, 0, 0.2);
+  
+  h5 {
+    font-size: 12px;
+    margin: 0 0 8px 0;
+    color: #ff9800;
+    font-weight: 600;
+  }
+  
+  .evento-guion-contrato-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 8px;
+    font-size: 11px;
+    
+    span {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 4px 8px;
+      border-radius: 3px;
+      
+      strong {
+        color: #ff9800;
+      }
+    }
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ RESPONSIVE - TABLET (768px) ███
+// █████████████████████████████████████████████████
+@media (min-width: 768px) {
+  .evento-guion-container {
+    padding: 15px;
+  }
+  
+  .evento-guion-header .evento-guion-title {
+    font-size: 18px;
+  }
+  
+  .evento-guion-fila {
+    padding: 12px;
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ RESPONSIVE - ESCRITORIO (1024px) ███
+// █████████████████████████████████████████████████
+@media (min-width: 1024px) {
+  .evento-guion-tabla-header {
+    display: grid;
+    grid-template-columns: 15% 25% 45% 15%;
+    padding: 10px 12px;
+  }
+  
+  .evento-guion-fila {
+    display: grid;
+    grid-template-columns: 15% 25% 45% 15%;
+    align-items: center;
+    padding: 8px 12px;
+  }
+  
+  .evento-guion-col-hora {
+    margin-bottom: 0;
+    align-self: center;
+  }
+  
+  .evento-guion-col-bloque {
+    margin-bottom: 0;
+  }
+  
+  .evento-guion-col-actividades {
+    margin-bottom: 0;
+  }
+  
+  .evento-guion-col-estado {
+    margin-top: 0;
+    justify-content: flex-end;
+  }
+}
+
+// █████████████████████████████████████████████████
+// ███ RESPONSIVE - ESCRITORIO GRANDE (1440px) ███
+// █████████████████████████████████████████████████
+@media (min-width: 1440px) {
+  .evento-guion-container {
+    padding: 20px;
+  }
+  
+  .evento-guion-tabla-header {
+    grid-template-columns: 12% 28% 45% 15%;
+  }
+  
+  .evento-guion-fila {
+    grid-template-columns: 12% 28% 45% 15%;
+  }
+}
